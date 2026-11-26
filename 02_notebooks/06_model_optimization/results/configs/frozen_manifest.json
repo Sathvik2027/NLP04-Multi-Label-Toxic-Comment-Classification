@@ -1,0 +1,1714 @@
+{
+    "schema_version": 1,
+    "project": "NLP04_Toxic_Comment_Classification",
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "selection_partition": "validation",
+    "primary_selection_metric": "macro_average_precision",
+    "selected_models": {
+        "primary_model": "S02_ROBERTA_FOCAL_FULL_S42",
+        "representative_transformer": "T06_FOCAL_S42",
+        "lightweight_transformer": "T03_FOCAL_S42",
+        "best_classical": "S01_LR_COMBINED_BALANCED_FULL_S42",
+        "representative_classical": "LR_COMBINED_BALANCED_S42",
+        "secondary_classical": "SVM_COMBINED_BASELINE_S42"
+    },
+    "primary_selected_run_id": "S02_ROBERTA_FOCAL_FULL_S42",
+    "evaluation_roster": [
+        "S02_ROBERTA_FOCAL_FULL_S42",
+        "T06_FOCAL_S42",
+        "T03_FOCAL_S42",
+        "T05_WBCE_S42",
+        "T02_WBCE_S42",
+        "T04_BCE_S42",
+        "T01_BCE_S42",
+        "S01_LR_COMBINED_BALANCED_FULL_S42",
+        "LR_COMBINED_BALANCED_S42",
+        "SVM_COMBINED_BASELINE_S42",
+        "SVM_COMBINED_BALANCED_S42",
+        "SVM_CHAR_BASELINE_S42",
+        "LR_COMBINED_BASELINE_S42",
+        "LR_CHAR_BASELINE_S42",
+        "SVM_WORD_BASELINE_S42",
+        "LR_WORD_BASELINE_S42",
+        "RF_WORD_BASELINE_S42",
+        "DT_WORD_BASELINE_S42",
+        "NB_WORD_BASELINE_S42"
+    ],
+    "completed_experiments": 19,
+    "models": [
+        {
+            "run_id": "NB_WORD_BASELINE_S42",
+            "model": "Multinomial Naive Bayes",
+            "feature_representation": "word_tfidf",
+            "sampling_strategy": "representative",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/classical/naive_bayes/NB_WORD_BASELINE_S42.joblib",
+            "config": {
+                "path": "02_notebooks/03_classical_ml/01_naive_bayes/results/configs/NB_WORD_BASELINE_S42.json",
+                "sha256": "d33ba395b60386ef67584682b8d3b5ca687cac0a0f64ffb29bc737e46a6fda1c",
+                "size_bytes": 1474
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/03_classical_ml/01_naive_bayes/results/predictions/NB_WORD_BASELINE_S42_validation_predictions.parquet",
+                "sha256": "9f42350e3a4e166613baa801a61db7c541a1c0066e25ce0a3cc1c8edaf53bebe",
+                "size_bytes": 2496347
+            },
+            "threshold_file": {
+                "path": "02_notebooks/03_classical_ml/01_naive_bayes/results/configs/NB_WORD_BASELINE_S42_thresholds.json",
+                "sha256": "a633ee83012e43ff12bf062a1d0a41b52e5d56170f812dd28f39521141b41bb5",
+                "size_bytes": 745
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "positive_class_probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.1294580934949071,
+                "severe_toxic": 0.01614763184615453,
+                "obscene": 0.08611462777789465,
+                "threat": 0.002308437448624506,
+                "insult": 0.06698549979315137,
+                "identity_hate": 0.009257341491275618
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.4197496672855093,
+            "validation_optimized_macro_f1": 0.4363428211158023,
+            "training_time_seconds": 0.6426799719999963,
+            "kind": "classical",
+            "model_files": [
+                {
+                    "path": "04_models/classical/naive_bayes/NB_WORD_BASELINE_S42.joblib",
+                    "sha256": "d64913895ec9aefa6143657e695a834ab718769b9aa01271ce6c680a10199aa0",
+                    "size_bytes": 5078574
+                }
+            ],
+            "prior_model_hash_evidence": {
+                "path": "02_notebooks/03_classical_ml/01_naive_bayes/results/tables/nb_model_artifact_manifest.csv",
+                "sha256": "df7a8c390d0e993ba512e3ffbee4c61d5419e23d3551844c48c7b5a57085df30",
+                "size_bytes": 2109
+            },
+            "model_hash_previously_verified": true,
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+            "feature_manifest": {
+                "path": "01_data/features/feature_artifact_manifest.csv",
+                "sha256": "c29f9ecc1d9a81edb3ed2b36b4fc59c5f61d56f70831f350639612c85f9ded88",
+                "size_bytes": 3113
+            },
+            "feature_mode": "word",
+            "vectorizers": [
+                {
+                    "role": "word",
+                    "path": "04_models/classical/vectorizers/word_tfidf.joblib",
+                    "sha256": "8a3f3670b593aec722b3886d0f04bd118c661d00af9b902fc3f16f8c0baf695a",
+                    "size_bytes": 577470
+                }
+            ],
+            "combined_feature_order": null,
+            "combined_final_l2_normalization": false,
+            "inference_method": "predict_proba"
+        },
+        {
+            "run_id": "LR_WORD_BASELINE_S42",
+            "model": "Logistic Regression",
+            "feature_representation": "word_tfidf",
+            "sampling_strategy": "representative",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/classical/logistic_regression/LR_WORD_BASELINE_S42.joblib",
+            "config": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/configs/LR_WORD_BASELINE_S42.json",
+                "sha256": "6e1268f2d36e9aa02f2806ae2996e8cf3b1e7682d7aa6c38887b4485788ff0dc",
+                "size_bytes": 1717
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/LR_WORD_BASELINE_S42/predictions/validation_predictions.parquet",
+                "sha256": "830ffde33e039ee83574e8f5ced63ce1fb9fea5b4c83e0d1abecdf3ae8ae1608",
+                "size_bytes": 2499786
+            },
+            "threshold_file": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/configs/LR_WORD_BASELINE_S42_thresholds.json",
+                "sha256": "cf99df359bebf8a0b1e8c94f27d4c2b4fe062480f07df7278251c2ed6e64f6a4",
+                "size_bytes": 742
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "positive_class_probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.2651050664403368,
+                "severe_toxic": 0.15185744663835907,
+                "obscene": 0.16061795224578934,
+                "threat": 0.04161818800124785,
+                "insult": 0.15892598806674185,
+                "identity_hate": 0.0973342277710491
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.6174067347198421,
+            "validation_optimized_macro_f1": 0.610824439139666,
+            "training_time_seconds": 13.559469651000086,
+            "kind": "classical",
+            "model_files": [
+                {
+                    "path": "04_models/classical/logistic_regression/LR_WORD_BASELINE_S42.joblib",
+                    "sha256": "e9f3448e9d29271e48027181e46a094e3d0cd06955ae72d4627036cc122c0805",
+                    "size_bytes": 2299706
+                }
+            ],
+            "prior_model_hash_evidence": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/LR_WORD_BASELINE_S42/tables/artifact_manifest.csv",
+                "sha256": "04b15f1fbabe62ca2b66960b67e16683666fc761f18dd213bdb2d61d8539922c",
+                "size_bytes": 1356
+            },
+            "model_hash_previously_verified": true,
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+            "feature_manifest": {
+                "path": "01_data/features/feature_artifact_manifest.csv",
+                "sha256": "c29f9ecc1d9a81edb3ed2b36b4fc59c5f61d56f70831f350639612c85f9ded88",
+                "size_bytes": 3113
+            },
+            "feature_mode": "word",
+            "vectorizers": [
+                {
+                    "role": "word",
+                    "path": "04_models/classical/vectorizers/word_tfidf.joblib",
+                    "sha256": "8a3f3670b593aec722b3886d0f04bd118c661d00af9b902fc3f16f8c0baf695a",
+                    "size_bytes": 577470
+                }
+            ],
+            "combined_feature_order": null,
+            "combined_final_l2_normalization": false,
+            "inference_method": "predict_proba"
+        },
+        {
+            "run_id": "LR_CHAR_BASELINE_S42",
+            "model": "Logistic Regression",
+            "feature_representation": "character_tfidf",
+            "sampling_strategy": "representative",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/classical/logistic_regression/LR_CHAR_BASELINE_S42.joblib",
+            "config": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/configs/LR_CHAR_BASELINE_S42.json",
+                "sha256": "a7cfe43720b361b256c0c22723caf9f1ebdec42ea4bc10761f8b49491374204a",
+                "size_bytes": 1722
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/LR_CHAR_BASELINE_S42/predictions/validation_predictions.parquet",
+                "sha256": "3174fc61fcd66b6c9fdec593f57d43de5dfb59f2c73a69da404c31bea8744959",
+                "size_bytes": 2509451
+            },
+            "threshold_file": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/configs/LR_CHAR_BASELINE_S42_thresholds.json",
+                "sha256": "1b42d0c3ef2a23258db7b5531b283ca3145117b97fd9eddad714118eb2912ee5",
+                "size_bytes": 741
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "positive_class_probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.2689904187740355,
+                "severe_toxic": 0.19213887843555594,
+                "obscene": 0.17225524776438045,
+                "threat": 0.05702878338408803,
+                "insult": 0.2075150218786918,
+                "identity_hate": 0.1154292710804837
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.6406564250892096,
+            "validation_optimized_macro_f1": 0.6247572234823523,
+            "training_time_seconds": 69.43390388099999,
+            "kind": "classical",
+            "model_files": [
+                {
+                    "path": "04_models/classical/logistic_regression/LR_CHAR_BASELINE_S42.joblib",
+                    "sha256": "591438bf899f491e12b7793ba18eef136205ba1632eb2d1eedc742f64383d7f2",
+                    "size_bytes": 2294040
+                }
+            ],
+            "prior_model_hash_evidence": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/LR_CHAR_BASELINE_S42/tables/artifact_manifest.csv",
+                "sha256": "fb56ce7010f28d3f7bcc945dcde1173bff70c4dd203b702b32394982374bb871",
+                "size_bytes": 1356
+            },
+            "model_hash_previously_verified": true,
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+            "feature_manifest": {
+                "path": "01_data/features/feature_artifact_manifest.csv",
+                "sha256": "c29f9ecc1d9a81edb3ed2b36b4fc59c5f61d56f70831f350639612c85f9ded88",
+                "size_bytes": 3113
+            },
+            "feature_mode": "character",
+            "vectorizers": [
+                {
+                    "role": "character",
+                    "path": "04_models/classical/vectorizers/character_tfidf.joblib",
+                    "sha256": "8090605556392c67685011ad0a8900162d410cdf9a19488234866a049189b4bc",
+                    "size_bytes": 483672
+                }
+            ],
+            "combined_feature_order": null,
+            "combined_final_l2_normalization": false,
+            "inference_method": "predict_proba"
+        },
+        {
+            "run_id": "LR_COMBINED_BASELINE_S42",
+            "model": "Logistic Regression",
+            "feature_representation": "combined_tfidf",
+            "sampling_strategy": "representative",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/classical/logistic_regression/LR_COMBINED_BASELINE_S42.joblib",
+            "config": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/configs/LR_COMBINED_BASELINE_S42.json",
+                "sha256": "d1ebf63660318b34b17a790095f85c0eed7c6515f7ccee7ab22b43392e661825",
+                "size_bytes": 1733
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/LR_COMBINED_BASELINE_S42/predictions/validation_predictions.parquet",
+                "sha256": "2732b515d6e04b06e2b8d497536aa4bf055197a6fade012f0f23f273444805a3",
+                "size_bytes": 2509713
+            },
+            "threshold_file": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/configs/LR_COMBINED_BASELINE_S42_thresholds.json",
+                "sha256": "1e2403d57dc5f5fc1da10f100bb14a03d942d47a52c13ce8782ffa8adcd1c45e",
+                "size_bytes": 746
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "positive_class_probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.26879585857143395,
+                "severe_toxic": 0.17544544550613844,
+                "obscene": 0.19641189497585204,
+                "threat": 0.05675850901865901,
+                "insult": 0.213398590589369,
+                "identity_hate": 0.11356728840663485
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.647109426819818,
+            "validation_optimized_macro_f1": 0.6335140646594128,
+            "training_time_seconds": 70.27736082499996,
+            "kind": "classical",
+            "model_files": [
+                {
+                    "path": "04_models/classical/logistic_regression/LR_COMBINED_BASELINE_S42.joblib",
+                    "sha256": "ebefaf333ad52815c99227b0f46915257aaecd50d40a3d598a98e34d59d4acd5",
+                    "size_bytes": 2302398
+                }
+            ],
+            "prior_model_hash_evidence": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/LR_COMBINED_BASELINE_S42/tables/artifact_manifest.csv",
+                "sha256": "2a3dfaafeb578809e351c4c83dfafb8a0d5f19121f9509334aa00e6ecd234372",
+                "size_bytes": 1404
+            },
+            "model_hash_previously_verified": true,
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+            "feature_manifest": {
+                "path": "01_data/features/feature_artifact_manifest.csv",
+                "sha256": "c29f9ecc1d9a81edb3ed2b36b4fc59c5f61d56f70831f350639612c85f9ded88",
+                "size_bytes": 3113
+            },
+            "feature_mode": "combined",
+            "vectorizers": [
+                {
+                    "role": "word",
+                    "path": "04_models/classical/vectorizers/combined_word_tfidf.joblib",
+                    "sha256": "b1e2bff302993680f4c2fba29320caad52ce7979c4e4a9d6c33aa38c6e88e764",
+                    "size_bytes": 283280
+                },
+                {
+                    "role": "character",
+                    "path": "04_models/classical/vectorizers/combined_character_tfidf.joblib",
+                    "sha256": "0576b4c651150d050365e6becbebc554b2bc85559094fe9a1c4ec21f9262e79c",
+                    "size_bytes": 242203
+                }
+            ],
+            "combined_feature_order": [
+                "word",
+                "character"
+            ],
+            "combined_final_l2_normalization": true,
+            "inference_method": "predict_proba"
+        },
+        {
+            "run_id": "LR_COMBINED_BALANCED_S42",
+            "model": "Logistic Regression",
+            "feature_representation": "combined_tfidf",
+            "sampling_strategy": "representative",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/classical/logistic_regression/LR_COMBINED_BALANCED_S42.joblib",
+            "config": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/configs/LR_COMBINED_BALANCED_S42.json",
+                "sha256": "b12654fbd853b7e81e8ac6abb4dafac64d53aa170890388406d12259d8a97d0d",
+                "size_bytes": 1739
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/LR_COMBINED_BALANCED_S42/predictions/validation_predictions.parquet",
+                "sha256": "ce5361d4ba9d6fa48f5b0079e59fd0a3bd9c2c8731546eb7d678b04986bb4014",
+                "size_bytes": 2518444
+            },
+            "threshold_file": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/configs/LR_COMBINED_BALANCED_S42_thresholds.json",
+                "sha256": "b5df25208abf7f083c2d06376359bf2402de74973f421fd25cbcdaaad7a978e2",
+                "size_bytes": 742
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "positive_class_probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.7042922472311852,
+                "severe_toxic": 0.8503335131893182,
+                "obscene": 0.6655826606577205,
+                "threat": 0.8043601051320635,
+                "insult": 0.7403504793961805,
+                "identity_hate": 0.7583652700340145
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.6717869571208382,
+            "validation_optimized_macro_f1": 0.6597541306503194,
+            "training_time_seconds": 108.30654768,
+            "kind": "classical",
+            "model_files": [
+                {
+                    "path": "04_models/classical/logistic_regression/LR_COMBINED_BALANCED_S42.joblib",
+                    "sha256": "82ad7bb1679e7972e6d0b3f4d33914736faf3b95a04d3cbc05de2e266d37b116",
+                    "size_bytes": 2302629
+                }
+            ],
+            "prior_model_hash_evidence": {
+                "path": "02_notebooks/03_classical_ml/02_logistic_regression/results/LR_COMBINED_BALANCED_S42/tables/artifact_manifest.csv",
+                "sha256": "9b65d6d9812816bf5802a26b9abbdff1a1c13105d1ae898c64c234bb8ffc30ae",
+                "size_bytes": 1404
+            },
+            "model_hash_previously_verified": true,
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+            "feature_manifest": {
+                "path": "01_data/features/feature_artifact_manifest.csv",
+                "sha256": "c29f9ecc1d9a81edb3ed2b36b4fc59c5f61d56f70831f350639612c85f9ded88",
+                "size_bytes": 3113
+            },
+            "feature_mode": "combined",
+            "vectorizers": [
+                {
+                    "role": "word",
+                    "path": "04_models/classical/vectorizers/combined_word_tfidf.joblib",
+                    "sha256": "b1e2bff302993680f4c2fba29320caad52ce7979c4e4a9d6c33aa38c6e88e764",
+                    "size_bytes": 283280
+                },
+                {
+                    "role": "character",
+                    "path": "04_models/classical/vectorizers/combined_character_tfidf.joblib",
+                    "sha256": "0576b4c651150d050365e6becbebc554b2bc85559094fe9a1c4ec21f9262e79c",
+                    "size_bytes": 242203
+                }
+            ],
+            "combined_feature_order": [
+                "word",
+                "character"
+            ],
+            "combined_final_l2_normalization": true,
+            "inference_method": "predict_proba"
+        },
+        {
+            "run_id": "SVM_WORD_BASELINE_S42",
+            "model": "Linear SVM",
+            "feature_representation": "word_tfidf",
+            "sampling_strategy": "representative_multilabel",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/classical/linear_svm/SVM_WORD_BASELINE_S42.joblib",
+            "config": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/configs/SVM_WORD_BASELINE_S42.json",
+                "sha256": "7973768fc98e806a8fe77a76a054168336a8ab16c2ce2b5e413801af8e89e1e0",
+                "size_bytes": 1745
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/SVM_WORD_BASELINE_S42/predictions/validation_predictions.parquet",
+                "sha256": "b3896b2aeb776a7485962368ed8f6296f4743515f3ee3806c22e8d079b4182f2",
+                "size_bytes": 2501737
+            },
+            "threshold_file": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/configs/SVM_WORD_BASELINE_S42_thresholds.json",
+                "sha256": "0e68def022d4615c5ab60d59add26401596d46f403f465522ce4311b1e304481",
+                "size_bytes": 774
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "signed_decision_margin",
+            "default_threshold": 0.0,
+            "optimized_thresholds": {
+                "toxic": -0.1928838919190683,
+                "severe_toxic": -0.41715734432906426,
+                "obscene": -0.27445769385056784,
+                "threat": -0.4187338627625288,
+                "insult": -0.32537555710108745,
+                "identity_hate": -0.46907949527683734
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.632156277284737,
+            "validation_optimized_macro_f1": 0.6321241383970296,
+            "training_time_seconds": 14.543707468000093,
+            "kind": "classical",
+            "model_files": [
+                {
+                    "path": "04_models/classical/linear_svm/SVM_WORD_BASELINE_S42.joblib",
+                    "sha256": "0dd58577439c3bf0a37b947c2a90ee741b22e844f86c31888b9b3cada137386c",
+                    "size_bytes": 2317959
+                }
+            ],
+            "prior_model_hash_evidence": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/SVM_WORD_BASELINE_S42/tables/artifact_manifest.csv",
+                "sha256": "94923cb0948a5ec41dc23d21f3253a71c864b7f63a83d6bfd52520d529493926",
+                "size_bytes": 1340
+            },
+            "model_hash_previously_verified": true,
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+            "feature_manifest": {
+                "path": "01_data/features/feature_artifact_manifest.csv",
+                "sha256": "c29f9ecc1d9a81edb3ed2b36b4fc59c5f61d56f70831f350639612c85f9ded88",
+                "size_bytes": 3113
+            },
+            "feature_mode": "word",
+            "vectorizers": [
+                {
+                    "role": "word",
+                    "path": "04_models/classical/vectorizers/word_tfidf.joblib",
+                    "sha256": "8a3f3670b593aec722b3886d0f04bd118c661d00af9b902fc3f16f8c0baf695a",
+                    "size_bytes": 577470
+                }
+            ],
+            "combined_feature_order": null,
+            "combined_final_l2_normalization": false,
+            "inference_method": "decision_function"
+        },
+        {
+            "run_id": "SVM_CHAR_BASELINE_S42",
+            "model": "Linear SVM",
+            "feature_representation": "character_tfidf",
+            "sampling_strategy": "representative_multilabel",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/classical/linear_svm/SVM_CHAR_BASELINE_S42.joblib",
+            "config": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/configs/SVM_CHAR_BASELINE_S42.json",
+                "sha256": "3e771a9333a5766b5e286c338e2f8d7a60ff21b6e3c7dfa70d01a848ea24594d",
+                "size_bytes": 1750
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/SVM_CHAR_BASELINE_S42/predictions/validation_predictions.parquet",
+                "sha256": "7bfda79a965eacf5acc8e5dfb8eb8dba8fd1a4072484d81b653cae3330ef981c",
+                "size_bytes": 2511707
+            },
+            "threshold_file": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/configs/SVM_CHAR_BASELINE_S42_thresholds.json",
+                "sha256": "215c65330583299f0e577a452130140cfc80250e4665c8850bd2eb25c1844b4c",
+                "size_bytes": 773
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "signed_decision_margin",
+            "default_threshold": 0.0,
+            "optimized_thresholds": {
+                "toxic": -0.1406771301119718,
+                "severe_toxic": -0.5656980609369696,
+                "obscene": -0.2710751774150262,
+                "threat": -0.35522442840665525,
+                "insult": -0.35691347798318795,
+                "identity_hate": -0.47538416713479825
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.6573624504317164,
+            "validation_optimized_macro_f1": 0.6508509125518712,
+            "training_time_seconds": 65.24658395400002,
+            "kind": "classical",
+            "model_files": [
+                {
+                    "path": "04_models/classical/linear_svm/SVM_CHAR_BASELINE_S42.joblib",
+                    "sha256": "9896b9e3639e12e9b81187a126d6842bc704326ab070c2bf8a3e7ecb7db0ce69",
+                    "size_bytes": 2297383
+                }
+            ],
+            "prior_model_hash_evidence": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/SVM_CHAR_BASELINE_S42/tables/artifact_manifest.csv",
+                "sha256": "d4b290d07fabd758bdbd340bab2f37f32f4f98b1fefd15d404f14ba6547cae75",
+                "size_bytes": 1340
+            },
+            "model_hash_previously_verified": true,
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+            "feature_manifest": {
+                "path": "01_data/features/feature_artifact_manifest.csv",
+                "sha256": "c29f9ecc1d9a81edb3ed2b36b4fc59c5f61d56f70831f350639612c85f9ded88",
+                "size_bytes": 3113
+            },
+            "feature_mode": "character",
+            "vectorizers": [
+                {
+                    "role": "character",
+                    "path": "04_models/classical/vectorizers/character_tfidf.joblib",
+                    "sha256": "8090605556392c67685011ad0a8900162d410cdf9a19488234866a049189b4bc",
+                    "size_bytes": 483672
+                }
+            ],
+            "combined_feature_order": null,
+            "combined_final_l2_normalization": false,
+            "inference_method": "decision_function"
+        },
+        {
+            "run_id": "SVM_COMBINED_BASELINE_S42",
+            "model": "Linear SVM",
+            "feature_representation": "combined_tfidf",
+            "sampling_strategy": "representative_multilabel",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/classical/linear_svm/SVM_COMBINED_BASELINE_S42.joblib",
+            "config": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/configs/SVM_COMBINED_BASELINE_S42.json",
+                "sha256": "7782d01a89f271b4e98c52d5105ee8c4f5ce4211f7c50389d91bb50338b823cd",
+                "size_bytes": 1761
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/SVM_COMBINED_BASELINE_S42/predictions/validation_predictions.parquet",
+                "sha256": "7229127241496b609f10c207155575c5b3e0d04f5f274dad2f3bab9e149433e7",
+                "size_bytes": 2511236
+            },
+            "threshold_file": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/configs/SVM_COMBINED_BASELINE_S42_thresholds.json",
+                "sha256": "a14edf965d339a0b9704f7c562f4676fd0ac8347310eaa98902d0470683adde9",
+                "size_bytes": 775
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "signed_decision_margin",
+            "default_threshold": 0.0,
+            "optimized_thresholds": {
+                "toxic": -0.15441320520953838,
+                "severe_toxic": -0.3431693781273768,
+                "obscene": -0.3343644970920643,
+                "threat": -0.3669490043582433,
+                "insult": -0.33011002176215576,
+                "identity_hate": -0.342506597463645
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.6625052302891224,
+            "validation_optimized_macro_f1": 0.6568993696927908,
+            "training_time_seconds": 70.122567075,
+            "kind": "classical",
+            "model_files": [
+                {
+                    "path": "04_models/classical/linear_svm/SVM_COMBINED_BASELINE_S42.joblib",
+                    "sha256": "c98f705e82d335f8e9bcdf1d858b19bc5cb5d55561006237609b43f2d82c050f",
+                    "size_bytes": 2312208
+                }
+            ],
+            "prior_model_hash_evidence": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/SVM_COMBINED_BASELINE_S42/tables/artifact_manifest.csv",
+                "sha256": "c64b15cd37cd9b3c7deeddc9ab8d79af45b3989af4d4563f52da537524b0b67d",
+                "size_bytes": 1388
+            },
+            "model_hash_previously_verified": true,
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+            "feature_manifest": {
+                "path": "01_data/features/feature_artifact_manifest.csv",
+                "sha256": "c29f9ecc1d9a81edb3ed2b36b4fc59c5f61d56f70831f350639612c85f9ded88",
+                "size_bytes": 3113
+            },
+            "feature_mode": "combined",
+            "vectorizers": [
+                {
+                    "role": "word",
+                    "path": "04_models/classical/vectorizers/combined_word_tfidf.joblib",
+                    "sha256": "b1e2bff302993680f4c2fba29320caad52ce7979c4e4a9d6c33aa38c6e88e764",
+                    "size_bytes": 283280
+                },
+                {
+                    "role": "character",
+                    "path": "04_models/classical/vectorizers/combined_character_tfidf.joblib",
+                    "sha256": "0576b4c651150d050365e6becbebc554b2bc85559094fe9a1c4ec21f9262e79c",
+                    "size_bytes": 242203
+                }
+            ],
+            "combined_feature_order": [
+                "word",
+                "character"
+            ],
+            "combined_final_l2_normalization": true,
+            "inference_method": "decision_function"
+        },
+        {
+            "run_id": "SVM_COMBINED_BALANCED_S42",
+            "model": "Linear SVM",
+            "feature_representation": "combined_tfidf",
+            "sampling_strategy": "representative_multilabel",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/classical/linear_svm/SVM_COMBINED_BALANCED_S42.joblib",
+            "config": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/configs/SVM_COMBINED_BALANCED_S42.json",
+                "sha256": "ace833adf66a8ccad3cee83aaa1d09c6ed01423ee53ed24c0f1e457b0d68834c",
+                "size_bytes": 1767
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/SVM_COMBINED_BALANCED_S42/predictions/validation_predictions.parquet",
+                "sha256": "0d1870aef7dbc57803a54648953c956314b8f41743542b11487865222187ac27",
+                "size_bytes": 2514473
+            },
+            "threshold_file": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/configs/SVM_COMBINED_BALANCED_S42_thresholds.json",
+                "sha256": "dac92ca10619534d97c43966e94ce47a969811bebdad2960e79eb2884514199e",
+                "size_bytes": 775
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "signed_decision_margin",
+            "default_threshold": 0.0,
+            "optimized_thresholds": {
+                "toxic": 0.16533495787062202,
+                "severe_toxic": -0.14038235787169273,
+                "obscene": 0.08225227293835902,
+                "threat": -0.04543285099075156,
+                "insult": 0.11265775729071215,
+                "identity_hate": 0.3218914429098878
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.6595813831119344,
+            "validation_optimized_macro_f1": 0.6507587577026327,
+            "training_time_seconds": 176.23930864899967,
+            "kind": "classical",
+            "model_files": [
+                {
+                    "path": "04_models/classical/linear_svm/SVM_COMBINED_BALANCED_S42.joblib",
+                    "sha256": "b03c5933839ebc340de141b833b8e001fa433ff6e62ac809c2b9b3366a22ded6",
+                    "size_bytes": 2310236
+                }
+            ],
+            "prior_model_hash_evidence": {
+                "path": "02_notebooks/03_classical_ml/03_linear_svm/results/SVM_COMBINED_BALANCED_S42/tables/artifact_manifest.csv",
+                "sha256": "843b7580207a9790424fd87ceb70c11d5984506c444b43ea68def6649c1a6c41",
+                "size_bytes": 1388
+            },
+            "model_hash_previously_verified": true,
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+            "feature_manifest": {
+                "path": "01_data/features/feature_artifact_manifest.csv",
+                "sha256": "c29f9ecc1d9a81edb3ed2b36b4fc59c5f61d56f70831f350639612c85f9ded88",
+                "size_bytes": 3113
+            },
+            "feature_mode": "combined",
+            "vectorizers": [
+                {
+                    "role": "word",
+                    "path": "04_models/classical/vectorizers/combined_word_tfidf.joblib",
+                    "sha256": "b1e2bff302993680f4c2fba29320caad52ce7979c4e4a9d6c33aa38c6e88e764",
+                    "size_bytes": 283280
+                },
+                {
+                    "role": "character",
+                    "path": "04_models/classical/vectorizers/combined_character_tfidf.joblib",
+                    "sha256": "0576b4c651150d050365e6becbebc554b2bc85559094fe9a1c4ec21f9262e79c",
+                    "size_bytes": 242203
+                }
+            ],
+            "combined_feature_order": [
+                "word",
+                "character"
+            ],
+            "combined_final_l2_normalization": true,
+            "inference_method": "decision_function"
+        },
+        {
+            "run_id": "DT_WORD_BASELINE_S42",
+            "model": "Decision Tree",
+            "feature_representation": "word_tfidf",
+            "sampling_strategy": "representative_multilabel",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/classical/decision_tree/DT_WORD_BASELINE_S42.joblib",
+            "config": {
+                "path": "02_notebooks/03_classical_ml/04_decision_tree/results/configs/DT_WORD_BASELINE_S42.json",
+                "sha256": "52edf61d7fd3196070406a94e3728879fe3c9c1b0c84a0c9d85d1f375623ea75",
+                "size_bytes": 2566
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/03_classical_ml/04_decision_tree/results/DT_WORD_BASELINE_S42/predictions/validation_predictions.parquet",
+                "sha256": "9dd01830e7a2faa978190d885f31afc46706ef218c26f6d20444179afd781806",
+                "size_bytes": 660113
+            },
+            "threshold_file": {
+                "path": "02_notebooks/03_classical_ml/04_decision_tree/results/configs/DT_WORD_BASELINE_S42_thresholds.json",
+                "sha256": "9d1cb8de1f2fcf267018d61cc731fa256ffb3bc31b20c022f4ea11a42d746e14",
+                "size_bytes": 728
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "positive_class_probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.16666666666666666,
+                "severe_toxic": 0.1111111111111111,
+                "obscene": 0.16666666666666666,
+                "threat": 0.125,
+                "insult": 0.125,
+                "identity_hate": 0.5
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.42151401074400247,
+            "validation_optimized_macro_f1": 0.5489779082448234,
+            "training_time_seconds": 225.27423450100014,
+            "kind": "classical",
+            "model_files": [
+                {
+                    "path": "04_models/classical/decision_tree/DT_WORD_BASELINE_S42.joblib",
+                    "sha256": "b182198736377d0adfd2203bf66ba1e67ebf1c833403ac3e06b56966c95f9510",
+                    "size_bytes": 57990
+                }
+            ],
+            "prior_model_hash_evidence": {
+                "path": "02_notebooks/03_classical_ml/04_decision_tree/results/DT_WORD_BASELINE_S42/tables/artifact_manifest.csv",
+                "sha256": "3b31b4d6c7de67426bc9db4daa7702a774a0f61d5466ffc9b05feb73cf259ef2",
+                "size_bytes": 1341
+            },
+            "model_hash_previously_verified": true,
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+            "feature_manifest": {
+                "path": "01_data/features/feature_artifact_manifest.csv",
+                "sha256": "c29f9ecc1d9a81edb3ed2b36b4fc59c5f61d56f70831f350639612c85f9ded88",
+                "size_bytes": 3113
+            },
+            "feature_mode": "word",
+            "vectorizers": [
+                {
+                    "role": "word",
+                    "path": "04_models/classical/vectorizers/word_tfidf.joblib",
+                    "sha256": "8a3f3670b593aec722b3886d0f04bd118c661d00af9b902fc3f16f8c0baf695a",
+                    "size_bytes": 577470
+                }
+            ],
+            "combined_feature_order": null,
+            "combined_final_l2_normalization": false,
+            "inference_method": "predict_proba"
+        },
+        {
+            "run_id": "RF_WORD_BASELINE_S42",
+            "model": "Random Forest",
+            "feature_representation": "word_tfidf",
+            "sampling_strategy": "representative_multilabel",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/classical/random_forest/RF_WORD_BASELINE_S42.joblib",
+            "config": {
+                "path": "02_notebooks/03_classical_ml/05_random_forest/results/configs/RF_WORD_BASELINE_S42.json",
+                "sha256": "c9a6fae80bade5672f497748ba306cc66dfa1438707f41b6b82d1d9bbc0f57f6",
+                "size_bytes": 3693
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/03_classical_ml/05_random_forest/results/RF_WORD_BASELINE_S42/predictions/validation_predictions.parquet",
+                "sha256": "31ce652da1a80e7d0c8676c4f1b5240cbd75d2e3b463cfa98ada870c74ab3319",
+                "size_bytes": 2106665
+            },
+            "threshold_file": {
+                "path": "02_notebooks/03_classical_ml/05_random_forest/results/configs/RF_WORD_BASELINE_S42_thresholds.json",
+                "sha256": "b683fdcab6451a79ba4cf1e584cb397ed3e81d086d00ad9eba379fc05b1b3877",
+                "size_bytes": 820
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "positive_class_probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.16543628154584153,
+                "severe_toxic": 0.06692760283167318,
+                "obscene": 0.14030298276486325,
+                "threat": 0.045832265323991435,
+                "insult": 0.12186903431345433,
+                "identity_hate": 0.06585939099938751
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.5867846413558631,
+            "validation_optimized_macro_f1": 0.586043988735347,
+            "training_time_seconds": 50.11646950000011,
+            "kind": "classical",
+            "model_files": [
+                {
+                    "path": "04_models/classical/random_forest/RF_WORD_BASELINE_S42.joblib",
+                    "sha256": "7af62c58ed5accc43ac8dc37de5a1d55da5483ea0b9a6f7222ba43b2b3642017",
+                    "size_bytes": 1446652
+                }
+            ],
+            "prior_model_hash_evidence": {
+                "path": "02_notebooks/03_classical_ml/05_random_forest/results/RF_WORD_BASELINE_S42/tables/artifact_manifest.csv",
+                "sha256": "2fe0e9b78221c0cb5b5eac3e9c0776320abfda025e932b7120a03d0125d9c616",
+                "size_bytes": 1344
+            },
+            "model_hash_previously_verified": true,
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+            "feature_manifest": {
+                "path": "01_data/features/feature_artifact_manifest.csv",
+                "sha256": "c29f9ecc1d9a81edb3ed2b36b4fc59c5f61d56f70831f350639612c85f9ded88",
+                "size_bytes": 3113
+            },
+            "feature_mode": "word",
+            "vectorizers": [
+                {
+                    "role": "word",
+                    "path": "04_models/classical/vectorizers/word_tfidf.joblib",
+                    "sha256": "8a3f3670b593aec722b3886d0f04bd118c661d00af9b902fc3f16f8c0baf695a",
+                    "size_bytes": 577470
+                }
+            ],
+            "combined_feature_order": null,
+            "combined_final_l2_normalization": false,
+            "inference_method": "predict_proba"
+        },
+        {
+            "run_id": "T01_BCE_S42",
+            "model": "DistilBERT",
+            "feature_representation": "contextual_embeddings",
+            "sampling_strategy": "representative",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/distilbert/T01_BCE_S42/best_epoch_03_20261125_123123_036524",
+            "config": {
+                "path": "02_notebooks/04_distilbert/results/T01_BCE_S42/config.json",
+                "sha256": "f2214f5bc75c7deee64dea4f67c17a56b7e22c6d8b0547a57729e6d68c2a31bd",
+                "size_bytes": 4793
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/04_distilbert/results/T01_BCE_S42/predictions/validation_predictions.parquet",
+                "sha256": "f52162d9aff2002de07cc97d87b3241ee013828c98ab87000e26aef721111ecd",
+                "size_bytes": 1334189
+            },
+            "threshold_file": {
+                "path": "02_notebooks/04_distilbert/results/T01_BCE_S42/thresholds.json",
+                "sha256": "2904a387382cf6d5380663106514e8d4b5127b55c382119e87180a4db44361cb",
+                "size_bytes": 764
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "sigmoid_probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.5483106970787048,
+                "severe_toxic": 0.39671069383621216,
+                "obscene": 0.4914635121822357,
+                "threat": 0.14438998699188232,
+                "insult": 0.4572882056236267,
+                "identity_hate": 0.281109482049942
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.7005392868491972,
+            "validation_optimized_macro_f1": 0.6840238694926127,
+            "training_time_seconds": 1075.8480943570034,
+            "kind": "transformer",
+            "model_files": [
+                {
+                    "path": "04_models/distilbert/T01_BCE_S42/best_epoch_03_20261125_123123_036524/config.json",
+                    "sha256": "752465ab1171f6d88786c6129455ee3d9bd34bfc350dd9e1f70e4eebc3ed264f",
+                    "size_bytes": 923
+                },
+                {
+                    "path": "04_models/distilbert/T01_BCE_S42/best_epoch_03_20261125_123123_036524/model.safetensors",
+                    "sha256": "f637c27257c263c95a3ec6587c740daf7afd73f9b26c92cd7ef9308f4e535493",
+                    "size_bytes": 267844872
+                },
+                {
+                    "path": "04_models/distilbert/T01_BCE_S42/best_epoch_03_20261125_123123_036524/tokenizer.json",
+                    "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+                    "size_bytes": 711396
+                },
+                {
+                    "path": "04_models/distilbert/T01_BCE_S42/best_epoch_03_20261125_123123_036524/tokenizer_config.json",
+                    "sha256": "e1c2a61a99bda00f6c55303a210b30e2f92dcf8b555e215812e2eb583e177ffd",
+                    "size_bytes": 351
+                }
+            ],
+            "checkpoint_manifest": {
+                "path": "04_models/distilbert/T01_BCE_S42/best_epoch_03_20261125_123123_036524/checkpoint_manifest.json",
+                "sha256": "354b0315621cf74dc4c42fe7891a036d8ea60b7e272101a5ab9205c2d579ee29",
+                "size_bytes": 825
+            },
+            "model_state_sha256": "9f85e95e1660b4f513f1f323bacbcbad03047d47d19c23481b864a4864fce8b8",
+            "checkpoint": "distilbert/distilbert-base-uncased",
+            "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+            "maximum_length": 256,
+            "padding_multiple": 8,
+            "inference_precision": "fp16_cuda",
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504"
+        },
+        {
+            "run_id": "T02_WBCE_S42",
+            "model": "DistilBERT",
+            "feature_representation": "contextual_embeddings",
+            "sampling_strategy": "representative",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/distilbert/T02_WBCE_S42/best_epoch_03_20261125_133811_284468",
+            "config": {
+                "path": "02_notebooks/04_distilbert/results/T02_WBCE_S42/config.json",
+                "sha256": "eb351bfdbbeb276a547dc3313328a4b3bb54e181d1385d5ab6ffd4794372a178",
+                "size_bytes": 4799
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/04_distilbert/results/T02_WBCE_S42/predictions/validation_predictions.parquet",
+                "sha256": "65be62aae5fd2bb9c68208fbf523198766e05feb6e0f134f960d9d8dce274aef",
+                "size_bytes": 1346309
+            },
+            "threshold_file": {
+                "path": "02_notebooks/04_distilbert/results/T02_WBCE_S42/thresholds.json",
+                "sha256": "a77bfb1e233974a614ccb5d4ac837cf773253e6f895c84fe38bedbca5a1016d1",
+                "size_bytes": 763
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "sigmoid_probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.851212203502655,
+                "severe_toxic": 0.7988152503967285,
+                "obscene": 0.8125700354576111,
+                "threat": 0.8077641129493713,
+                "insult": 0.6646491289138794,
+                "identity_hate": 0.7377254366874695
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.7252863053795781,
+            "validation_optimized_macro_f1": 0.7076177533555285,
+            "training_time_seconds": 1065.6929254600122,
+            "kind": "transformer",
+            "model_files": [
+                {
+                    "path": "04_models/distilbert/T02_WBCE_S42/best_epoch_03_20261125_133811_284468/config.json",
+                    "sha256": "752465ab1171f6d88786c6129455ee3d9bd34bfc350dd9e1f70e4eebc3ed264f",
+                    "size_bytes": 923
+                },
+                {
+                    "path": "04_models/distilbert/T02_WBCE_S42/best_epoch_03_20261125_133811_284468/model.safetensors",
+                    "sha256": "4bf8c698edb300a7523a3f73d2dd1b0d264980dfe303254435fa0e03a9142da1",
+                    "size_bytes": 267844872
+                },
+                {
+                    "path": "04_models/distilbert/T02_WBCE_S42/best_epoch_03_20261125_133811_284468/tokenizer.json",
+                    "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+                    "size_bytes": 711396
+                },
+                {
+                    "path": "04_models/distilbert/T02_WBCE_S42/best_epoch_03_20261125_133811_284468/tokenizer_config.json",
+                    "sha256": "e1c2a61a99bda00f6c55303a210b30e2f92dcf8b555e215812e2eb583e177ffd",
+                    "size_bytes": 351
+                }
+            ],
+            "checkpoint_manifest": {
+                "path": "04_models/distilbert/T02_WBCE_S42/best_epoch_03_20261125_133811_284468/checkpoint_manifest.json",
+                "sha256": "93f74d14ee933145ddee8b5879e8587c2c23068a49194f122194cb9b4e614cbb",
+                "size_bytes": 825
+            },
+            "model_state_sha256": "f0033c2256cab7e81d1ac0a2b418f74cdc28eb5af433c34c631cae5ae099431c",
+            "checkpoint": "distilbert/distilbert-base-uncased",
+            "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+            "maximum_length": 256,
+            "padding_multiple": 8,
+            "inference_precision": "fp16_cuda",
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504"
+        },
+        {
+            "run_id": "T03_FOCAL_S42",
+            "model": "DistilBERT",
+            "feature_representation": "contextual_embeddings",
+            "sampling_strategy": "representative",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/distilbert/T03_FOCAL_S42/best_epoch_03_20261125_141609_953166",
+            "config": {
+                "path": "02_notebooks/04_distilbert/results/T03_FOCAL_S42/config.json",
+                "sha256": "2438542bb43c0f76da637471f7569f8742ffdaec8c6a75a9b57acb0c5073ac1c",
+                "size_bytes": 4804
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/04_distilbert/results/T03_FOCAL_S42/predictions/validation_predictions.parquet",
+                "sha256": "60d85867eaeba2e75c9a0493727889c2c96d6ec642bd2713fcc3759214d175b1",
+                "size_bytes": 1343308
+            },
+            "threshold_file": {
+                "path": "02_notebooks/04_distilbert/results/T03_FOCAL_S42/thresholds.json",
+                "sha256": "7c88c8e9fac8d078c3a952415c176edb23c9f9f8f4136bff86433fd010f92e3e",
+                "size_bytes": 765
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "sigmoid_probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.5134397745132446,
+                "severe_toxic": 0.4532618522644043,
+                "obscene": 0.4918220341205597,
+                "threat": 0.450298935174942,
+                "insult": 0.4392361640930176,
+                "identity_hate": 0.41099265217781067
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.726281932053619,
+            "validation_optimized_macro_f1": 0.7018115905383522,
+            "training_time_seconds": 1018.9480254089904,
+            "kind": "transformer",
+            "model_files": [
+                {
+                    "path": "04_models/distilbert/T03_FOCAL_S42/best_epoch_03_20261125_141609_953166/config.json",
+                    "sha256": "752465ab1171f6d88786c6129455ee3d9bd34bfc350dd9e1f70e4eebc3ed264f",
+                    "size_bytes": 923
+                },
+                {
+                    "path": "04_models/distilbert/T03_FOCAL_S42/best_epoch_03_20261125_141609_953166/model.safetensors",
+                    "sha256": "2c7de1c7eb5680d2135de24390129afeef1258a65d7294523f6236e738039708",
+                    "size_bytes": 267844872
+                },
+                {
+                    "path": "04_models/distilbert/T03_FOCAL_S42/best_epoch_03_20261125_141609_953166/tokenizer.json",
+                    "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+                    "size_bytes": 711396
+                },
+                {
+                    "path": "04_models/distilbert/T03_FOCAL_S42/best_epoch_03_20261125_141609_953166/tokenizer_config.json",
+                    "sha256": "e1c2a61a99bda00f6c55303a210b30e2f92dcf8b555e215812e2eb583e177ffd",
+                    "size_bytes": 351
+                }
+            ],
+            "checkpoint_manifest": {
+                "path": "04_models/distilbert/T03_FOCAL_S42/best_epoch_03_20261125_141609_953166/checkpoint_manifest.json",
+                "sha256": "ca364ba54306f37ed85317c0599c475f0093ef0ba03ad4a381b4244460df51d6",
+                "size_bytes": 825
+            },
+            "model_state_sha256": "35b70369b15c705858fca0a054aac3fc0150b5d79be9432af6b5a1545debea97",
+            "checkpoint": "distilbert/distilbert-base-uncased",
+            "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+            "maximum_length": 256,
+            "padding_multiple": 8,
+            "inference_precision": "fp16_cuda",
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504"
+        },
+        {
+            "run_id": "T04_BCE_S42",
+            "model": "RoBERTa",
+            "feature_representation": "contextual_token_embeddings",
+            "sampling_strategy": "representative_multilabel_subset",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/roberta/T04_BCE_S42/best_epoch_03_20261126_042444_809753",
+            "config": {
+                "path": "02_notebooks/05_roberta/results/T04_BCE_S42/config.json",
+                "sha256": "3d4ea5a163852d58a38ba20f4a7277d5eac2d7ca747e7d82d2a75ab7b89f2fd9",
+                "size_bytes": 5334
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/05_roberta/results/T04_BCE_S42/predictions/validation_predictions.parquet",
+                "sha256": "7039ddd8909fe9a9241f3eca34ad46b8af323ad59512e8ae8f6a4371f582fc42",
+                "size_bytes": 955995
+            },
+            "threshold_file": {
+                "path": "02_notebooks/05_roberta/results/T04_BCE_S42/thresholds.json",
+                "sha256": "5abc2e84bc5b6ec65324736495da638ae5f05b808ab302546e2b9e491f766321",
+                "size_bytes": 762
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "sigmoid_probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.651576578617096,
+                "severe_toxic": 0.37068089842796326,
+                "obscene": 0.5991333723068237,
+                "threat": 0.2963487207889557,
+                "insult": 0.4544418752193451,
+                "identity_hate": 0.409633994102478
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.7037568654939065,
+            "validation_optimized_macro_f1": 0.6796747683598134,
+            "training_time_seconds": 2197.012852408967,
+            "kind": "transformer",
+            "model_files": [
+                {
+                    "path": "04_models/roberta/T04_BCE_S42/best_epoch_03_20261126_042444_809753/tokenizer_config.json",
+                    "sha256": "aa6a8a3f069d2d98c09444ee3f9671d64c29ce647473dccd78169b10c490d359",
+                    "size_bytes": 388
+                },
+                {
+                    "path": "04_models/roberta/T04_BCE_S42/best_epoch_03_20261126_042444_809753/config.json",
+                    "sha256": "7d10ca99dccee62b170a1bc067ba940ad412ba175ba2e8891e2fa9a11887c51c",
+                    "size_bytes": 1020
+                },
+                {
+                    "path": "04_models/roberta/T04_BCE_S42/best_epoch_03_20261126_042444_809753/tokenizer.json",
+                    "sha256": "9f49930af8b12d2fcad4e8cf500516c4251d46b2917f78bd9b49dbcc586261af",
+                    "size_bytes": 3558740
+                },
+                {
+                    "path": "04_models/roberta/T04_BCE_S42/best_epoch_03_20261126_042444_809753/model.safetensors",
+                    "sha256": "15889d01c0997aa552606c9f84fb84839de019caa06528b9f237046fd03ac4b6",
+                    "size_bytes": 498625128
+                }
+            ],
+            "checkpoint_manifest": {
+                "path": "04_models/roberta/T04_BCE_S42/best_epoch_03_20261126_042444_809753/checkpoint_manifest.json",
+                "sha256": "e9fcbbb8526b8ebe2a40d801f8b66776b2919212798d9a1c17fb3cb64132d450",
+                "size_bytes": 825
+            },
+            "model_state_sha256": "f2947e98df824e5d1c4cb308f8bf145921331de143ab5fe8ac924bd8df7e0144",
+            "checkpoint": "FacebookAI/roberta-base",
+            "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+            "maximum_length": 256,
+            "padding_multiple": 8,
+            "inference_precision": "fp16_cuda",
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504"
+        },
+        {
+            "run_id": "T05_WBCE_S42",
+            "model": "RoBERTa",
+            "feature_representation": "contextual_token_embeddings",
+            "sampling_strategy": "representative_multilabel_subset",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/roberta/T05_WBCE_S42/best_epoch_03_20261126_053431_518892",
+            "config": {
+                "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/config.json",
+                "sha256": "d345571496e3ab3903d525581e74c8cd092d8ad454ed6b9829baacf9ba17dbd2",
+                "size_bytes": 5340
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/predictions/validation_predictions.parquet",
+                "sha256": "1f9799bcae51ee98401e1769be9c578e9a4a7cf65483c07355fbd8e8bdc79d70",
+                "size_bytes": 974868
+            },
+            "threshold_file": {
+                "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/thresholds.json",
+                "sha256": "3a486397189d59bc59261580f34c3d8c94163976629223aa9b15f3b08c571fcf",
+                "size_bytes": 763
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "sigmoid_probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.8807970285415649,
+                "severe_toxic": 0.8171371221542358,
+                "obscene": 0.8720207810401917,
+                "threat": 0.8125700354576111,
+                "insult": 0.780662477016449,
+                "identity_hate": 0.7767922878265381
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.7260484665925371,
+            "validation_optimized_macro_f1": 0.7131289226386297,
+            "training_time_seconds": 2200.8848990429815,
+            "kind": "transformer",
+            "model_files": [
+                {
+                    "path": "04_models/roberta/T05_WBCE_S42/best_epoch_03_20261126_053431_518892/tokenizer_config.json",
+                    "sha256": "aa6a8a3f069d2d98c09444ee3f9671d64c29ce647473dccd78169b10c490d359",
+                    "size_bytes": 388
+                },
+                {
+                    "path": "04_models/roberta/T05_WBCE_S42/best_epoch_03_20261126_053431_518892/config.json",
+                    "sha256": "7d10ca99dccee62b170a1bc067ba940ad412ba175ba2e8891e2fa9a11887c51c",
+                    "size_bytes": 1020
+                },
+                {
+                    "path": "04_models/roberta/T05_WBCE_S42/best_epoch_03_20261126_053431_518892/tokenizer.json",
+                    "sha256": "9f49930af8b12d2fcad4e8cf500516c4251d46b2917f78bd9b49dbcc586261af",
+                    "size_bytes": 3558740
+                },
+                {
+                    "path": "04_models/roberta/T05_WBCE_S42/best_epoch_03_20261126_053431_518892/model.safetensors",
+                    "sha256": "64914589d83eec273b4411350f5bab54c41684cbdddae683500cc008c19eaadc",
+                    "size_bytes": 498625128
+                }
+            ],
+            "checkpoint_manifest": {
+                "path": "04_models/roberta/T05_WBCE_S42/best_epoch_03_20261126_053431_518892/checkpoint_manifest.json",
+                "sha256": "8400310cee0d58649bfadf22393f397414c7f6c4bab2845be3040e190f072e03",
+                "size_bytes": 825
+            },
+            "model_state_sha256": "ecd52e0f6fef6067590329b61c897a1350097d50ff8a3c539058bfa3a2e91730",
+            "checkpoint": "FacebookAI/roberta-base",
+            "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+            "maximum_length": 256,
+            "padding_multiple": 8,
+            "inference_precision": "fp16_cuda",
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504"
+        },
+        {
+            "run_id": "T06_FOCAL_S42",
+            "model": "RoBERTa",
+            "feature_representation": "contextual_token_embeddings",
+            "sampling_strategy": "representative_multilabel_subset",
+            "training_samples": 59997,
+            "seed": 42,
+            "model_path": "04_models/roberta/T06_FOCAL_S42/best_epoch_03_20261126_065929_344606",
+            "config": {
+                "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/config.json",
+                "sha256": "682024fd9f2005ac36b7b273570bd415048d6694185523901c0e6d72fa8afebb",
+                "size_bytes": 5346
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/predictions/validation_predictions.parquet",
+                "sha256": "bb876b228aa11b96706e692f395fa884331b905d56db8faddb025526f88f197e",
+                "size_bytes": 1021037
+            },
+            "threshold_file": {
+                "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/thresholds.json",
+                "sha256": "f0fd542ec944989d8220115bfd934ef831d1ad36b21db043f0cc7a2905946380",
+                "size_bytes": 767
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "sigmoid_probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.5558270215988159,
+                "severe_toxic": 0.45423004031181335,
+                "obscene": 0.5117089748382568,
+                "threat": 0.4372827410697937,
+                "insult": 0.5127536058425903,
+                "identity_hate": 0.46471935510635376
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.7455174744043997,
+            "validation_optimized_macro_f1": 0.7092974931143664,
+            "training_time_seconds": 2197.421196336083,
+            "kind": "transformer",
+            "model_files": [
+                {
+                    "path": "04_models/roberta/T06_FOCAL_S42/best_epoch_03_20261126_065929_344606/tokenizer_config.json",
+                    "sha256": "aa6a8a3f069d2d98c09444ee3f9671d64c29ce647473dccd78169b10c490d359",
+                    "size_bytes": 388
+                },
+                {
+                    "path": "04_models/roberta/T06_FOCAL_S42/best_epoch_03_20261126_065929_344606/config.json",
+                    "sha256": "7d10ca99dccee62b170a1bc067ba940ad412ba175ba2e8891e2fa9a11887c51c",
+                    "size_bytes": 1020
+                },
+                {
+                    "path": "04_models/roberta/T06_FOCAL_S42/best_epoch_03_20261126_065929_344606/tokenizer.json",
+                    "sha256": "9f49930af8b12d2fcad4e8cf500516c4251d46b2917f78bd9b49dbcc586261af",
+                    "size_bytes": 3558740
+                },
+                {
+                    "path": "04_models/roberta/T06_FOCAL_S42/best_epoch_03_20261126_065929_344606/model.safetensors",
+                    "sha256": "50e4eae53d73d91e82b64ecf3b180be2148e39ac91828113529178818d62a66e",
+                    "size_bytes": 498625128
+                }
+            ],
+            "checkpoint_manifest": {
+                "path": "04_models/roberta/T06_FOCAL_S42/best_epoch_03_20261126_065929_344606/checkpoint_manifest.json",
+                "sha256": "6982350e80ce57c7d597e46f4d00106638039901fd2db0e8d79c8419e7a9c10f",
+                "size_bytes": 825
+            },
+            "model_state_sha256": "20954f4e1b54f22855043b4493c975045a7f4e3d70d9bac00145f99d886bcba2",
+            "checkpoint": "FacebookAI/roberta-base",
+            "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+            "maximum_length": 256,
+            "padding_multiple": 8,
+            "inference_precision": "fp16_cuda",
+            "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504"
+        },
+        {
+            "run_id": "S01_LR_COMBINED_BALANCED_FULL_S42",
+            "model": "Logistic Regression",
+            "feature_representation": "combined_tfidf",
+            "sampling_strategy": "full_training_partition",
+            "training_samples": 127628,
+            "seed": 42,
+            "model_path": "04_models/optimization/S01_LR_COMBINED_BALANCED_FULL_S42/S01_LR_COMBINED_BALANCED_FULL_S42.joblib",
+            "config": {
+                "path": "02_notebooks/06_model_optimization/results/S01_LR_COMBINED_BALANCED_FULL_S42/config.json",
+                "sha256": "103e6f5d00b652684c72d93828bb092bd717cf01f4e994c782d9bb1791984002",
+                "size_bytes": 3512
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/06_model_optimization/results/S01_LR_COMBINED_BALANCED_FULL_S42/predictions/validation_predictions.parquet",
+                "sha256": "4678a20ebf3c2f40a556e105d2324864747baf2fd0cf2a92b2c000af3d74caa8",
+                "size_bytes": 2187133
+            },
+            "threshold_file": {
+                "path": "02_notebooks/06_model_optimization/results/S01_LR_COMBINED_BALANCED_FULL_S42/thresholds.json",
+                "sha256": "9ca59ee412ee6dee973d2aba79b05e131c43fe1868ba6f05c091c6b0fddea10f",
+                "size_bytes": 777
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.7215107592239279,
+                "severe_toxic": 0.8764488130431585,
+                "obscene": 0.7687907749125665,
+                "threat": 0.9010586135175657,
+                "insult": 0.8063106555818742,
+                "identity_hate": 0.8817682827509803
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.6837464844947134,
+            "validation_optimized_macro_f1": 0.6732688096055229,
+            "training_time_seconds": 358.53910075299996,
+            "kind": "classical",
+            "model_files": [
+                {
+                    "path": "04_models/optimization/S01_LR_COMBINED_BALANCED_FULL_S42/S01_LR_COMBINED_BALANCED_FULL_S42.joblib",
+                    "sha256": "901d9247dcaf34b64db072aea452c984ff76cb44d7d637b605048af4cfd5d242",
+                    "size_bytes": 2306998
+                }
+            ],
+            "prior_model_hash_evidence": {
+                "path": "02_notebooks/06_model_optimization/results/S01_LR_COMBINED_BALANCED_FULL_S42/tables/artifact_manifest.csv",
+                "sha256": "3b16e1e9ff89ef5152cdd8bd2c43f4128d12a549e1b1971b072ddb69a7f24c66",
+                "size_bytes": 4364
+            },
+            "model_hash_previously_verified": true,
+            "training_dataset_sha256": "a0a6bbe3e2a140cfb41276161187ea1420bd04ea74dfbf9c031613e074ea445f",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+            "feature_manifest": {
+                "path": "04_models/optimization/S01_LR_COMBINED_BALANCED_FULL_S42/vectorizers/feature_manifest.json",
+                "sha256": "dedf993c106f140beb4e6b94a1dc3463d6e555cbc0165319c246e0000b8afa3b",
+                "size_bytes": 5251
+            },
+            "feature_mode": "combined",
+            "vectorizers": [
+                {
+                    "role": "word",
+                    "path": "04_models/optimization/S01_LR_COMBINED_BALANCED_FULL_S42/vectorizers/full_word_tfidf.joblib",
+                    "sha256": "c865376b7e260c22c9ea0d6a4fc8267d7cade205eb41e76d85975800a708269d",
+                    "size_bytes": 287534
+                },
+                {
+                    "role": "character",
+                    "path": "04_models/optimization/S01_LR_COMBINED_BALANCED_FULL_S42/vectorizers/full_character_tfidf.joblib",
+                    "sha256": "ee55523a5d18283ab7f4f1bc6aa1371b4d33ea806c2d697826d37540983647ed",
+                    "size_bytes": 247402
+                }
+            ],
+            "combined_feature_order": [
+                "word",
+                "character"
+            ],
+            "combined_final_l2_normalization": true,
+            "inference_method": "predict_proba"
+        },
+        {
+            "run_id": "S02_ROBERTA_FOCAL_FULL_S42",
+            "model": "RoBERTa",
+            "feature_representation": "contextual_embeddings",
+            "sampling_strategy": "full_training_pool",
+            "training_samples": 127628,
+            "seed": 42,
+            "model_path": "04_models/optimization/S02_ROBERTA_FOCAL_FULL_S42/best_epoch_03_20261126_120001_402121",
+            "config": {
+                "path": "02_notebooks/06_model_optimization/results/S02_ROBERTA_FOCAL_FULL_S42/config.json",
+                "sha256": "2799975d511c185c08f480afcac865fa5362cb601ac82b3582b9f77681cfbba2",
+                "size_bytes": 3482
+            },
+            "validation_predictions": {
+                "path": "02_notebooks/06_model_optimization/results/S02_ROBERTA_FOCAL_FULL_S42/predictions/validation_predictions.parquet",
+                "sha256": "dbe818887ad954714f8dfc12d0bc37b65b3c4386e6abecfac77aba13e475135e",
+                "size_bytes": 1342710
+            },
+            "threshold_file": {
+                "path": "02_notebooks/06_model_optimization/results/S02_ROBERTA_FOCAL_FULL_S42/thresholds.json",
+                "sha256": "eb28dc3d3bc29e44395a660763dc00fe3fb9d3744707829e357fe782be665a0c",
+                "size_bytes": 781
+            },
+            "labels": [
+                "toxic",
+                "severe_toxic",
+                "obscene",
+                "threat",
+                "insult",
+                "identity_hate"
+            ],
+            "score_type": "sigmoid_probability",
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.5350680351257324,
+                "severe_toxic": 0.4665113687515259,
+                "obscene": 0.5424997210502625,
+                "threat": 0.48011302947998047,
+                "insult": 0.48708629608154297,
+                "identity_hate": 0.48673561215400696
+            },
+            "comparison_operator": ">=",
+            "validation_macro_ap": 0.7538578807287251,
+            "validation_optimized_macro_f1": 0.7125811449210007,
+            "training_time_seconds": 4810.379336573985,
+            "kind": "transformer",
+            "model_files": [
+                {
+                    "path": "04_models/optimization/S02_ROBERTA_FOCAL_FULL_S42/best_epoch_03_20261126_120001_402121/config.json",
+                    "sha256": "7d10ca99dccee62b170a1bc067ba940ad412ba175ba2e8891e2fa9a11887c51c",
+                    "size_bytes": 1020
+                },
+                {
+                    "path": "04_models/optimization/S02_ROBERTA_FOCAL_FULL_S42/best_epoch_03_20261126_120001_402121/model.safetensors",
+                    "sha256": "841aa7cae62790a86433aeeab5eb1a416be6e3fada77377d88e5be687b4e77df",
+                    "size_bytes": 498625128
+                },
+                {
+                    "path": "04_models/optimization/S02_ROBERTA_FOCAL_FULL_S42/best_epoch_03_20261126_120001_402121/tokenizer.json",
+                    "sha256": "9f49930af8b12d2fcad4e8cf500516c4251d46b2917f78bd9b49dbcc586261af",
+                    "size_bytes": 3558740
+                },
+                {
+                    "path": "04_models/optimization/S02_ROBERTA_FOCAL_FULL_S42/best_epoch_03_20261126_120001_402121/tokenizer_config.json",
+                    "sha256": "65f50d57a4c244552a7104dfec27113311d18f102be33e6148fc36bddab1ce60",
+                    "size_bytes": 494
+                }
+            ],
+            "checkpoint_manifest": {
+                "path": "04_models/optimization/S02_ROBERTA_FOCAL_FULL_S42/best_epoch_03_20261126_120001_402121/checkpoint_manifest.json",
+                "sha256": "34f6f943f451ce7e7691b8fdfeba3e72e120be66021cd78242290cf1ce1f0bac",
+                "size_bytes": 825
+            },
+            "model_state_sha256": "0389cdf2a0a476b6e826a935008bc5e2a7054a7b0d66c74f1d31fc14dd9ed08e",
+            "checkpoint": "FacebookAI/roberta-base",
+            "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+            "maximum_length": 256,
+            "padding_multiple": 8,
+            "inference_precision": "fp16_cuda",
+            "training_dataset_sha256": "a0a6bbe3e2a140cfb41276161187ea1420bd04ea74dfbf9c031613e074ea445f",
+            "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504"
+        }
+    ],
+    "registry": {
+        "path": "00_config/experiment_registry.csv",
+        "sha256": "56c39fdf31d63d7907e5c4c5706cbb8118ef79584d5425737bfa0ac9b872a52a",
+        "size_bytes": 12765
+    },
+    "validation_analysis": {
+        "path": "02_notebooks/06_model_optimization/results/configs/final_validation_analysis.json",
+        "sha256": "2b3dedc9272b7e0bd62382eb6aad97a07ee1e27bdfabf7174cc8a9e72b6974ff",
+        "size_bytes": 11847
+    },
+    "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+    "evaluation_module": {
+        "path": "03_src/evaluation_utils.py",
+        "sha256": "edb5c29b840b5f0fcacd9d9efd1628a8c118f917e65fb20c4f0094a3915da571",
+        "size_bytes": 5161
+    },
+    "required_validation_tables": [
+        {
+            "path": "02_notebooks/06_model_optimization/results/tables/T01_model_selection.csv",
+            "sha256": "fafa6d90ea52dde2f13c5a1ccf42ee2d8c06cfa2b9d144477dc086bcf556ed3b",
+            "size_bytes": 4190
+        },
+        {
+            "path": "02_notebooks/06_model_optimization/results/tables/T02_scaling_robustness.csv",
+            "sha256": "e3662680250215f501b7cb10517dd2b0918e1c3658cfa3988dc99ee96f2c0f10",
+            "size_bytes": 1734
+        },
+        {
+            "path": "02_notebooks/06_model_optimization/results/tables/T03_threshold_search.csv",
+            "sha256": "c6a0a12b3d7a6d1a7b330e037793e522a81ff7b40a17545c643a804db510a5f3",
+            "size_bytes": 1934413
+        },
+        {
+            "path": "02_notebooks/06_model_optimization/results/tables/T04_selected_thresholds.csv",
+            "sha256": "f7c62d67e419c6f35155506995d2f5ac8cb2c49c3118e9914da668c6a4ddc512",
+            "size_bytes": 10819
+        },
+        {
+            "path": "02_notebooks/06_model_optimization/results/tables/s02_threshold_bootstrap_replicates.csv",
+            "sha256": "2b7a63fb59663f77892480195df609cebe692648e551750782ad12bfc50762c6",
+            "size_bytes": 93063
+        },
+        {
+            "path": "02_notebooks/06_model_optimization/results/tables/s02_threshold_stability.csv",
+            "sha256": "9388c8420bdde57e314e0132cfc22e3cf752b0579bf658808ad181793fe67453",
+            "size_bytes": 965
+        }
+    ],
+    "validation_figures": [
+        {
+            "path": "02_notebooks/05_roberta/results/figures/transformer_consolidated_comparison.png",
+            "sha256": "ed6027df558c7b155314e2a416fdd439e05464476f4ae74fdd5befb7b56df485",
+            "size_bytes": 552907
+        },
+        {
+            "path": "02_notebooks/06_model_optimization/results/figures/F02_scale_comparison.png",
+            "sha256": "6b5cbc0eab64816a0049d038798b209581c9d8e80e5d50e158665fe14db67f9d",
+            "size_bytes": 82626
+        },
+        {
+            "path": "02_notebooks/06_model_optimization/results/figures/F03_F1_threshold_panels.png",
+            "sha256": "6829bcef6ce9e45600f7fc4b2dca5042eef4b3579120697dfa84cf259c871d8c",
+            "size_bytes": 304775
+        },
+        {
+            "path": "02_notebooks/06_model_optimization/results/figures/F04_default_vs_tuned_validation.png",
+            "sha256": "707563bd2f9f7fbc3cfb5f8e89e4252575de6e6c640845e23bed84820d525e3d",
+            "size_bytes": 228985
+        }
+    ],
+    "official_test": {
+        "dataset_path": "01_data/processed/test_official.parquet",
+        "expected_rows": 63978,
+        "expected_sha256": "cddc70d876b48b9fe3d5db8109a740430a7f4d9f50f9fcd77f4c7d566035f328",
+        "evaluated": false
+    },
+    "deferred_experiments": [
+        "S03",
+        "R01",
+        "A01",
+        "A02",
+        "A03"
+    ],
+    "defer_reason": "Prioritize mandatory held-out evaluation, fairness, explainability and deployment under GPU and deadline constraints.",
+    "limitations": [
+        "Single training seed; comparisons exploratory with respect to training variability.",
+        "Validation used for checkpoint selection and threshold tuning; development metrics are not independent test estimates.",
+        "Full-data scaling changes both data and optimization budget.",
+        "Historical S02 execution policy unavailable for exact matching.",
+        "Official benchmark previously examined by the team; held out for this pipeline only.",
+        "Scores not established as calibrated probabilities."
+    ],
+    "thresholds_frozen": true,
+    "model_parameters_frozen": true,
+    "final_project_model_frozen": true,
+    "official_test_used_for_selection": false,
+    "test_evaluation_permitted": true,
+    "post_freeze_refitting_permitted": false,
+    "decision_log_sha256": "8eed94c3ee671455af7b3d116fb3b026a22f5319cfca4c5f8e8d0034955ca0e1",
+    "frozen_at": "2026-11-26T12:30:04.707821+00:00"
+}

@@ -1,0 +1,99 @@
+{
+    "notebook": "06_model_optimization",
+    "reference_plan": "NLP04_Final_Project_Execution_Plan.pdf, page 11",
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "seed": 42,
+    "previous_completed_experiments": 17,
+    "primary_classical_candidate": "LR_COMBINED_BALANCED_S42",
+    "secondary_classical_candidate": "SVM_COMBINED_BASELINE_S42",
+    "primary_distilbert_candidate": "T03_FOCAL_S42",
+    "primary_roberta_candidate": "T06_FOCAL_S42",
+    "primary_transformer_candidate": "T06_FOCAL_S42",
+    "development_dataset_hashes": {
+        "train_full": "a0a6bbe3e2a140cfb41276161187ea1420bd04ea74dfbf9c031613e074ea445f",
+        "train_representative": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+        "validation": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504"
+    },
+    "development_dataset_rows": {
+        "train_full": 127628,
+        "train_representative": 59997,
+        "validation": 31911
+    },
+    "evaluation_module_sha256": "edb5c29b840b5f0fcacd9d9efd1628a8c118f917e65fb20c4f0094a3915da571",
+    "primary_selection_metric": "macro_average_precision",
+    "threshold_selection_metric": "per_label_f1",
+    "full_data_scaling_from_scratch": true,
+    "full_data_scaling_status": "Not started",
+    "transformer_scaling_interpretation": "Combined data and compute scaling effect",
+    "planned_experiments": [
+        {
+            "experiment_id": "S01",
+            "run_id": "S01_LR_COMBINED_BALANCED_FULL_S42",
+            "experiment": "Full-data classical scaling",
+            "reference_run": "LR_COMBINED_BALANCED_S42",
+            "training_samples": 127628,
+            "seed": 42,
+            "priority": "High",
+            "status": "Planned",
+            "rationale": "Measure scaling benefit for the strongest validation-selected classical configuration."
+        },
+        {
+            "experiment_id": "S02",
+            "run_id": "S02_ROBERTA_FOCAL_FULL_S42",
+            "experiment": "Full-data transformer scaling",
+            "reference_run": "T06_FOCAL_S42",
+            "training_samples": 127628,
+            "seed": 42,
+            "priority": "High",
+            "status": "Pending resource assessment",
+            "rationale": "Evaluate additional training data for the leading transformer using matched architecture, loss and epoch budget."
+        },
+        {
+            "experiment_id": "R01",
+            "experiment": "Additional seed robustness",
+            "status": "Proposed deferral",
+            "rationale": "Multiple additional transformer runs would substantially increase computation."
+        },
+        {
+            "experiment_id": "A01",
+            "experiment": "Alternate sequence length",
+            "status": "Proposed deferral",
+            "rationale": "Existing token-length diagnostics are available. Additional training is resource dependent."
+        },
+        {
+            "experiment_id": "A02",
+            "experiment": "Rare-preserving sampling",
+            "status": "Proposed omission",
+            "rationale": "Optional experiment; prioritize full-data scaling and mandatory downstream evaluation."
+        },
+        {
+            "experiment_id": "A03",
+            "experiment": "Model ensemble",
+            "status": "Proposed deferral",
+            "rationale": "Prioritize individually reproducible models and essential evaluation deliverables."
+        },
+        {
+            "experiment_id": "TH01",
+            "experiment": "Threshold stability analysis",
+            "status": "Planned",
+            "rationale": "Investigate sensitivity of validation-derived thresholds, particularly for rare labels."
+        },
+        {
+            "experiment_id": "FR01",
+            "experiment": "Final model and threshold freeze",
+            "status": "Required",
+            "rationale": "Finalize model selection and evaluation roster before official test access."
+        }
+    ],
+    "estimated_full_transformer_training_minutes": 77.90735993632505,
+    "resource_driven_revisions_finalized": false,
+    "official_test_used": false,
+    "final_project_model_frozen": false
+}

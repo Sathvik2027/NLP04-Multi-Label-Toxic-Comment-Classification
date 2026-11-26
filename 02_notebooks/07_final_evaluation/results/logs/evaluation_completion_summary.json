@@ -1,0 +1,482 @@
+{
+    "status": "Completed",
+    "notebook": "07_final_evaluation",
+    "frozen_manifest_path": "02_notebooks/06_model_optimization/results/configs/frozen_manifest.json",
+    "frozen_manifest_sha256": "229adb5d6166a626f6b7f7fddecf38b4de58d21e56ec4367465ad29174ef2fd1",
+    "test_dataset_path": "01_data/processed/test_official.parquet",
+    "test_dataset_sha256": "cddc70d876b48b9fe3d5db8109a740430a7f4d9f50f9fcd77f4c7d566035f328",
+    "primary_selected_run_id": "S02_ROBERTA_FOCAL_FULL_S42",
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "selected_models": {
+        "primary_model": "S02_ROBERTA_FOCAL_FULL_S42",
+        "representative_transformer": "T06_FOCAL_S42",
+        "lightweight_transformer": "T03_FOCAL_S42",
+        "best_classical": "S01_LR_COMBINED_BALANCED_FULL_S42",
+        "representative_classical": "LR_COMBINED_BALANCED_S42",
+        "secondary_classical": "SVM_COMBINED_BASELINE_S42"
+    },
+    "evaluation_roster": [
+        "S02_ROBERTA_FOCAL_FULL_S42",
+        "T06_FOCAL_S42",
+        "T03_FOCAL_S42",
+        "T05_WBCE_S42",
+        "T02_WBCE_S42",
+        "T04_BCE_S42",
+        "T01_BCE_S42",
+        "S01_LR_COMBINED_BALANCED_FULL_S42",
+        "LR_COMBINED_BALANCED_S42",
+        "SVM_COMBINED_BASELINE_S42",
+        "SVM_COMBINED_BALANCED_S42",
+        "SVM_CHAR_BASELINE_S42",
+        "LR_COMBINED_BASELINE_S42",
+        "LR_CHAR_BASELINE_S42",
+        "SVM_WORD_BASELINE_S42",
+        "LR_WORD_BASELINE_S42",
+        "RF_WORD_BASELINE_S42",
+        "DT_WORD_BASELINE_S42",
+        "NB_WORD_BASELINE_S42"
+    ],
+    "evaluated_configurations": 19,
+    "test_samples_per_run": 63978,
+    "test_groups": 63939,
+    "aggregate_metric_records": 38,
+    "per_label_metric_records": 228,
+    "verified_prediction_artifacts": 19,
+    "verified_figures": 6,
+    "bootstrap_replicates": 1000,
+    "bootstrap_model_count": 4,
+    "bootstrap_interval_records": 84,
+    "paired_interval_records": 9,
+    "primary_test_macro_ap": 0.6856695753277614,
+    "primary_test_macro_roc_auc": 0.9854664604658824,
+    "primary_test_optimized_macro_f1": 0.6176106064324819,
+    "primary_test_optimized_micro_f1": 0.6829859838122903,
+    "primary_confidence_intervals": {
+        "Macro AP": {
+            "lower": 0.6698642066519325,
+            "upper": 0.7025514028931155
+        },
+        "Macro F1": {
+            "lower": 0.6057586267356802,
+            "upper": 0.6288580463565101
+        },
+        "Micro F1": {
+            "lower": 0.6760297127125201,
+            "upper": 0.6896811389060784
+        }
+    },
+    "prediction_index_path": "02_notebooks/07_final_evaluation/results/tables/test_prediction_index.csv",
+    "prediction_index_sha256": "c7096a87e7865508c71f17dd5a33bcb5bf4c13b077568f9555aafdb0d0a00213",
+    "artifact_inventory": [
+        {
+            "path": "02_notebooks/07_final_evaluation/results/logs/test_metrics_summary.json",
+            "sha256": "77a250e065dfca741f403da4de5a6d2b1c893ebd4aaa38d0d992e590ee499ce1",
+            "size_bytes": 3739
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/logs/test_figures_summary.json",
+            "sha256": "da61579e11b1ff46be60920eb77c4aaea4298b7448d3354fa0f81bc2b5260a41",
+            "size_bytes": 2283
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/logs/test_bootstrap_summary.json",
+            "sha256": "a34efc3f08caa4980eb7bd61f065bd81c490d5cdf8150a966f49cec3a84e4d3f",
+            "size_bytes": 3529
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_aggregate_metrics.csv",
+            "sha256": "d1360e0b5a0d3eb5c4d3e898290909bf9fb7f4e6241fe21b371f355f97ad4447",
+            "size_bytes": 13714
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_per_label_metrics.csv",
+            "sha256": "29eae950647687dfd19c77e761c25a2d18c02c8e40971b2f54bbc58de30f25d4",
+            "size_bytes": 72185
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_confusion_counts.csv",
+            "sha256": "05ed1080e4668ad77ff77b9c74c386cc90e2f2c8dd659cd332f29ed71f4e1393",
+            "size_bytes": 27211
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_threshold_effect.csv",
+            "sha256": "636d3561126f4d16a6bd3439002e81466e6a334dcfc2a9f3b5d3c8259b13cf75",
+            "size_bytes": 11511
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_per_label_threshold_effect.csv",
+            "sha256": "37a1ff115ec4c6048383d816971501183c150f65943efdfc7275143b8cbbea0c",
+            "size_bytes": 48390
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_model_comparison.csv",
+            "sha256": "2ff9febd5bababea9eb525cdcd69e9f0b24f2887afc482b57d554162712bc6b2",
+            "size_bytes": 8570
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_runtime_model_size.csv",
+            "sha256": "7fbca120007e5de5062ef2945a137801033b833f65ca3338770dcf9ce50d4a04",
+            "size_bytes": 4968
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_prediction_index.csv",
+            "sha256": "c7096a87e7865508c71f17dd5a33bcb5bf4c13b077568f9555aafdb0d0a00213",
+            "size_bytes": 4090
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/logs/classical_test_inference_summary.json",
+            "sha256": "b6dc435167f039d89aa94d5795b3bd032b1e5db2c5994e135db032c4b3a351fa",
+            "size_bytes": 16657
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/logs/transformer_test_inference_summary.json",
+            "sha256": "82c8725677f150579962a344391ea3963aa948e6ccbd0d8ec387f9fc383c514c",
+            "size_bytes": 13200
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_matched_research_comparisons.csv",
+            "sha256": "ead9edc4177461b8f3a6ef679c8276d2778f36d2c178ec3e15d514236f5fad77",
+            "size_bytes": 2273
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_bootstrap_intervals.csv",
+            "sha256": "5d71fb4d58e93450d0cb1286be4cfacae0f65d08b3ee65b42c0cd00f15594aa5",
+            "size_bytes": 8702
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_bootstrap_replicates.csv",
+            "sha256": "f111e859e997e4bfcba5b389ff07a6eac2df5d89000ac074909ffa1c1c59d32c",
+            "size_bytes": 1687858
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_paired_bootstrap_intervals.csv",
+            "sha256": "e366d088bad3ba0f57861c72eb9592c0f57707cc7ce77cd439639645dabdab2e",
+            "size_bytes": 1267
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/configs/evaluation_setup.json",
+            "sha256": "386625c1088aa26517058cd1e0e965f576d59cc1c3a662ca7a949ef8cab7e1b3",
+            "size_bytes": 2140
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_bootstrap_groups.csv",
+            "sha256": "978ca4066885a5e5ebedbbfb89f9ec25e6a3d36ecec766e69ab2650e179be2d1",
+            "size_bytes": 1833158
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/configs/transformer_test_tokenization.json",
+            "sha256": "7ffadc4dcc2c416a13846948b1cbd18a46d3a8ca4e46dd8f8e911c287e78eb23",
+            "size_bytes": 4751
+        },
+        {
+            "path": "01_data/tokenized/official_test_frozen/roberta_test_583d23b9261fa119.parquet",
+            "sha256": "a31cec2b321c651a57d54c6d1eac0f7411b46c6e7d215f882de867917eef2d04",
+            "size_bytes": 10071414
+        },
+        {
+            "path": "01_data/tokenized/official_test_frozen/roberta_test_583d23b9261fa119.json",
+            "sha256": "7d8f5b382a7c0e6b30761f011a8822367c2942d251e2a7db51e7935e08214f49",
+            "size_bytes": 1101
+        },
+        {
+            "path": "01_data/tokenized/official_test_frozen/roberta_test_06ff66bcf419aadf.parquet",
+            "sha256": "a31cec2b321c651a57d54c6d1eac0f7411b46c6e7d215f882de867917eef2d04",
+            "size_bytes": 10071414
+        },
+        {
+            "path": "01_data/tokenized/official_test_frozen/roberta_test_06ff66bcf419aadf.json",
+            "sha256": "7a2db6aaca73067e6f006422bdb84552183e79696c77f11a0e980cbf926b886d",
+            "size_bytes": 1100
+        },
+        {
+            "path": "01_data/tokenized/official_test_frozen/distilbert_test_1726faa9076d294b.parquet",
+            "sha256": "945af673cca15b41724c8efa0e1ad9681611b563924dd898b65b868a1a7dd9b4",
+            "size_bytes": 9323426
+        },
+        {
+            "path": "01_data/tokenized/official_test_frozen/distilbert_test_1726faa9076d294b.json",
+            "sha256": "56f3a7f1e860c3a0ee0de5d2c4e42d9cc503b8eeac30d0052d7b641ae8230fb0",
+            "size_bytes": 1111
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/S01_LR_COMBINED_BALANCED_FULL_S42/inference_summary.json",
+            "sha256": "1bd826e158d4cb3b81de5e9dc28dc64c941799b7602c8f6bd8359a2f15e3be2a",
+            "size_bytes": 1061
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/LR_COMBINED_BALANCED_S42/inference_summary.json",
+            "sha256": "096fc6b663fb87d3302207a478e0dc56cf2063294ba958dd39cecdc90a0a6ca9",
+            "size_bytes": 1159
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/SVM_COMBINED_BASELINE_S42/inference_summary.json",
+            "sha256": "7ce6bfdd6fe775b7df5a8c7449b7ebf3b7e1efc332725d930c03c533ab4ae45e",
+            "size_bytes": 1157
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/SVM_COMBINED_BALANCED_S42/inference_summary.json",
+            "sha256": "ae2c457e537309f5e101eb2f9b0c7fb10dffc902fd19756ba81c275707cfc4ce",
+            "size_bytes": 1156
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/SVM_CHAR_BASELINE_S42/inference_summary.json",
+            "sha256": "5ded21f1c13f5651f2d3bb0e812f6a86053121ec657cdd6276db6fb94b9d1c23",
+            "size_bytes": 1068
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/LR_COMBINED_BASELINE_S42/inference_summary.json",
+            "sha256": "abcff772b25feee8743414eaded38beb8bb3dbf52553fe074f5510ef9db6eec0",
+            "size_bytes": 1159
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/LR_CHAR_BASELINE_S42/inference_summary.json",
+            "sha256": "862947fe8ed34dd980442272dc6258fd0abfbfedb3d09c345ae67e3b05a4920c",
+            "size_bytes": 1069
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/SVM_WORD_BASELINE_S42/inference_summary.json",
+            "sha256": "21ae166b47a19261c22b9e2597640f2e9aa2d7c87d9e541c7659c46cbd9012ea",
+            "size_bytes": 1166
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/LR_WORD_BASELINE_S42/inference_summary.json",
+            "sha256": "5c457cae17c34939e54e73c0356d3741aaa1cc8328b17b1e4dc0a7577f15d641",
+            "size_bytes": 1168
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/RF_WORD_BASELINE_S42/inference_summary.json",
+            "sha256": "bda190668ded88c887dde412679fe218d5b25b8652e9c0b77e82bf6c8552cd43",
+            "size_bytes": 1186
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/DT_WORD_BASELINE_S42/inference_summary.json",
+            "sha256": "44ca6e254a5619583765b3aac6c590ffb05b688d1e72c60d3c58e006ef53d714",
+            "size_bytes": 1166
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/NB_WORD_BASELINE_S42/inference_summary.json",
+            "sha256": "14ccc4614ed1c8fd51016eeafb56b55eb69029f8a52b9351ff832ca8d6c9440f",
+            "size_bytes": 1167
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/S02_ROBERTA_FOCAL_FULL_S42/inference_summary.json",
+            "sha256": "dd59650e6450a015653f0129c5d183955a1ab54f7594b1306c7ff8cb6eaefc0d",
+            "size_bytes": 1599
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/T06_FOCAL_S42/inference_summary.json",
+            "sha256": "24e59f06cc87c617fd1526238471c31da7c8061ef2c7a4ae87c102703206c8d9",
+            "size_bytes": 1573
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/T03_FOCAL_S42/inference_summary.json",
+            "sha256": "b42e4455e4e8b99a0fa7edd8929d4d4152a0887663943ec59e86b0824e9f8778",
+            "size_bytes": 1573
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/T05_WBCE_S42/inference_summary.json",
+            "sha256": "9292fb5fca9f89bd02ee78ac065220a7d8bfe7ddbea019b96538043844655c97",
+            "size_bytes": 1566
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/T02_WBCE_S42/inference_summary.json",
+            "sha256": "359d9ea44901d3f65b690879b654095c04416cf8aaa0391c1ebc3c3d4c8a8cf8",
+            "size_bytes": 1571
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/T04_BCE_S42/inference_summary.json",
+            "sha256": "ce1a203d7982ea92a73a4d933cf4b0f91e9cc9e98d0a75cbaec8cdd08cad2d76",
+            "size_bytes": 1569
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/T01_BCE_S42/inference_summary.json",
+            "sha256": "d8207bb0eb6c2860e74faf810b998d7cf120c5f7c32ee1c4d0bbffe90a234870",
+            "size_bytes": 1569
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/S02_ROBERTA_FOCAL_FULL_S42/test_predictions.parquet",
+            "sha256": "9c640a9ed77fcc38976c4cd512b4eabf47fcbf783623e6bd01a9656126b8644b",
+            "size_bytes": 2038713
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/T06_FOCAL_S42/test_predictions.parquet",
+            "sha256": "135a637816d29c719e94fdfb0fdd8ff967e26ef9dad54f5eba84a7993f97ce56",
+            "size_bytes": 2032901
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/T03_FOCAL_S42/test_predictions.parquet",
+            "sha256": "5a8df520e3cf6ab9d441c4501539f6160409a78a4f780baa498880596548cf43",
+            "size_bytes": 2051273
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/T05_WBCE_S42/test_predictions.parquet",
+            "sha256": "18ab03ecde0384301a89195651105ad3e9f0393623ff35daaf62e51a63f1f5e9",
+            "size_bytes": 1970906
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/T02_WBCE_S42/test_predictions.parquet",
+            "sha256": "90d91cd5a98da93faac8a4a39fee45d24f5c7ef4d9ce44ad30efdded6503d0b7",
+            "size_bytes": 2013058
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/T04_BCE_S42/test_predictions.parquet",
+            "sha256": "e6b4baf566780b7f5ee98547dce8c674bb4b79f04ad9f21e9390e9f1bf70befd",
+            "size_bytes": 1914141
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/T01_BCE_S42/test_predictions.parquet",
+            "sha256": "99626e597a33020d03bf61c7678bfcbd009ad2ef9864acd6374d572db78223d6",
+            "size_bytes": 1985228
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/S01_LR_COMBINED_BALANCED_FULL_S42/test_predictions.parquet",
+            "sha256": "358c195c27756bf89ddb486826d785acc69fe7fdc1f7015a4bad78c1a14b5157",
+            "size_bytes": 4342224
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/LR_COMBINED_BALANCED_S42/test_predictions.parquet",
+            "sha256": "be499967527376db94f74e9e324cb70fd4d46c02d7e84be7a9ba1643091bf563",
+            "size_bytes": 4340848
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/SVM_COMBINED_BASELINE_S42/test_predictions.parquet",
+            "sha256": "5e0eea0a10f0579c9ce9df315434b0019ebe1596cf02e142f8fe78a4566cb93f",
+            "size_bytes": 4313913
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/SVM_COMBINED_BALANCED_S42/test_predictions.parquet",
+            "sha256": "f8cd1c75720e805c21956887a2e1ae4ab412903afc9341c22203387409447fd4",
+            "size_bytes": 4345548
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/SVM_CHAR_BASELINE_S42/test_predictions.parquet",
+            "sha256": "dbb9a201cb73cbba1cfac7f54ededbd2b8ae8d6d95d4bc273f711189667bd869",
+            "size_bytes": 4318580
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/LR_COMBINED_BASELINE_S42/test_predictions.parquet",
+            "sha256": "5fd3146f1a18695039513a68a2fdb5791bc68008a406d612ad2ac10f11a882db",
+            "size_bytes": 4324029
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/LR_CHAR_BASELINE_S42/test_predictions.parquet",
+            "sha256": "835c2824c8ced0e33c7bd67fc33aaeb322b4d74c8b7f762a8fa23b8b8b8b7120",
+            "size_bytes": 4324375
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/SVM_WORD_BASELINE_S42/test_predictions.parquet",
+            "sha256": "3cdbd09f81ea5c896f23d97004f998b2d26c6ba8774c0c7e6f8712ac4a2522fe",
+            "size_bytes": 4240274
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/LR_WORD_BASELINE_S42/test_predictions.parquet",
+            "sha256": "179502013483004948f3c3cabada3b70fcf3cb6f33a18fa5505484037da262df",
+            "size_bytes": 4256356
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/RF_WORD_BASELINE_S42/test_predictions.parquet",
+            "sha256": "1f639f29f8d7c75ed239fb71729b7c26a95d2ac5a9bbfbd486751d6dbdf47326",
+            "size_bytes": 3454548
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/DT_WORD_BASELINE_S42/test_predictions.parquet",
+            "sha256": "0a74cbc559a435d5bef05d14e486ff8e9c9ed78dbd7027197788934d21203139",
+            "size_bytes": 784708
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/predictions/NB_WORD_BASELINE_S42/test_predictions.parquet",
+            "sha256": "c2c2154bd6c0d77cce5f66a455a5f26ec3e329449aa4f5ca88872dcdc4d295ce",
+            "size_bytes": 4291469
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/figures/F01_test_model_comparison.png",
+            "sha256": "d5e42bff712383fea9c7a08754bf358f8a93204fbf48625663dc8c4e6ce3d070",
+            "size_bytes": 294965
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/figures/F02_final_label_precision_recall_F1.png",
+            "sha256": "a13a43dd2b61a9f1e3393006572c99aef8008df7b6845e01cfdf35d6a6a90a76",
+            "size_bytes": 131015
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/figures/F03_final_binary_confusion_matrices.png",
+            "sha256": "2b6b4d37b0340a3885a439854e1d7cc3020d31498b9f138ce3136766cc2b5a35",
+            "size_bytes": 351276
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/figures/F04_final_PR_curves.png",
+            "sha256": "ece18f5a71e340ee6f4f46e3f5bdc5a680691630f4b0be7b13861ad2e2a4eee4",
+            "size_bytes": 298044
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/figures/F05_default_vs_tuned_test.png",
+            "sha256": "b545c0e882d8599ea9d9f3a9f9bbfa35ce6d79d2d69301540048474940246072",
+            "size_bytes": 278156
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/figures/F06_paired_CI.png",
+            "sha256": "148292125c56def8a8c57d2b6623df49a4c7a8b27f93626c4a1a46164c8c6681",
+            "size_bytes": 148613
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_final_verification.csv",
+            "sha256": "b0431781f479d9eef744bbddcb98eccf1bd788760f61a8638d6334d1e1e6f2b7",
+            "size_bytes": 2221
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/official_test_label_support.csv",
+            "sha256": "07022d11051f82b4025a953963d929a62f831a5e4ef8d0d4f439ed82db684725",
+            "size_bytes": 282
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/frozen_evaluation_roster.csv",
+            "sha256": "b2df553237b3629abc3a760cbdbd0f317bda47e5b63853d127081a0c2d695c7c",
+            "size_bytes": 2512
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/classical_inference_summary.csv",
+            "sha256": "78e286f3896fbd1163243a529029f9d180cae4577c5e90765b214e97584a456d",
+            "size_bytes": 1523
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/transformer_inference_summary.csv",
+            "sha256": "1261dd3a84e949cea5cd20496eba5fd38ae73514dd2e74a7cf3fc23b4e08fa33",
+            "size_bytes": 1050
+        },
+        {
+            "path": "02_notebooks/06_model_optimization/results/configs/frozen_manifest.json",
+            "sha256": "229adb5d6166a626f6b7f7fddecf38b4de58d21e56ec4367465ad29174ef2fd1",
+            "size_bytes": 84049
+        },
+        {
+            "path": "00_config/experiment_registry.csv",
+            "sha256": "56c39fdf31d63d7907e5c4c5706cbb8118ef79584d5425737bfa0ac9b872a52a",
+            "size_bytes": 12765
+        },
+        {
+            "path": "00_config/project_decisions.csv",
+            "sha256": "8eed94c3ee671455af7b3d116fb3b026a22f5319cfca4c5f8e8d0034955ca0e1",
+            "size_bytes": 20286
+        },
+        {
+            "path": "03_src/evaluation_utils.py",
+            "sha256": "edb5c29b840b5f0fcacd9d9efd1628a8c118f917e65fb20c4f0094a3915da571",
+            "size_bytes": 5161
+        }
+    ],
+    "official_test_evaluated": true,
+    "final_project_model_frozen": true,
+    "thresholds_changed": false,
+    "test_driven_selection_performed": false,
+    "additional_inference_performed": false,
+    "model_training_performed": false,
+    "next_notebook": "08_error_analysis",
+    "completed_at": "2026-11-26T21:09:28.191457+00:00"
+}

@@ -1,0 +1,49 @@
+{
+    "status": "Completed",
+    "frozen_manifest_sha256": "229adb5d6166a626f6b7f7fddecf38b4de58d21e56ec4367465ad29174ef2fd1",
+    "test_dataset_sha256": "cddc70d876b48b9fe3d5db8109a740430a7f4d9f50f9fcd77f4c7d566035f328",
+    "primary_selected_run_id": "S02_ROBERTA_FOCAL_FULL_S42",
+    "metrics_summary_sha256": "77a250e065dfca741f403da4de5a6d2b1c893ebd4aaa38d0d992e590ee499ce1",
+    "primary_predictions_sha256": "9c640a9ed77fcc38976c4cd512b4eabf47fcbf783623e6bd01a9656126b8644b",
+    "figures": [
+        {
+            "path": "02_notebooks/07_final_evaluation/results/figures/F01_test_model_comparison.png",
+            "sha256": "d5e42bff712383fea9c7a08754bf358f8a93204fbf48625663dc8c4e6ce3d070",
+            "size_bytes": 294965,
+            "dpi": 300
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/figures/F02_final_label_precision_recall_F1.png",
+            "sha256": "a13a43dd2b61a9f1e3393006572c99aef8008df7b6845e01cfdf35d6a6a90a76",
+            "size_bytes": 131015,
+            "dpi": 300
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/figures/F03_final_binary_confusion_matrices.png",
+            "sha256": "2b6b4d37b0340a3885a439854e1d7cc3020d31498b9f138ce3136766cc2b5a35",
+            "size_bytes": 351276,
+            "dpi": 300
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/figures/F04_final_PR_curves.png",
+            "sha256": "ece18f5a71e340ee6f4f46e3f5bdc5a680691630f4b0be7b13861ad2e2a4eee4",
+            "size_bytes": 298044,
+            "dpi": 300
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/figures/F05_default_vs_tuned_test.png",
+            "sha256": "b545c0e882d8599ea9d9f3a9f9bbfa35ce6d79d2d69301540048474940246072",
+            "size_bytes": 278156,
+            "dpi": 300
+        }
+    ],
+    "matched_comparison_table": {
+        "path": "02_notebooks/07_final_evaluation/results/tables/test_matched_research_comparisons.csv",
+        "sha256": "ead9edc4177461b8f3a6ef679c8276d2778f36d2c178ec3e15d514236f5fad77",
+        "rows": 9
+    },
+    "thresholds_changed": false,
+    "test_driven_selection_performed": false,
+    "additional_inference_performed": false,
+    "model_training_performed": false
+}

@@ -1,0 +1,23 @@
+{
+    "run_id": "S02_ROBERTA_FOCAL_FULL_S42",
+    "reference_run_id": "T06_FOCAL_S42",
+    "training_samples": 127628,
+    "validation_samples": 31911,
+    "training_dataset_sha256": "a0a6bbe3e2a140cfb41276161187ea1420bd04ea74dfbf9c031613e074ea445f",
+    "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+    "training_token_cache_path": "01_data/tokenized/roberta/train_full_s02_f0b2db07541ba479.parquet",
+    "training_token_cache_sha256": "31f2848abde12ec24db19f2d7bc8ff6437a265115ed630491f9ce78ed6fd6d4e",
+    "validation_token_cache_path": "01_data/tokenized/roberta/validation_efb7ab45babccd87.parquet",
+    "validation_token_cache_sha256": "2b563e308d28d62163101c2b1796dde6dd86b65d340b0a3ccfc9b9410c8764eb",
+    "cache_manifest_path": "01_data/tokenized/roberta/train_full_s02_f0b2db07541ba479.json",
+    "cache_manifest_sha256": "5f9374b8cd2aa8766cf0f6e8250c347b9e2582b0d6130fd122252e54c53664a2",
+    "reference_config_sha256": "682024fd9f2005ac36b7b273570bd415048d6694185523901c0e6d72fa8afebb",
+    "shared_initialization_path": "04_models/roberta/shared_initialization_s42",
+    "maximum_length": 256,
+    "padding_multiple": 8,
+    "historical_tokenizer_checks": 512,
+    "full_cache_tokenization_checks": 256,
+    "validation_cache_reused": true,
+    "training_validation_overlap": 0,
+    "official_test_used": false
+}

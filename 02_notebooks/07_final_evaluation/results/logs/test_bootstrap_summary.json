@@ -1,0 +1,74 @@
+{
+    "status": "Completed",
+    "frozen_manifest_sha256": "229adb5d6166a626f6b7f7fddecf38b4de58d21e56ec4367465ad29174ef2fd1",
+    "test_dataset_sha256": "cddc70d876b48b9fe3d5db8109a740430a7f4d9f50f9fcd77f4c7d566035f328",
+    "primary_selected_run_id": "S02_ROBERTA_FOCAL_FULL_S42",
+    "run_ids": [
+        "S02_ROBERTA_FOCAL_FULL_S42",
+        "T06_FOCAL_S42",
+        "T03_FOCAL_S42",
+        "S01_LR_COMBINED_BALANCED_FULL_S42"
+    ],
+    "bootstrap_replicates": 1000,
+    "bootstrap_seed": 42,
+    "test_samples": 63978,
+    "test_groups": 63939,
+    "group_manifest_sha256": "978ca4066885a5e5ebedbbfb89f9ec25e6a3d36ecec766e69ab2650e179be2d1",
+    "resampling_unit": "normalized_text_group",
+    "shared_draws_across_models": true,
+    "operating_point": "frozen_optimized",
+    "interval_method": "percentile_95",
+    "weighted_ap_verification_checks": 48,
+    "metrics_summary_sha256": "77a250e065dfca741f403da4de5a6d2b1c893ebd4aaa38d0d992e590ee499ce1",
+    "figures_summary_sha256": "da61579e11b1ff46be60920eb77c4aaea4298b7448d3354fa0f81bc2b5260a41",
+    "prediction_sources": [
+        {
+            "run_id": "S02_ROBERTA_FOCAL_FULL_S42",
+            "path": "02_notebooks/07_final_evaluation/results/predictions/S02_ROBERTA_FOCAL_FULL_S42/test_predictions.parquet",
+            "sha256": "9c640a9ed77fcc38976c4cd512b4eabf47fcbf783623e6bd01a9656126b8644b"
+        },
+        {
+            "run_id": "T06_FOCAL_S42",
+            "path": "02_notebooks/07_final_evaluation/results/predictions/T06_FOCAL_S42/test_predictions.parquet",
+            "sha256": "135a637816d29c719e94fdfb0fdd8ff967e26ef9dad54f5eba84a7993f97ce56"
+        },
+        {
+            "run_id": "T03_FOCAL_S42",
+            "path": "02_notebooks/07_final_evaluation/results/predictions/T03_FOCAL_S42/test_predictions.parquet",
+            "sha256": "5a8df520e3cf6ab9d441c4501539f6160409a78a4f780baa498880596548cf43"
+        },
+        {
+            "run_id": "S01_LR_COMBINED_BALANCED_FULL_S42",
+            "path": "02_notebooks/07_final_evaluation/results/predictions/S01_LR_COMBINED_BALANCED_FULL_S42/test_predictions.parquet",
+            "sha256": "358c195c27756bf89ddb486826d785acc69fe7fdc1f7015a4bad78c1a14b5157"
+        }
+    ],
+    "scope": "Primary and three validation-selected comparators; conditional on fixed trained models; not seed variation or multiplicity-adjusted inference.",
+    "elapsed_seconds": 31.35848927799998,
+    "artifacts": [
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_bootstrap_intervals.csv",
+            "sha256": "5d71fb4d58e93450d0cb1286be4cfacae0f65d08b3ee65b42c0cd00f15594aa5",
+            "rows": 84
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_bootstrap_replicates.csv",
+            "sha256": "f111e859e997e4bfcba5b389ff07a6eac2df5d89000ac074909ffa1c1c59d32c",
+            "rows": 4000
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_paired_bootstrap_intervals.csv",
+            "sha256": "e366d088bad3ba0f57861c72eb9592c0f57707cc7ce77cd439639645dabdab2e",
+            "rows": 9
+        }
+    ],
+    "figure": {
+        "path": "02_notebooks/07_final_evaluation/results/figures/F06_paired_CI.png",
+        "sha256": "148292125c56def8a8c57d2b6623df49a4c7a8b27f93626c4a1a46164c8c6681",
+        "dpi": 300
+    },
+    "thresholds_changed": false,
+    "test_driven_selection_performed": false,
+    "additional_inference_performed": false,
+    "model_training_performed": false
+}

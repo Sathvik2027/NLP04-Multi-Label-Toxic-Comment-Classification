@@ -1,0 +1,89 @@
+{
+    "run_id": "S01_LR_COMBINED_BALANCED_FULL_S42",
+    "reference_run_id": "LR_COMBINED_BALANCED_S42",
+    "model": "Logistic Regression",
+    "classification_strategy": "One-vs-Rest",
+    "feature_representation": "combined_tfidf",
+    "sampling_strategy": "full_training_partition",
+    "class_weight": "balanced",
+    "seed": 42,
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "training_samples": 127628,
+    "validation_samples": 31911,
+    "feature_budget": 50000,
+    "word_features": 25000,
+    "character_features": 25000,
+    "combined_normalization": "l2",
+    "estimator_parameters": {
+        "C": 1.0,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1.0,
+        "l1_ratio": null,
+        "max_iter": 1000,
+        "multi_class": "deprecated",
+        "n_jobs": null,
+        "penalty": "l2",
+        "random_state": 42,
+        "solver": "liblinear",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+    },
+    "wrapper_parameters": {
+        "n_jobs": 1,
+        "verbose": 0
+    },
+    "original_model_configuration_matched": true,
+    "trained_from_scratch": true,
+    "vectorizers_refitted_on_full_training": true,
+    "training_dataset_sha256": "a0a6bbe3e2a140cfb41276161187ea1420bd04ea74dfbf9c031613e074ea445f",
+    "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+    "evaluation_module_sha256": "edb5c29b840b5f0fcacd9d9efd1628a8c118f917e65fb20c4f0094a3915da571",
+    "feature_manifest_path": "04_models/optimization/S01_LR_COMBINED_BALANCED_FULL_S42/vectorizers/feature_manifest.json",
+    "feature_manifest_sha256": "dedf993c106f140beb4e6b94a1dc3463d6e555cbc0165319c246e0000b8afa3b",
+    "feature_dependencies": {
+        "word": {
+            "path": "04_models/optimization/S01_LR_COMBINED_BALANCED_FULL_S42/vectorizers/full_word_tfidf.joblib",
+            "sha256": "c865376b7e260c22c9ea0d6a4fc8267d7cade205eb41e76d85975800a708269d",
+            "size_bytes": 287534,
+            "features": 25000,
+            "analyzer": "word",
+            "ngram_range": [
+                1,
+                2
+            ],
+            "fit_partition": "train_full",
+            "reload_verified": true
+        },
+        "character": {
+            "path": "04_models/optimization/S01_LR_COMBINED_BALANCED_FULL_S42/vectorizers/full_character_tfidf.joblib",
+            "sha256": "ee55523a5d18283ab7f4f1bc6aa1371b4d33ea806c2d697826d37540983647ed",
+            "size_bytes": 247402,
+            "features": 25000,
+            "analyzer": "char",
+            "ngram_range": [
+                2,
+                5
+            ],
+            "fit_partition": "train_full",
+            "reload_verified": true
+        }
+    },
+    "model_path": "04_models/optimization/S01_LR_COMBINED_BALANCED_FULL_S42/S01_LR_COMBINED_BALANCED_FULL_S42.joblib",
+    "model_sha256": "901d9247dcaf34b64db072aea452c984ff76cb44d7d637b605048af4cfd5d242",
+    "threshold_path": "02_notebooks/06_model_optimization/results/S01_LR_COMBINED_BALANCED_FULL_S42/thresholds.json",
+    "predictions_path": "02_notebooks/06_model_optimization/results/S01_LR_COMBINED_BALANCED_FULL_S42/predictions/validation_predictions.parquet",
+    "start_time": "2026-11-26T08:59:05.494986+00:00",
+    "training_completed": true,
+    "official_test_used": false,
+    "final_project_model_frozen": false
+}

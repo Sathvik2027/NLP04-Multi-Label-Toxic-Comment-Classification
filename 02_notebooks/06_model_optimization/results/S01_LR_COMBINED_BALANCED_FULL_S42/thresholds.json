@@ -1,0 +1,27 @@
+{
+    "run_id": "S01_LR_COMBINED_BALANCED_FULL_S42",
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "score_type": "probability",
+    "default_threshold": 0.5,
+    "optimized_thresholds": {
+        "toxic": 0.7215107592239279,
+        "severe_toxic": 0.8764488130431585,
+        "obscene": 0.7687907749125665,
+        "threat": 0.9010586135175657,
+        "insult": 0.8063106555818742,
+        "identity_hate": 0.8817682827509803
+    },
+    "selection_partition": "validation",
+    "optimization_metric": "per_label_f1",
+    "comparison_operator": ">=",
+    "tie_breaking": "highest_threshold",
+    "probability_calibration_established": false,
+    "official_test_used": false
+}

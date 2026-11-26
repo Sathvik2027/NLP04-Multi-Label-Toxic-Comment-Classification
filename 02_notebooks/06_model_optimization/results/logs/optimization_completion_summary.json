@@ -1,0 +1,20 @@
+{
+    "status": "Completed",
+    "frozen_manifest_path": "02_notebooks/06_model_optimization/results/configs/frozen_manifest.json",
+    "frozen_manifest_sha256": "229adb5d6166a626f6b7f7fddecf38b4de58d21e56ec4367465ad29174ef2fd1",
+    "primary_selected_run_id": "S02_ROBERTA_FOCAL_FULL_S42",
+    "completed_experiments": 19,
+    "methodological_decisions": 74,
+    "test_evaluation_roster_size": 19,
+    "deferred_experiments": [
+        "S03",
+        "R01",
+        "A01",
+        "A02",
+        "A03"
+    ],
+    "classical_models_with_new_fingerprint_only": [],
+    "additional_training_performed": false,
+    "official_test_dataset_loaded": false,
+    "final_project_model_frozen": true
+}

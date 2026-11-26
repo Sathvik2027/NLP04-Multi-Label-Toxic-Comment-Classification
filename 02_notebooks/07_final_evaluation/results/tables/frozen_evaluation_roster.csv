@@ -1,0 +1,20 @@
+Validation Rank,Run ID,Model,Kind,Training Samples,Score Type,Default Threshold,Validation Macro AP,Validation Optimized Macro F1,Primary Selected Model
+1,S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,transformer,127628,sigmoid_probability,0.5,0.7538578807287251,0.7125811449210007,True
+2,T06_FOCAL_S42,RoBERTa,transformer,59997,sigmoid_probability,0.5,0.7455174744043997,0.7092974931143664,False
+3,T03_FOCAL_S42,DistilBERT,transformer,59997,sigmoid_probability,0.5,0.726281932053619,0.7018115905383522,False
+4,T05_WBCE_S42,RoBERTa,transformer,59997,sigmoid_probability,0.5,0.7260484665925371,0.7131289226386297,False
+5,T02_WBCE_S42,DistilBERT,transformer,59997,sigmoid_probability,0.5,0.7252863053795781,0.7076177533555285,False
+6,T04_BCE_S42,RoBERTa,transformer,59997,sigmoid_probability,0.5,0.7037568654939065,0.6796747683598134,False
+7,T01_BCE_S42,DistilBERT,transformer,59997,sigmoid_probability,0.5,0.7005392868491972,0.6840238694926127,False
+8,S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,classical,127628,probability,0.5,0.6837464844947134,0.6732688096055229,False
+9,LR_COMBINED_BALANCED_S42,Logistic Regression,classical,59997,positive_class_probability,0.5,0.6717869571208382,0.6597541306503194,False
+10,SVM_COMBINED_BASELINE_S42,Linear SVM,classical,59997,signed_decision_margin,0.0,0.6625052302891224,0.6568993696927908,False
+11,SVM_COMBINED_BALANCED_S42,Linear SVM,classical,59997,signed_decision_margin,0.0,0.6595813831119344,0.6507587577026327,False
+12,SVM_CHAR_BASELINE_S42,Linear SVM,classical,59997,signed_decision_margin,0.0,0.6573624504317164,0.6508509125518712,False
+13,LR_COMBINED_BASELINE_S42,Logistic Regression,classical,59997,positive_class_probability,0.5,0.647109426819818,0.6335140646594128,False
+14,LR_CHAR_BASELINE_S42,Logistic Regression,classical,59997,positive_class_probability,0.5,0.6406564250892096,0.6247572234823523,False
+15,SVM_WORD_BASELINE_S42,Linear SVM,classical,59997,signed_decision_margin,0.0,0.632156277284737,0.6321241383970296,False
+16,LR_WORD_BASELINE_S42,Logistic Regression,classical,59997,positive_class_probability,0.5,0.6174067347198421,0.610824439139666,False
+17,RF_WORD_BASELINE_S42,Random Forest,classical,59997,positive_class_probability,0.5,0.5867846413558631,0.586043988735347,False
+18,DT_WORD_BASELINE_S42,Decision Tree,classical,59997,positive_class_probability,0.5,0.42151401074400247,0.5489779082448234,False
+19,NB_WORD_BASELINE_S42,Multinomial Naive Bayes,classical,59997,positive_class_probability,0.5,0.4197496672855093,0.4363428211158023,False

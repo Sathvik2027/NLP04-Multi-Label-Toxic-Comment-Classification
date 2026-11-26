@@ -1,0 +1,17 @@
+{
+    "binding": {
+        "model_manifest_sha256": "34f6f943f451ce7e7691b8fdfeba3e72e120be66021cd78242290cf1ce1f0bac",
+        "validation_scores_sha256": "a2ec7092cee74c19dd58c88c50c042a6d1b35da63dec80c5d3cd6cc9037ccc7c",
+        "run_config_sha256": "2799975d511c185c08f480afcac865fa5362cb601ac82b3582b9f77681cfbba2",
+        "evaluation_module_sha256": "edb5c29b840b5f0fcacd9d9efd1628a8c118f917e65fb20c4f0094a3915da571"
+    },
+    "verification": "Passed",
+    "model_state_exact_match": true,
+    "tokenizer_verified": true,
+    "validation_rows": 31911,
+    "maximum_logit_reload_error": 0.0,
+    "maximum_probability_reload_error": 0.0,
+    "reload_macro_ap_difference": 0.0,
+    "validation_prediction_time_seconds": 112.47767979699893,
+    "official_test_used": false
+}

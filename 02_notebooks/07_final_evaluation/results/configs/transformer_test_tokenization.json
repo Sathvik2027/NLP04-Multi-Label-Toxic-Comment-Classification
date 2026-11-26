@@ -1,0 +1,98 @@
+{
+    "status": "Completed",
+    "frozen_manifest_sha256": "229adb5d6166a626f6b7f7fddecf38b4de58d21e56ec4367465ad29174ef2fd1",
+    "test_dataset_sha256": "cddc70d876b48b9fe3d5db8109a740430a7f4d9f50f9fcd77f4c7d566035f328",
+    "test_samples": 63978,
+    "tokenizer_groups": 3,
+    "transformer_runs": 7,
+    "run_cache_map": {
+        "S02_ROBERTA_FOCAL_FULL_S42": "583d23b9261fa1193ea67e0dd5ae77a37f8446a4aff5ae065f80495f8d2751b5",
+        "T06_FOCAL_S42": "06ff66bcf419aadfe6ea19bb3fa6f4b5f6b7aa240d2805a4395861013aa1be4f",
+        "T05_WBCE_S42": "06ff66bcf419aadfe6ea19bb3fa6f4b5f6b7aa240d2805a4395861013aa1be4f",
+        "T04_BCE_S42": "06ff66bcf419aadfe6ea19bb3fa6f4b5f6b7aa240d2805a4395861013aa1be4f",
+        "T03_FOCAL_S42": "1726faa9076d294b6c396373c1eebaedff14c34ebd780eae7cc0ab1794c45d04",
+        "T02_WBCE_S42": "1726faa9076d294b6c396373c1eebaedff14c34ebd780eae7cc0ab1794c45d04",
+        "T01_BCE_S42": "1726faa9076d294b6c396373c1eebaedff14c34ebd780eae7cc0ab1794c45d04"
+    },
+    "caches": [
+        {
+            "cache_key": "583d23b9261fa1193ea67e0dd5ae77a37f8446a4aff5ae065f80495f8d2751b5",
+            "backbone": "roberta",
+            "run_ids": [
+                "S02_ROBERTA_FOCAL_FULL_S42"
+            ],
+            "tokenizer_source_run_id": "S02_ROBERTA_FOCAL_FULL_S42",
+            "cache_path": "01_data/tokenized/official_test_frozen/roberta_test_583d23b9261fa119.parquet",
+            "cache_sha256": "a31cec2b321c651a57d54c6d1eac0f7411b46c6e7d215f882de867917eef2d04",
+            "cache_manifest_path": "01_data/tokenized/official_test_frozen/roberta_test_583d23b9261fa119.json",
+            "cache_manifest_sha256": "7d8f5b382a7c0e6b30761f011a8822367c2942d251e2a7db51e7935e08214f49",
+            "cache_size_bytes": 10071414,
+            "tokenization_seconds": 20.820942095999953,
+            "maximum_length": 256,
+            "padding_multiple": 8,
+            "pad_token_id": 1,
+            "min_length": 3,
+            "mean_length": 78.08838975897964,
+            "median_length": 51.0,
+            "p95_length": 256.0,
+            "max_length": 256,
+            "sequences_at_limit": 4653,
+            "tokenization_replay_samples": 256
+        },
+        {
+            "cache_key": "06ff66bcf419aadfe6ea19bb3fa6f4b5f6b7aa240d2805a4395861013aa1be4f",
+            "backbone": "roberta",
+            "run_ids": [
+                "T06_FOCAL_S42",
+                "T05_WBCE_S42",
+                "T04_BCE_S42"
+            ],
+            "tokenizer_source_run_id": "T06_FOCAL_S42",
+            "cache_path": "01_data/tokenized/official_test_frozen/roberta_test_06ff66bcf419aadf.parquet",
+            "cache_sha256": "a31cec2b321c651a57d54c6d1eac0f7411b46c6e7d215f882de867917eef2d04",
+            "cache_manifest_path": "01_data/tokenized/official_test_frozen/roberta_test_06ff66bcf419aadf.json",
+            "cache_manifest_sha256": "7a2db6aaca73067e6f006422bdb84552183e79696c77f11a0e980cbf926b886d",
+            "cache_size_bytes": 10071414,
+            "tokenization_seconds": 23.51013972999999,
+            "maximum_length": 256,
+            "padding_multiple": 8,
+            "pad_token_id": 1,
+            "min_length": 3,
+            "mean_length": 78.08838975897964,
+            "median_length": 51.0,
+            "p95_length": 256.0,
+            "max_length": 256,
+            "sequences_at_limit": 4653,
+            "tokenization_replay_samples": 256
+        },
+        {
+            "cache_key": "1726faa9076d294b6c396373c1eebaedff14c34ebd780eae7cc0ab1794c45d04",
+            "backbone": "distilbert",
+            "run_ids": [
+                "T03_FOCAL_S42",
+                "T02_WBCE_S42",
+                "T01_BCE_S42"
+            ],
+            "tokenizer_source_run_id": "T03_FOCAL_S42",
+            "cache_path": "01_data/tokenized/official_test_frozen/distilbert_test_1726faa9076d294b.parquet",
+            "cache_sha256": "945af673cca15b41724c8efa0e1ad9681611b563924dd898b65b868a1a7dd9b4",
+            "cache_manifest_path": "01_data/tokenized/official_test_frozen/distilbert_test_1726faa9076d294b.json",
+            "cache_manifest_sha256": "56f3a7f1e860c3a0ee0de5d2c4e42d9cc503b8eeac30d0052d7b641ae8230fb0",
+            "cache_size_bytes": 9323426,
+            "tokenization_seconds": 21.592634096999973,
+            "maximum_length": 256,
+            "padding_multiple": 8,
+            "pad_token_id": 0,
+            "min_length": 3,
+            "mean_length": 77.57144643471193,
+            "median_length": 51.0,
+            "p95_length": 256.0,
+            "max_length": 256,
+            "sequences_at_limit": 4457,
+            "tokenization_replay_samples": 256
+        }
+    ],
+    "model_training_performed": false,
+    "model_inference_performed": false,
+    "thresholds_changed": false
+}

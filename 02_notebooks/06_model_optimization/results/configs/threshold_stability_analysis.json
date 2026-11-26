@@ -1,0 +1,86 @@
+{
+    "analysis": "Validation threshold stability",
+    "run_ids": [
+        "S01_LR_COMBINED_BALANCED_FULL_S42",
+        "T03_FOCAL_S42",
+        "T05_WBCE_S42",
+        "T06_FOCAL_S42"
+    ],
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "validation_samples": 31911,
+    "validation_groups": 31857,
+    "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+    "evaluation_module_sha256": "edb5c29b840b5f0fcacd9d9efd1628a8c118f917e65fb20c4f0094a3915da571",
+    "bootstrap_replicates": 200,
+    "bootstrap_seed": 42,
+    "resampling_unit": "normalized_comment_group",
+    "resampling_with_replacement": true,
+    "shared_bootstrap_samples_across_models": true,
+    "optimization_metric": "per_label_f1",
+    "comparison_operator": ">=",
+    "tie_breaking": "highest_threshold",
+    "percentiles": [
+        2.5,
+        25,
+        50,
+        75,
+        97.5
+    ],
+    "optimizer_verification_checks": 24,
+    "summary_records": 24,
+    "bootstrap_records": 4800,
+    "source_artifacts": [
+        {
+            "run_id": "S01_LR_COMBINED_BALANCED_FULL_S42",
+            "predictions_path": "02_notebooks/06_model_optimization/results/S01_LR_COMBINED_BALANCED_FULL_S42/predictions/validation_predictions.parquet",
+            "predictions_sha256": "4678a20ebf3c2f40a556e105d2324864747baf2fd0cf2a92b2c000af3d74caa8",
+            "threshold_path": "02_notebooks/06_model_optimization/results/S01_LR_COMBINED_BALANCED_FULL_S42/thresholds.json",
+            "threshold_sha256": "9ca59ee412ee6dee973d2aba79b05e131c43fe1868ba6f05c091c6b0fddea10f"
+        },
+        {
+            "run_id": "T03_FOCAL_S42",
+            "predictions_path": "02_notebooks/04_distilbert/results/T03_FOCAL_S42/predictions/validation_predictions.parquet",
+            "predictions_sha256": "60d85867eaeba2e75c9a0493727889c2c96d6ec642bd2713fcc3759214d175b1",
+            "threshold_path": "02_notebooks/04_distilbert/results/T03_FOCAL_S42/thresholds.json",
+            "threshold_sha256": "7c88c8e9fac8d078c3a952415c176edb23c9f9f8f4136bff86433fd010f92e3e"
+        },
+        {
+            "run_id": "T05_WBCE_S42",
+            "predictions_path": "02_notebooks/05_roberta/results/T05_WBCE_S42/predictions/validation_predictions.parquet",
+            "predictions_sha256": "1f9799bcae51ee98401e1769be9c578e9a4a7cf65483c07355fbd8e8bdc79d70",
+            "threshold_path": "02_notebooks/05_roberta/results/T05_WBCE_S42/thresholds.json",
+            "threshold_sha256": "3a486397189d59bc59261580f34c3d8c94163976629223aa9b15f3b08c571fcf"
+        },
+        {
+            "run_id": "T06_FOCAL_S42",
+            "predictions_path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/predictions/validation_predictions.parquet",
+            "predictions_sha256": "bb876b228aa11b96706e692f395fa884331b905d56db8faddb025526f88f197e",
+            "threshold_path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/thresholds.json",
+            "threshold_sha256": "f0fd542ec944989d8220115bfd934ef831d1ad36b21db043f0cc7a2905946380"
+        }
+    ],
+    "bootstrap_time_seconds": 16.131374272999892,
+    "original_thresholds_changed": false,
+    "model_training_performed": false,
+    "official_test_used": false,
+    "probability_calibration_established": false,
+    "statistical_superiority_established": false,
+    "interpretation": "Exploratory threshold variability conditional on fixed trained models and the observed validation partition. Does not quantify training-seed variability or independent test performance.",
+    "artifacts": {
+        "summary": {
+            "path": "02_notebooks/06_model_optimization/results/tables/validation_threshold_stability.csv",
+            "sha256": "4bfb92e4a52182197fe1ede494f707c31311e301b07f17d21036bb9ce91bc5e6"
+        },
+        "replicates": {
+            "path": "02_notebooks/06_model_optimization/results/tables/threshold_bootstrap_replicates.csv",
+            "sha256": "7db26684a41c44c2706951495bcd2cb5b50cc3cb80f03089883556475e96472b"
+        }
+    }
+}

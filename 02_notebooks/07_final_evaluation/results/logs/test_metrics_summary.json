@@ -1,0 +1,90 @@
+{
+    "status": "Completed",
+    "frozen_manifest_sha256": "229adb5d6166a626f6b7f7fddecf38b4de58d21e56ec4367465ad29174ef2fd1",
+    "test_dataset_sha256": "cddc70d876b48b9fe3d5db8109a740430a7f4d9f50f9fcd77f4c7d566035f328",
+    "primary_selected_run_id": "S02_ROBERTA_FOCAL_FULL_S42",
+    "evaluated_runs": [
+        "S02_ROBERTA_FOCAL_FULL_S42",
+        "T06_FOCAL_S42",
+        "T03_FOCAL_S42",
+        "T05_WBCE_S42",
+        "T02_WBCE_S42",
+        "T04_BCE_S42",
+        "T01_BCE_S42",
+        "S01_LR_COMBINED_BALANCED_FULL_S42",
+        "LR_COMBINED_BALANCED_S42",
+        "SVM_COMBINED_BASELINE_S42",
+        "SVM_COMBINED_BALANCED_S42",
+        "SVM_CHAR_BASELINE_S42",
+        "LR_COMBINED_BASELINE_S42",
+        "LR_CHAR_BASELINE_S42",
+        "SVM_WORD_BASELINE_S42",
+        "LR_WORD_BASELINE_S42",
+        "RF_WORD_BASELINE_S42",
+        "DT_WORD_BASELINE_S42",
+        "NB_WORD_BASELINE_S42"
+    ],
+    "test_samples_per_run": 63978,
+    "aggregate_records": 38,
+    "per_label_records": 228,
+    "primary_test_macro_ap": 0.6856695753277614,
+    "primary_test_optimized_macro_f1": 0.6176106064324819,
+    "primary_test_optimized_micro_f1": 0.6829859838122903,
+    "inference_sources": [
+        {
+            "path": "02_notebooks/07_final_evaluation/results/logs/classical_test_inference_summary.json",
+            "sha256": "b6dc435167f039d89aa94d5795b3bd032b1e5db2c5994e135db032c4b3a351fa"
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/logs/transformer_test_inference_summary.json",
+            "sha256": "82c8725677f150579962a344391ea3963aa948e6ccbd0d8ec387f9fc383c514c"
+        }
+    ],
+    "artifacts": [
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_aggregate_metrics.csv",
+            "sha256": "d1360e0b5a0d3eb5c4d3e898290909bf9fb7f4e6241fe21b371f355f97ad4447",
+            "rows": 38
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_per_label_metrics.csv",
+            "sha256": "29eae950647687dfd19c77e761c25a2d18c02c8e40971b2f54bbc58de30f25d4",
+            "rows": 228
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_confusion_counts.csv",
+            "sha256": "05ed1080e4668ad77ff77b9c74c386cc90e2f2c8dd659cd332f29ed71f4e1393",
+            "rows": 228
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_threshold_effect.csv",
+            "sha256": "636d3561126f4d16a6bd3439002e81466e6a334dcfc2a9f3b5d3c8259b13cf75",
+            "rows": 19
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_per_label_threshold_effect.csv",
+            "sha256": "37a1ff115ec4c6048383d816971501183c150f65943efdfc7275143b8cbbea0c",
+            "rows": 114
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_model_comparison.csv",
+            "sha256": "2ff9febd5bababea9eb525cdcd69e9f0b24f2887afc482b57d554162712bc6b2",
+            "rows": 19
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_runtime_model_size.csv",
+            "sha256": "7fbca120007e5de5062ef2945a137801033b833f65ca3338770dcf9ce50d4a04",
+            "rows": 19
+        },
+        {
+            "path": "02_notebooks/07_final_evaluation/results/tables/test_prediction_index.csv",
+            "sha256": "c7096a87e7865508c71f17dd5a33bcb5bf4c13b077568f9555aafdb0d0a00213",
+            "rows": 19
+        }
+    ],
+    "test_driven_selection_performed": false,
+    "thresholds_changed": false,
+    "model_training_performed": false,
+    "additional_inference_performed": false,
+    "bootstrap_intervals_completed": false
+}

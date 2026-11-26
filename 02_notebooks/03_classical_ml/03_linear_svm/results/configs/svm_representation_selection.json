@@ -1,0 +1,17 @@
+{
+    "model": "Linear SVM",
+    "selection_partition": "validation",
+    "selection_metric": "macro_average_precision",
+    "secondary_metric": "optimized_macro_f1",
+    "selected_run_id": "SVM_COMBINED_BASELINE_S42",
+    "selected_representation": "combined_tfidf",
+    "selected_macro_ap": 0.6625052302891224,
+    "selected_optimized_macro_f1": 0.6568993696927908,
+    "macro_ap_gain_over_word": 0.03034895300438545,
+    "macro_ap_gain_over_runner_up": 0.005142779857406077,
+    "feature_budget": 50000,
+    "score_type": "signed_decision_margin",
+    "statistical_significance_established": false,
+    "next_experiment": "balanced_class_weight",
+    "official_test_used": false
+}

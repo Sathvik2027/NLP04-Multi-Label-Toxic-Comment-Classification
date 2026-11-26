@@ -1,0 +1,27 @@
+{
+    "run_id": "SVM_COMBINED_BASELINE_S42",
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "score_type": "signed_decision_margin",
+    "default_threshold": 0.0,
+    "optimized_thresholds": {
+        "toxic": -0.15441320520953838,
+        "severe_toxic": -0.3431693781273768,
+        "obscene": -0.3343644970920643,
+        "threat": -0.3669490043582433,
+        "insult": -0.33011002176215576,
+        "identity_hate": -0.342506597463645
+    },
+    "selection_partition": "validation",
+    "optimization_metric": "per_label_f1",
+    "tie_breaking": "highest_threshold",
+    "comparison_operator": ">=",
+    "probability_calibration": false,
+    "official_test_used": false
+}

@@ -1,0 +1,20 @@
+{
+    "analyzer": "char",
+    "ngram_range": [
+        2,
+        5
+    ],
+    "min_df": 2,
+    "max_df": 1.0,
+    "max_features": 50000,
+    "lowercase": true,
+    "sublinear_tf": true,
+    "use_idf": true,
+    "smooth_idf": true,
+    "norm": "l2",
+    "dtype": "float32",
+    "actual_features": 50000,
+    "training_samples": 59997,
+    "fit_time_seconds": 70.38760238200007,
+    "validation_transform_time_seconds": 32.50015088800001
+}

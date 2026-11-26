@@ -1,0 +1,71 @@
+{
+    "notebook": "03_classical_ml/02_logistic_regression",
+    "model": "Logistic Regression",
+    "classification_strategy": "One-vs-Rest",
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "num_labels": 6,
+    "seed": 42,
+    "training_samples": 59997,
+    "validation_samples": 31911,
+    "sampling_strategy": "representative",
+    "feature_budget": 50000,
+    "model_parameters": {
+        "solver": "liblinear",
+        "penalty": "l2",
+        "C": 1.0,
+        "dual": false,
+        "tol": 0.0001,
+        "max_iter": 1000,
+        "fit_intercept": true,
+        "intercept_scaling": 1.0,
+        "class_weight": null,
+        "random_state": 42
+    },
+    "wrapper_parameters": {
+        "n_jobs": 1
+    },
+    "experiments": [
+        {
+            "run_id": "LR_WORD_BASELINE_S42",
+            "representation": "word_tfidf",
+            "class_weight": null,
+            "purpose": "Common word-based baseline"
+        },
+        {
+            "run_id": "LR_CHAR_BASELINE_S42",
+            "representation": "character_tfidf",
+            "class_weight": null,
+            "purpose": "Character representation comparison"
+        },
+        {
+            "run_id": "LR_COMBINED_BASELINE_S42",
+            "representation": "combined_tfidf",
+            "class_weight": null,
+            "purpose": "Combined representation comparison"
+        }
+    ],
+    "score_type": "positive_class_probability",
+    "default_threshold": 0.5,
+    "primary_selection_metric": "macro_average_precision",
+    "threshold_optimization_metric": "per_label_f1",
+    "threshold_tie_breaking": "highest_threshold",
+    "weighted_experiment": {
+        "class_weight": "balanced",
+        "representation_selection": "validation_macro_ap",
+        "other_parameters": "unchanged",
+        "status": "planned"
+    },
+    "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+    "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+    "feature_manifest_sha256": "c29f9ecc1d9a81edb3ed2b36b4fc59c5f61d56f70831f350639612c85f9ded88",
+    "evaluation_module_sha256": "edb5c29b840b5f0fcacd9d9efd1628a8c118f917e65fb20c4f0094a3915da571",
+    "sklearn_version": "1.6.1",
+    "official_test_used": false
+}

@@ -1,0 +1,46 @@
+{
+    "run_id": "LR_COMBINED_BALANCED_S42",
+    "notebook": "03_classical_ml/02_logistic_regression",
+    "model": "Logistic Regression",
+    "feature_representation": "combined_tfidf",
+    "feature_count": 50000,
+    "classification_strategy": "One-vs-Rest",
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "seed": 42,
+    "sampling_strategy": "representative",
+    "training_samples": 59997,
+    "validation_samples": 31911,
+    "model_parameters": {
+        "solver": "liblinear",
+        "penalty": "l2",
+        "C": 1.0,
+        "dual": false,
+        "tol": 0.0001,
+        "max_iter": 1000,
+        "fit_intercept": true,
+        "intercept_scaling": 1.0,
+        "class_weight": "balanced",
+        "random_state": 42
+    },
+    "wrapper_parameters": {
+        "n_jobs": 1
+    },
+    "score_type": "positive_class_probability",
+    "primary_selection_metric": "macro_average_precision",
+    "threshold_optimization_metric": "per_label_f1",
+    "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+    "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+    "feature_manifest_sha256": "c29f9ecc1d9a81edb3ed2b36b4fc59c5f61d56f70831f350639612c85f9ded88",
+    "evaluation_module_sha256": "edb5c29b840b5f0fcacd9d9efd1628a8c118f917e65fb20c4f0094a3915da571",
+    "threshold_path": "02_notebooks/03_classical_ml/02_logistic_regression/results/configs/LR_COMBINED_BALANCED_S42_thresholds.json",
+    "model_path": "04_models/classical/logistic_regression/LR_COMBINED_BALANCED_S42.joblib",
+    "sklearn_version": "1.6.1",
+    "official_test_used": false
+}

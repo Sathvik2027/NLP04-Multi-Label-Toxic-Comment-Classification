@@ -1,0 +1,12 @@
+{
+    "unweighted_run_id": "SVM_COMBINED_BASELINE_S42",
+    "weighted_run_id": "SVM_COMBINED_BALANCED_S42",
+    "macro_ap_change": -0.002923847177188077,
+    "optimized_macro_f1_change": -0.00614061199015814,
+    "default_macro_f1_change": 0.06424190818911224,
+    "labels_with_improved_ap": 1,
+    "labels_with_improved_f1": 1,
+    "training_time_ratio": 2.5133037194788073,
+    "improved_primary_selection_metric": false,
+    "retained_for_research_comparison": true
+}

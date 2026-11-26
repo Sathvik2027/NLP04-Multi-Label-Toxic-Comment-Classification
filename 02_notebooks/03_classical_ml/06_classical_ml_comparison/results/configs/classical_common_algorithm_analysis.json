@@ -1,0 +1,22 @@
+{
+    "comparison_scope": "unweighted_word_tfidf",
+    "models_compared": 5,
+    "training_samples": 59997,
+    "validation_samples": 31911,
+    "feature_budget": 50000,
+    "seed": 42,
+    "primary_selection_metric": "macro_average_precision",
+    "constant_score_macro_ap": 0.03670103308159151,
+    "best_common_feature_run": "SVM_WORD_BASELINE_S42",
+    "best_common_feature_model": "Linear SVM",
+    "best_common_feature_macro_ap": 0.632156277284737,
+    "best_common_feature_optimized_macro_f1": 0.6321241383970296,
+    "best_rare_label_ap_model": "Linear SVM",
+    "best_rare_label_mean_ap": 0.44254659005604297,
+    "previous_comparison_reconstructed": true,
+    "statistical_significance_established": false,
+    "algorithm_hyperparameters_optimized": false,
+    "model_training_performed": false,
+    "official_test_used": false,
+    "final_project_model_frozen": false
+}

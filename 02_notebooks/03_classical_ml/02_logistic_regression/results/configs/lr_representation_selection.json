@@ -1,0 +1,15 @@
+{
+    "selection_partition": "validation",
+    "selection_metric": "macro_average_precision",
+    "secondary_metric": "optimized_macro_f1",
+    "selected_run_id": "LR_COMBINED_BASELINE_S42",
+    "selected_representation": "combined_tfidf",
+    "selected_macro_ap": 0.647109426819818,
+    "selected_optimized_macro_f1": 0.6335140646594128,
+    "macro_ap_gain_over_word": 0.02970269209997589,
+    "macro_ap_gain_over_runner_up": 0.006453001730608365,
+    "feature_budget": 50000,
+    "statistical_significance_established": false,
+    "next_experiment": "balanced_class_weight",
+    "official_test_used": false
+}

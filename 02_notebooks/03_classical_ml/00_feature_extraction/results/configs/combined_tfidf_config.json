@@ -1,0 +1,53 @@
+{
+    "representation": "combined_tfidf",
+    "word_configuration": {
+        "analyzer": "word",
+        "ngram_range": [
+            1,
+            2
+        ],
+        "token_pattern": "(?u)\\b\\w+\\b",
+        "min_df": 2,
+        "max_df": 1.0,
+        "max_features": 25000,
+        "lowercase": true,
+        "stop_words": null,
+        "sublinear_tf": true,
+        "use_idf": true,
+        "smooth_idf": true,
+        "norm": "l2",
+        "dtype": "float32"
+    },
+    "character_configuration": {
+        "analyzer": "char",
+        "ngram_range": [
+            2,
+            5
+        ],
+        "min_df": 2,
+        "max_df": 1.0,
+        "max_features": 25000,
+        "lowercase": true,
+        "sublinear_tf": true,
+        "use_idf": true,
+        "smooth_idf": true,
+        "norm": "l2",
+        "dtype": "float32"
+    },
+    "word_features": 25000,
+    "character_features": 25000,
+    "total_features": 50000,
+    "component_normalization": "l2",
+    "combined_normalization": "l2",
+    "component_weights": {
+        "word": 1.0,
+        "character": 1.0
+    },
+    "column_order": [
+        "word",
+        "character"
+    ],
+    "training_samples": 59997,
+    "fit_time_seconds": 90.70372851599996,
+    "validation_transform_time_seconds": 40.81349151600011
+}

@@ -1,0 +1,27 @@
+{
+    "run_id": "DT_WORD_BASELINE_S42",
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "score_type": "positive_class_probability",
+    "default_threshold": 0.5,
+    "optimized_thresholds": {
+        "toxic": 0.16666666666666666,
+        "severe_toxic": 0.1111111111111111,
+        "obscene": 0.16666666666666666,
+        "threat": 0.125,
+        "insult": 0.125,
+        "identity_hate": 0.5
+    },
+    "selection_partition": "validation",
+    "optimization_metric": "per_label_f1",
+    "tie_breaking": "highest_threshold",
+    "comparison_operator": ">=",
+    "probability_calibration": false,
+    "official_test_used": false
+}

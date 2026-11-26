@@ -1,0 +1,129 @@
+{
+    "selection_stage": "representative_subset_classical_comparison",
+    "selection_partition": "validation",
+    "primary_selection_metric": "macro_average_precision",
+    "secondary_selection_metric": "optimized_macro_f1",
+    "configurations_compared": 11,
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "seed": 42,
+    "primary_selected_run_id": "LR_COMBINED_BALANCED_S42",
+    "secondary_selected_run_id": "SVM_COMBINED_BASELINE_S42",
+    "selected_models": {
+        "Primary Classical Baseline": {
+            "run_id": "LR_COMBINED_BALANCED_S42",
+            "model": "Logistic Regression",
+            "representation": "combined_tfidf",
+            "class_weight": "balanced",
+            "score_type": "positive_class_probability",
+            "training_samples": 59997,
+            "validation_samples": 31911,
+            "feature_budget": 50000,
+            "seed": 42,
+            "default_threshold": 0.5,
+            "optimized_thresholds": {
+                "toxic": 0.7042922472311852,
+                "severe_toxic": 0.8503335131893182,
+                "obscene": 0.6655826606577205,
+                "threat": 0.8043601051320635,
+                "insult": 0.7403504793961805,
+                "identity_hate": 0.7583652700340145
+            },
+            "threshold_comparison_operator": ">=",
+            "threshold_selection_partition": "validation",
+            "validation_macro_ap": 0.6717869571208382,
+            "validation_macro_roc_auc": 0.9827265715957111,
+            "validation_default_macro_f1": 0.5883986622113206,
+            "validation_optimized_macro_f1": 0.6597541306503194,
+            "validation_optimized_micro_f1": 0.7451311256415665,
+            "model_path": "04_models/classical/logistic_regression/LR_COMBINED_BALANCED_S42.joblib",
+            "model_sha256": "82ad7bb1679e7972e6d0b3f4d33914736faf3b95a04d3cbc05de2e266d37b116",
+            "config_path": "02_notebooks/03_classical_ml/02_logistic_regression/results/configs/LR_COMBINED_BALANCED_S42.json",
+            "config_sha256": "b12654fbd853b7e81e8ac6abb4dafac64d53aa170890388406d12259d8a97d0d",
+            "threshold_path": "02_notebooks/03_classical_ml/02_logistic_regression/results/configs/LR_COMBINED_BALANCED_S42_thresholds.json",
+            "threshold_sha256": "b5df25208abf7f083c2d06376359bf2402de74973f421fd25cbcdaaad7a978e2",
+            "predictions_path": "02_notebooks/03_classical_ml/02_logistic_regression/results/LR_COMBINED_BALANCED_S42/predictions/validation_predictions.parquet",
+            "predictions_sha256": "ce5361d4ba9d6fa48f5b0079e59fd0a3bd9c2c8731546eb7d678b04986bb4014",
+            "official_test_used": false
+        },
+        "Secondary Classical Baseline": {
+            "run_id": "SVM_COMBINED_BASELINE_S42",
+            "model": "Linear SVM",
+            "representation": "combined_tfidf",
+            "class_weight": "None",
+            "score_type": "decision_margin",
+            "training_samples": 59997,
+            "validation_samples": 31911,
+            "feature_budget": 50000,
+            "seed": 42,
+            "default_threshold": 0.0,
+            "optimized_thresholds": {
+                "toxic": -0.15441320520953838,
+                "severe_toxic": -0.3431693781273768,
+                "obscene": -0.3343644970920643,
+                "threat": -0.3669490043582433,
+                "insult": -0.33011002176215576,
+                "identity_hate": -0.342506597463645
+            },
+            "threshold_comparison_operator": ">=",
+            "threshold_selection_partition": "validation",
+            "validation_macro_ap": 0.6625052302891224,
+            "validation_macro_roc_auc": 0.9716891451241706,
+            "validation_default_macro_f1": 0.5760310145629408,
+            "validation_optimized_macro_f1": 0.6568993696927908,
+            "validation_optimized_micro_f1": 0.7542121628461927,
+            "model_path": "04_models/classical/linear_svm/SVM_COMBINED_BASELINE_S42.joblib",
+            "model_sha256": "c98f705e82d335f8e9bcdf1d858b19bc5cb5d55561006237609b43f2d82c050f",
+            "config_path": "02_notebooks/03_classical_ml/03_linear_svm/results/configs/SVM_COMBINED_BASELINE_S42.json",
+            "config_sha256": "7782d01a89f271b4e98c52d5105ee8c4f5ce4211f7c50389d91bb50338b823cd",
+            "threshold_path": "02_notebooks/03_classical_ml/03_linear_svm/results/configs/SVM_COMBINED_BASELINE_S42_thresholds.json",
+            "threshold_sha256": "a14edf965d339a0b9704f7c562f4676fd0ac8347310eaa98902d0470683adde9",
+            "predictions_path": "02_notebooks/03_classical_ml/03_linear_svm/results/SVM_COMBINED_BASELINE_S42/predictions/validation_predictions.parquet",
+            "predictions_sha256": "7229127241496b609f10c207155575c5b3e0d04f5f274dad2f3bab9e149433e7",
+            "official_test_used": false
+        }
+    },
+    "feature_dependencies": [
+        {
+            "Dependency": "combined_word_vectorizer",
+            "Path": "04_models/classical/vectorizers/combined_word_tfidf.joblib",
+            "Size Bytes": 283280,
+            "SHA256": "b1e2bff302993680f4c2fba29320caad52ce7979c4e4a9d6c33aa38c6e88e764",
+            "Verification": "Passed"
+        },
+        {
+            "Dependency": "combined_character_vectorizer",
+            "Path": "04_models/classical/vectorizers/combined_character_tfidf.joblib",
+            "Size Bytes": 242203,
+            "SHA256": "0576b4c651150d050365e6becbebc554b2bc85559094fe9a1c4ec21f9262e79c",
+            "Verification": "Passed"
+        }
+    ],
+    "combined_feature_construction": {
+        "word_features": 25000,
+        "character_features": 25000,
+        "concatenation_order": [
+            "word",
+            "character"
+        ],
+        "final_normalization": "l2"
+    },
+    "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+    "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504",
+    "evaluation_module_sha256": "edb5c29b840b5f0fcacd9d9efd1628a8c118f917e65fb20c4f0094a3915da571",
+    "feature_manifest_sha256": "c29f9ecc1d9a81edb3ed2b36b4fc59c5f61d56f70831f350639612c85f9ded88",
+    "full_data_scaling_candidate": "LR_COMBINED_BALANCED_S42",
+    "full_data_scaling_completed": false,
+    "additional_classical_tuning_planned": false,
+    "statistical_significance_established": false,
+    "probability_calibration_established": false,
+    "model_training_performed": false,
+    "official_test_used": false,
+    "final_project_model_frozen": false
+}

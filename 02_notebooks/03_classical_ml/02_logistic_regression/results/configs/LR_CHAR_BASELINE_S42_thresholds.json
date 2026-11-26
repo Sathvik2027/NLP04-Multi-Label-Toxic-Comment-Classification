@@ -1,0 +1,26 @@
+{
+    "run_id": "LR_CHAR_BASELINE_S42",
+    "selection_partition": "validation",
+    "optimization_metric": "per_label_f1",
+    "comparison_operator": "greater_than_or_equal",
+    "tie_breaking": "highest_threshold",
+    "score_type": "positive_class_probability",
+    "default_threshold": 0.5,
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "thresholds": {
+        "toxic": 0.2689904187740355,
+        "severe_toxic": 0.19213887843555594,
+        "obscene": 0.17225524776438045,
+        "threat": 0.05702878338408803,
+        "insult": 0.2075150218786918,
+        "identity_hate": 0.1154292710804837
+    },
+    "official_test_used": false
+}

@@ -1,0 +1,38 @@
+{
+    "configurations_compared": 11,
+    "label_threshold_comparisons": 66,
+    "configurations_with_improved_macro_f1": 11,
+    "individual_label_f1_improvements": 65,
+    "zero_default_prediction_cases": 5,
+    "recovered_positive_prediction_cases": 5,
+    "largest_threshold_improvement_run": "RF_WORD_BASELINE_S42",
+    "largest_macro_f1_improvement": 0.5350268621098291,
+    "fastest_training_run": "NB_WORD_BASELINE_S42",
+    "fastest_prediction_run": "SVM_WORD_BASELINE_S42",
+    "smallest_saved_model_run": "DT_WORD_BASELINE_S42",
+    "highest_macro_ap_run": "LR_COMBINED_BALANCED_S42",
+    "pareto_efficient_runs": [
+        "NB_WORD_BASELINE_S42",
+        "LR_WORD_BASELINE_S42",
+        "SVM_WORD_BASELINE_S42",
+        "SVM_CHAR_BASELINE_S42",
+        "SVM_COMBINED_BASELINE_S42",
+        "LR_COMBINED_BALANCED_S42"
+    ],
+    "pareto_objectives": {
+        "maximize": "validation_macro_ap",
+        "minimize": "recorded_training_time"
+    },
+    "runtime_comparison_descriptive_only": true,
+    "runtime_repetitions_performed": false,
+    "identical_parallelization": false,
+    "feature_extraction_time_included": false,
+    "vectorizer_size_included": false,
+    "prediction_time_includes_raw_text_preprocessing": false,
+    "thresholds_selected_on_validation": true,
+    "probability_calibration_established": false,
+    "statistical_significance_established": false,
+    "model_training_performed": false,
+    "official_test_used": false,
+    "final_project_model_frozen": false
+}

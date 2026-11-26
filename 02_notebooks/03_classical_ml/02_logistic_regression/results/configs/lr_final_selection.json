@@ -1,0 +1,21 @@
+{
+    "model": "Logistic Regression",
+    "selection_partition": "validation",
+    "primary_selection_metric": "macro_average_precision",
+    "secondary_selection_metric": "optimized_macro_f1",
+    "selected_run_id": "LR_COMBINED_BALANCED_S42",
+    "selected_representation": "combined_tfidf",
+    "selected_class_weight": "balanced",
+    "validation_macro_ap": 0.6717869571208382,
+    "validation_macro_roc_auc": 0.9827265715957111,
+    "validation_default_macro_f1": 0.5883986622113206,
+    "validation_optimized_macro_f1": 0.6597541306503194,
+    "validation_optimized_micro_f1": 0.7451311256415665,
+    "model_path": "04_models/classical/logistic_regression/LR_COMBINED_BALANCED_S42.joblib",
+    "threshold_path": "02_notebooks/03_classical_ml/02_logistic_regression/results/configs/LR_COMBINED_BALANCED_S42_thresholds.json",
+    "predictions_path": "02_notebooks/03_classical_ml/02_logistic_regression/results/LR_COMBINED_BALANCED_S42/predictions/validation_predictions.parquet",
+    "selection_scope": "Logistic Regression configurations only",
+    "statistical_significance_established": false,
+    "final_project_model_frozen": false,
+    "official_test_used": false
+}

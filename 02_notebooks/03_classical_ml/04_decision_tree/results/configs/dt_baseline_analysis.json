@@ -1,0 +1,23 @@
+{
+    "run_id": "DT_WORD_BASELINE_S42",
+    "comparison_scope": "common_word_tfidf_baselines",
+    "models_compared": 4,
+    "primary_selection_metric": "macro_average_precision",
+    "common_baseline_rank": 3,
+    "validation_macro_ap": 0.42151401074400247,
+    "training_macro_ap": 0.7298541534345455,
+    "macro_ap_generalization_gap": 0.30834014269054305,
+    "macro_ap_difference_vs_nb": 0.0017643434584931894,
+    "macro_ap_difference_vs_lr": -0.19589272397583962,
+    "macro_ap_difference_vs_svm": -0.21064226654073454,
+    "largest_ap_generalization_gap_label": "severe_toxic",
+    "largest_ap_generalization_gap": 0.5651397521519043,
+    "highest_score_concentration_label": "threat",
+    "highest_score_concentration_percentage": 99.2353733822193,
+    "all_trees_reached_depth_limit": true,
+    "additional_hyperparameter_tuning_planned": false,
+    "retained_as_nonlinear_baseline": true,
+    "statistical_significance_established": false,
+    "final_project_model_frozen": false,
+    "official_test_used": false
+}

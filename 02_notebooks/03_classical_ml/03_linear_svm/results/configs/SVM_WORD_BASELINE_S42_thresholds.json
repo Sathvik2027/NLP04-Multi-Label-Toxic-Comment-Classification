@@ -1,0 +1,27 @@
+{
+    "run_id": "SVM_WORD_BASELINE_S42",
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "score_type": "signed_decision_margin",
+    "default_threshold": 0.0,
+    "optimized_thresholds": {
+        "toxic": -0.1928838919190683,
+        "severe_toxic": -0.41715734432906426,
+        "obscene": -0.27445769385056784,
+        "threat": -0.4187338627625288,
+        "insult": -0.32537555710108745,
+        "identity_hate": -0.46907949527683734
+    },
+    "selection_partition": "validation",
+    "optimization_metric": "per_label_f1",
+    "tie_breaking": "highest_threshold",
+    "comparison_operator": ">=",
+    "probability_calibration": false,
+    "official_test_used": false
+}

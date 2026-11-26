@@ -1,0 +1,29 @@
+{
+    "models_compared": [
+        "Logistic Regression",
+        "Linear SVM"
+    ],
+    "configurations_compared": 8,
+    "representation_comparisons": 6,
+    "weighting_comparisons": 2,
+    "per_label_comparisons": 48,
+    "rare_labels": [
+        "severe_toxic",
+        "threat",
+        "identity_hate"
+    ],
+    "feature_budget": 50000,
+    "training_samples": 59997,
+    "validation_samples": 31911,
+    "seed": 42,
+    "selection_metric": "macro_average_precision",
+    "selected_linear_configurations": {
+        "Logistic Regression": "LR_COMBINED_BALANCED_S42",
+        "Linear SVM": "SVM_COMBINED_BASELINE_S42"
+    },
+    "class_weighting_tested_on_combined_features_only": true,
+    "statistical_significance_established": false,
+    "model_training_performed": false,
+    "official_test_used": false,
+    "final_project_model_frozen": false
+}

@@ -1,0 +1,26 @@
+{
+    "run_id": "NB_WORD_BASELINE_S42",
+    "selection_partition": "validation",
+    "optimization_metric": "per_label_f1",
+    "comparison_operator": "greater_than_or_equal",
+    "tie_breaking": "highest_threshold",
+    "score_type": "positive_class_probability",
+    "default_threshold": 0.5,
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "thresholds": {
+        "toxic": 0.1294580934949071,
+        "severe_toxic": 0.01614763184615453,
+        "obscene": 0.08611462777789465,
+        "threat": 0.002308437448624506,
+        "insult": 0.06698549979315137,
+        "identity_hate": 0.009257341491275618
+    },
+    "official_test_used": false
+}

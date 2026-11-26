@@ -1,0 +1,22 @@
+{
+    "analyzer": "word",
+    "ngram_range": [
+        1,
+        2
+    ],
+    "token_pattern": "(?u)\\b\\w+\\b",
+    "min_df": 2,
+    "max_df": 1.0,
+    "max_features": 50000,
+    "lowercase": true,
+    "stop_words": null,
+    "sublinear_tf": true,
+    "use_idf": true,
+    "smooth_idf": true,
+    "norm": "l2",
+    "dtype": "float32",
+    "actual_features": 50000,
+    "training_samples": 59997,
+    "fit_time_seconds": 19.08533951900006,
+    "validation_transform_time_seconds": 3.7362075170000253
+}

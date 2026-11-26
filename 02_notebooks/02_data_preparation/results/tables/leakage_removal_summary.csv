@@ -1,0 +1,6 @@
+Metric,Count
+Original training comments,159571
+Overlapping training comments removed,32
+Final development pool,159539
+Official labelled test comments,63978
+Remaining normalized train-test overlaps,0

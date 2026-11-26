@@ -1,0 +1,9 @@
+Metric,Value
+Full training comments,127628.0
+Target subset size,60000.0
+Actual subset size,59997.0
+Difference from target,-3.0
+Selected groups,59905.0
+Unused training comments,67631.0
+Training data retained (%),47.009276961168396
+Training data reduction (%),52.99072303883161

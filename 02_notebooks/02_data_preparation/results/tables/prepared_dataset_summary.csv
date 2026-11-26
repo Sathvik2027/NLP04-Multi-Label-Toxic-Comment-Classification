@@ -1,0 +1,6 @@
+Filename,Rows,Columns,Size (MB),Verification
+train_full.parquet,127628,9,33.17051124572754,Passed
+train_representative.parquet,59997,9,15.640828132629395,Passed
+train_enriched.parquet,59997,9,15.13538646697998,Passed
+validation.parquet,31911,9,8.33979606628418,Passed
+test_official.parquet,63978,8,15.959983825683594,Passed

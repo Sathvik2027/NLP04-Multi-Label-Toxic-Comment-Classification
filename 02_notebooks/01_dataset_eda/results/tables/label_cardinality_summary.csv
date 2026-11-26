@@ -1,0 +1,7 @@
+Metric,Value
+Average labels per comment,0.2199522469621673
+Average labels per toxic comment,2.1632049306625576
+Label density,0.03665870782702788
+Single-label comments,6360.0
+Multi-label comments,9865.0
+Multi-label percentage among toxic comments,60.801232665639446

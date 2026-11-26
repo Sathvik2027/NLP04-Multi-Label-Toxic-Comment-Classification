@@ -1,0 +1,208 @@
+{
+    "project_name": "Multi-Label Toxic Comment Classification with Explainability",
+    "dataset": "Jigsaw Toxic Comment Classification Challenge",
+    "seed": 42,
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "num_labels": 6,
+    "data": {
+        "raw_dir": "01_data/raw",
+        "processed_dir": "01_data/processed",
+        "splits_dir": "01_data/splits",
+        "tokenized_dir": "01_data/tokenized"
+    },
+    "split": {
+        "train_ratio": 0.8,
+        "validation_ratio": 0.2,
+        "strategy": "group-aware multilabel stratification",
+        "test_source": "official labelled test dataset",
+        "development_size": 159539,
+        "training_size": 127628,
+        "validation_size": 31911,
+        "test_size": 63978,
+        "overlapping_training_records_removed": 32,
+        "status": "verified"
+    },
+    "sampling": {
+        "strategy": "representative multilabel subsampling",
+        "initial_subset_size": 60000,
+        "status": "initial_selected",
+        "actual_subset_size": 59997,
+        "enriched_subset_size": 59997,
+        "full_training_size": 127628,
+        "primary_dataset": "representative",
+        "enriched_subset_status": "optional_experiment"
+    },
+    "evaluation": {
+        "primary_selection_metric": "macro_average_precision",
+        "threshold_selection_metric": "per_label_f1",
+        "default_probability_threshold": 0.5,
+        "default_svm_margin_threshold": 0.0
+    },
+    "paths": {
+        "notebooks": "02_notebooks",
+        "source": "03_src",
+        "models": "04_models",
+        "references": "05_references",
+        "reports": "06_reports"
+    },
+    "output": {
+        "figure_format": "png",
+        "figure_dpi": 300,
+        "table_format": "csv",
+        "prediction_format": "parquet"
+    },
+    "transformer": {
+        "initial_max_length": 256,
+        "candidate_max_lengths": [
+            64,
+            128,
+            192,
+            256,
+            384,
+            512
+        ],
+        "padding_strategy": "dynamic",
+        "truncation": true,
+        "truncation_side": "right",
+        "sequence_length_status": "initial_selected",
+        "ablation_lengths": [
+            384,
+            512
+        ],
+        "models": {
+            "DistilBERT": {
+                "checkpoint": "distilbert/distilbert-base-uncased",
+                "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+                "vocabulary_size": 30522,
+                "special_tokens": 2,
+                "maximum_supported_length": 512
+            },
+            "RoBERTa": {
+                "checkpoint": "FacebookAI/roberta-base",
+                "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+                "vocabulary_size": 50265,
+                "special_tokens": 2,
+                "maximum_supported_length": 512
+            }
+        }
+    },
+    "classical_features": {
+        "training_partition": "train_representative",
+        "validation_partition": "validation",
+        "training_samples": 59997,
+        "validation_samples": 31911,
+        "feature_budget": 50000,
+        "dtype": "float32",
+        "matrix_format": "csr",
+        "storage_format": "npz",
+        "features_directory": "01_data/features",
+        "vectorizers_directory": "04_models/classical/vectorizers",
+        "artifact_manifest": "01_data/features/feature_artifact_manifest.csv",
+        "baseline_representation": "word_tfidf",
+        "representations": {
+            "word_tfidf": {
+                "analyzer": "word",
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "token_pattern": "(?u)\\b\\w+\\b",
+                "min_df": 2,
+                "max_df": 1.0,
+                "max_features": 50000,
+                "lowercase": true,
+                "stop_words": null,
+                "sublinear_tf": true,
+                "use_idf": true,
+                "smooth_idf": true,
+                "norm": "l2",
+                "dtype": "float32",
+                "actual_features": 50000,
+                "training_samples": 59997,
+                "fit_time_seconds": 19.08533951900006,
+                "validation_transform_time_seconds": 3.7362075170000253
+            },
+            "character_tfidf": {
+                "analyzer": "char",
+                "ngram_range": [
+                    2,
+                    5
+                ],
+                "min_df": 2,
+                "max_df": 1.0,
+                "max_features": 50000,
+                "lowercase": true,
+                "sublinear_tf": true,
+                "use_idf": true,
+                "smooth_idf": true,
+                "norm": "l2",
+                "dtype": "float32",
+                "actual_features": 50000,
+                "training_samples": 59997,
+                "fit_time_seconds": 70.38760238200007,
+                "validation_transform_time_seconds": 32.50015088800001
+            },
+            "combined_tfidf": {
+                "representation": "combined_tfidf",
+                "word_configuration": {
+                    "analyzer": "word",
+                    "ngram_range": [
+                        1,
+                        2
+                    ],
+                    "token_pattern": "(?u)\\b\\w+\\b",
+                    "min_df": 2,
+                    "max_df": 1.0,
+                    "max_features": 25000,
+                    "lowercase": true,
+                    "stop_words": null,
+                    "sublinear_tf": true,
+                    "use_idf": true,
+                    "smooth_idf": true,
+                    "norm": "l2",
+                    "dtype": "float32"
+                },
+                "character_configuration": {
+                    "analyzer": "char",
+                    "ngram_range": [
+                        2,
+                        5
+                    ],
+                    "min_df": 2,
+                    "max_df": 1.0,
+                    "max_features": 25000,
+                    "lowercase": true,
+                    "sublinear_tf": true,
+                    "use_idf": true,
+                    "smooth_idf": true,
+                    "norm": "l2",
+                    "dtype": "float32"
+                },
+                "word_features": 25000,
+                "character_features": 25000,
+                "total_features": 50000,
+                "component_normalization": "l2",
+                "combined_normalization": "l2",
+                "component_weights": {
+                    "word": 1.0,
+                    "character": 1.0
+                },
+                "column_order": [
+                    "word",
+                    "character"
+                ],
+                "training_samples": 59997,
+                "fit_time_seconds": 90.70372851599996,
+                "validation_transform_time_seconds": 40.81349151600011
+            }
+        },
+        "status": "verified"
+    }
+}

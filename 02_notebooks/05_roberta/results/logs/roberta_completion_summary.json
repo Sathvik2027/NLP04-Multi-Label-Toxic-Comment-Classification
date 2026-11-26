@@ -1,0 +1,472 @@
+{
+    "notebook": "05_roberta",
+    "status": "Completed",
+    "completed_at": "2026-11-26T07:21:36.141998+00:00",
+    "classical_experiments": 11,
+    "distilbert_experiments": 3,
+    "roberta_experiments": 3,
+    "total_registered_experiments": 17,
+    "methodological_decisions": 68,
+    "selected_roberta_run": "T06_FOCAL_S42",
+    "secondary_roberta_candidate": "T05_WBCE_S42",
+    "best_optimized_macro_f1_run": "T05_WBCE_S42",
+    "selected_validation_macro_ap": 0.7455174744043997,
+    "selected_optimized_macro_f1": 0.7092974931143664,
+    "macro_ap_gap_to_runner_up": 0.01946900781186267,
+    "controlled_experiment_settings_verified": true,
+    "metrics_reconstructed_from_predictions": true,
+    "retained_artifacts_verified": true,
+    "retained_roberta_run_artifacts_verified": 60,
+    "retained_transformer_artifacts_verified_in_cell10": 120,
+    "exact_checkpoint_restoration_verified": true,
+    "numerical_checkpoint_continuation_verified": true,
+    "bitwise_reproducibility_established": false,
+    "original_smoke_failure_preserved": true,
+    "t05_resume_event_reported_in_execution_log": true,
+    "completed_optimizer_checkpoints_pruned": true,
+    "statistical_significance_established": false,
+    "probability_calibration_established": false,
+    "additional_model_training_performed": false,
+    "additional_figures_generated": 0,
+    "official_test_used": false,
+    "final_project_model_frozen": false,
+    "active_project_storage_gib": 3.8408243218436837,
+    "next_notebook": "06_model_optimization",
+    "artifact_inventory": [
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/config.json",
+            "size_bytes": 5334,
+            "sha256": "3d4ea5a163852d58a38ba20f4a7277d5eac2d7ca747e7d82d2a75ab7b89f2fd9"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/logs/checkpoint_pruning_history.json",
+            "size_bytes": 868,
+            "sha256": "98cb1edb9ba0c464cbd2c8d4dbf1fa8d54efe90d7feb5b68a278f44804c9edeb"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/logs/checkpoint_retention.json",
+            "size_bytes": 923,
+            "sha256": "3ca89f463c1f72d86cf297e46e941ebec971e51869155afbe74255f241adbfe3"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/logs/model_reload_verification.json",
+            "size_bytes": 224,
+            "sha256": "7fe3c856d1f1ed347fcef4c14d149a38fbaaee3e519b4760a90f399c73f5d265"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/logs/run_summary.json",
+            "size_bytes": 1935,
+            "sha256": "36a642d4514e7ad317065811554f6f699f716568f1d1defed2ca3fa14eb0e2a1"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/predictions/best_epoch_03_20261126_042444_809753_validation.npz",
+            "size_bytes": 648362,
+            "sha256": "d099310756dfc59320db8264f74721b73d39d9a3a3a7579d66fae6de85033c15"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/predictions/validation_predictions.parquet",
+            "size_bytes": 955995,
+            "sha256": "7039ddd8909fe9a9241f3eca34ad46b8af323ad59512e8ae8f6a4371f582fc42"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/tables/artifact_manifest.csv",
+            "size_bytes": 3415,
+            "sha256": "8aca446be6f311155386167d2aec17221ab35bad4cf53334f6418fc7e20bb36e"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/tables/default_overall_metrics.csv",
+            "size_bytes": 318,
+            "sha256": "9b7cf569afd960e6d57605868208b7fcf6604cf881a5e6f03c8bf801aaf1da0d"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/tables/default_per_label_metrics.csv",
+            "size_bytes": 946,
+            "sha256": "688a2cbb09d05ccc2c249f7c1d882aeea774cf768a2e13e64bedfd7923652252"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/tables/epoch_history.csv",
+            "size_bytes": 1222,
+            "sha256": "207d3bb5c341fc02fcbb4daa411429a9d58c8a65189c610853e75399a9fcea02"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/tables/optimized_overall_metrics.csv",
+            "size_bytes": 318,
+            "sha256": "9a027923ee4cc85277488ccac7947ac7c268d3750c2b40585a8de06607405839"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/tables/optimized_per_label_metrics.csv",
+            "size_bytes": 1060,
+            "sha256": "54ad13b5500bf21cb48ccad960f2bfd5bc0ae023bccab948757800113029e395"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/tables/optimized_thresholds.csv",
+            "size_bytes": 586,
+            "sha256": "00ef6ebf3e39ac9a6194125319ec3a4352d756918c919df03d5577bdd74ccf38"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/tables/overall_threshold_comparison.csv",
+            "size_bytes": 686,
+            "sha256": "6109d6d6fbac7f4874a4e4819b70e0fb17eba50535288954f12c9da8d550af70"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/tables/per_label_threshold_comparison.csv",
+            "size_bytes": 986,
+            "sha256": "a20b8d71c9a2891e26aef02c2e43480fb9d1b7f9279b1ac485b5a88c442e26cb"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/tables/run_summary.csv",
+            "size_bytes": 1601,
+            "sha256": "f2b0c0a261713cc5366ceb8b61b8b62c59ce5bc0fa911fa5ecc33598f0cd1190"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T04_BCE_S42/thresholds.json",
+            "size_bytes": 762,
+            "sha256": "5abc2e84bc5b6ec65324736495da638ae5f05b808ab302546e2b9e491f766321"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/config.json",
+            "size_bytes": 5340,
+            "sha256": "d345571496e3ab3903d525581e74c8cd092d8ad454ed6b9829baacf9ba17dbd2"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/logs/checkpoint_pruning_history.json",
+            "size_bytes": 872,
+            "sha256": "66a9d0220eaed12aeb107a6b91518d03e6070057acb96025f7bdea8495eabdf2"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/logs/checkpoint_retention.json",
+            "size_bytes": 927,
+            "sha256": "1218f253e0262d27be02f690490b6ffab933c1a9b6a23fd634d9681293e1726e"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/logs/model_reload_verification.json",
+            "size_bytes": 224,
+            "sha256": "7fe3c856d1f1ed347fcef4c14d149a38fbaaee3e519b4760a90f399c73f5d265"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/logs/run_summary.json",
+            "size_bytes": 1940,
+            "sha256": "7c34fff0da2127cb35258f969d16da408b512e7d1656df7bb8771cd0eaf675d8"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/predictions/best_epoch_03_20261126_053431_518892_validation.npz",
+            "size_bytes": 688095,
+            "sha256": "094528a71c7944c3d49e5423d37eee05ab6e8758024a640ac8721381f70439d9"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/predictions/validation_predictions.parquet",
+            "size_bytes": 974868,
+            "sha256": "1f9799bcae51ee98401e1769be9c578e9a4a7cf65483c07355fbd8e8bdc79d70"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/tables/artifact_manifest.csv",
+            "size_bytes": 3455,
+            "sha256": "98180739291f0e7b790d8cc92f539480e75484cb3ba9d70b4c6b83d5bc3589d5"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/tables/default_overall_metrics.csv",
+            "size_bytes": 318,
+            "sha256": "ea7137048add367b40b1d4af1058a6bdcaaa21a9d33ac05f5c8a8e9ebcd4e38f"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/tables/default_per_label_metrics.csv",
+            "size_bytes": 947,
+            "sha256": "6300b73501730123fb191d0c33a9aa70645d3f03bc2797cf91f7109a25d29add"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/tables/epoch_history.csv",
+            "size_bytes": 1222,
+            "sha256": "05ee0f19f236d91361b092f3ddbc38f618732670f15e08d45ec8d3e29c3f3028"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/tables/optimized_overall_metrics.csv",
+            "size_bytes": 318,
+            "sha256": "4b51c42b4621978fdde6d6829c8cbdaecc74c30950ca62b2e4e11736b7817fa9"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/tables/optimized_per_label_metrics.csv",
+            "size_bytes": 1060,
+            "sha256": "d26ae437046688c7eb073d38ac1f2cff425e87e8ec935b31b869de4e7c913f04"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/tables/optimized_thresholds.csv",
+            "size_bytes": 587,
+            "sha256": "1d192d9cf1de420907c0a01e9d481ce03f71d56e4e34ed97247beb289b47ed9e"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/tables/overall_threshold_comparison.csv",
+            "size_bytes": 680,
+            "sha256": "588b50acb63add629757406f5f5e58b5793c75683183caddb27197307e4dc5e6"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/tables/per_label_threshold_comparison.csv",
+            "size_bytes": 990,
+            "sha256": "ac64f96ec9fabd57e05d1e3d84aee12a3424d26f488b6bee0baa6a0edf00347a"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/tables/run_summary.csv",
+            "size_bytes": 1606,
+            "sha256": "7315b64f92e48f39b6aec37050ff0bd45f149736f7dc37217b968ecbf89f37e8"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T05_WBCE_S42/thresholds.json",
+            "size_bytes": 763,
+            "sha256": "3a486397189d59bc59261580f34c3d8c94163976629223aa9b15f3b08c571fcf"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/config.json",
+            "size_bytes": 5346,
+            "sha256": "682024fd9f2005ac36b7b273570bd415048d6694185523901c0e6d72fa8afebb"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/logs/checkpoint_pruning_history.json",
+            "size_bytes": 876,
+            "sha256": "9c1dc0180ab63b932c86a1315dfe06e6d6ce84887b2c35c80d2ebbe44fa35a09"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/logs/checkpoint_retention.json",
+            "size_bytes": 931,
+            "sha256": "66c5325604b23b238d1348eeba7159c9b02cf764043e47d737369049ce1a9469"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/logs/model_reload_verification.json",
+            "size_bytes": 224,
+            "sha256": "7fe3c856d1f1ed347fcef4c14d149a38fbaaee3e519b4760a90f399c73f5d265"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/logs/run_summary.json",
+            "size_bytes": 1942,
+            "sha256": "96dcecd788f97c02b1e076ebc1b257c2d1d5f62c8a0079316afc7a1779bb1fb9"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/predictions/best_epoch_03_20261126_065929_344606_validation.npz",
+            "size_bytes": 735259,
+            "sha256": "acc477d21462994dc0055829648146300f248d830bbffb79cf5beb4031a456d9"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/predictions/validation_predictions.parquet",
+            "size_bytes": 1021037,
+            "sha256": "bb876b228aa11b96706e692f395fa884331b905d56db8faddb025526f88f197e"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/tables/artifact_manifest.csv",
+            "size_bytes": 3496,
+            "sha256": "0f3680313ad1261382067a3195c85913d14fd46bd200c6f0991973f284a197a1"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/tables/default_overall_metrics.csv",
+            "size_bytes": 317,
+            "sha256": "84206249646e7a09028754f488b2f796855dd3ada73ecafc369f6407d50131c4"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/tables/default_per_label_metrics.csv",
+            "size_bytes": 959,
+            "sha256": "c1b76d68d22a742bc344dd55594697d599c348f866f5cee4f901fabca6ef7103"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/tables/epoch_history.csv",
+            "size_bytes": 1226,
+            "sha256": "e78addf1d446d79382613da1a830046c190bca82c511e44c6f5037c6f7c339aa"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/tables/optimized_overall_metrics.csv",
+            "size_bytes": 315,
+            "sha256": "56b79bfd609bdef3c2344e4e3259f92c3f56a7212b2ce033535bc0ae94e69844"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/tables/optimized_per_label_metrics.csv",
+            "size_bytes": 1057,
+            "sha256": "630144e473bd751cbffca6f14e1d1235922d486080f267a7435552af4ca1b63d"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/tables/optimized_thresholds.csv",
+            "size_bytes": 584,
+            "sha256": "5b85bfdb1301867e865b4fbf60d8bd4e07400725bcbc8d484261a998251f819e"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/tables/overall_threshold_comparison.csv",
+            "size_bytes": 683,
+            "sha256": "963092d65bbc384e3c2bf9995101d5bc994315ea20ae34c8ec6b23b61ae4e56a"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/tables/per_label_threshold_comparison.csv",
+            "size_bytes": 998,
+            "sha256": "960cb396a8d314eb5dd3c0f9a9d5991b548afb9abbd66c8aa1c46bc348f6a994"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/tables/run_summary.csv",
+            "size_bytes": 1608,
+            "sha256": "d4ae034fc8045b2c3f80736b35d26164581df869709a399fe40af2d86899157b"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/T06_FOCAL_S42/thresholds.json",
+            "size_bytes": 767,
+            "sha256": "f0fd542ec944989d8220115bfd934ef831d1ad36b21db043f0cc7a2905946380"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/configs/roberta_final_selection.json",
+            "size_bytes": 9146,
+            "sha256": "ac91df5635d83715a8b650ee48f6a1f2499f4c5095f1e75bbd6a2ccdac9ceb43"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/configs/roberta_loss_configuration.json",
+            "size_bytes": 7296,
+            "sha256": "4024708702593037411ccd946ebeda5086ca1d9d4e749db335ebf67af15b6911"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/configs/roberta_training_pipeline.json",
+            "size_bytes": 11958,
+            "sha256": "449ca08b4d679f03212c8b4495ea08467b541b082b316d2fa70d5fbe94bac62b"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/figures/transformer_consolidated_comparison.png",
+            "size_bytes": 552907,
+            "sha256": "ed6027df558c7b155314e2a416fdd439e05464476f4ae74fdd5befb7b56df485"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/logs/roberta_initialization.json",
+            "size_bytes": 3355,
+            "sha256": "1b5236244b96a46470479269ed7924b0c7de59e735b26a56539bca266724a820"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/logs/roberta_smoke_test_resolution.json",
+            "size_bytes": 4756,
+            "sha256": "951b950631e97d3dcd1643a8ff12218d575447f5e3c0408a761be52fb5c8ec2e"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/logs/roberta_smoke_test_summary.json",
+            "size_bytes": 8148,
+            "sha256": "10f815fcd5f1e49cd1bc427760617deb412a5ad2d01b1a91fed6c9a7dd0c0d21"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/logs/roberta_tokenization_summary.json",
+            "size_bytes": 4222,
+            "sha256": "ddb55d924acd3c645a23cd0b18016a4acb4bf44f0ef031173cdc43ffd1e22a70"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/summary.md",
+            "size_bytes": 2558,
+            "sha256": "ac871e8bce63961819ab853575069dd9b3f98871e7281c8264178cf2e11590b7"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/tables/overall_validation_ranking.csv",
+            "size_bytes": 1911,
+            "sha256": "4fb0180d4b3878b10ab49043762432672631b0b7394d21c0bd1b506390868970"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/tables/transformer_controlled_ablation.csv",
+            "size_bytes": 1140,
+            "sha256": "aff0ba449f8fc66f5e86e06462acbedab0a40365efbf2ea3e11c1fa6636cf159"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/tables/transformer_per_label_comparison.csv",
+            "size_bytes": 6731,
+            "sha256": "5d21d57ca551f9415306732bd657eb5b1a2a8e6ab5e5a54d668251c2891fbc5d"
+        },
+        {
+            "path": "02_notebooks/05_roberta/results/tables/transformer_validation_comparison.csv",
+            "size_bytes": 2124,
+            "sha256": "8f4c42390c7fad4dcf622ffa01166807df497fa498aaff0df9992000ba8b0082"
+        },
+        {
+            "path": "04_models/roberta/T04_BCE_S42/best_epoch_03_20261126_042444_809753/checkpoint_manifest.json",
+            "size_bytes": 825,
+            "sha256": "e9fcbbb8526b8ebe2a40d801f8b66776b2919212798d9a1c17fb3cb64132d450"
+        },
+        {
+            "path": "04_models/roberta/T04_BCE_S42/best_epoch_03_20261126_042444_809753/config.json",
+            "size_bytes": 1020,
+            "sha256": "7d10ca99dccee62b170a1bc067ba940ad412ba175ba2e8891e2fa9a11887c51c"
+        },
+        {
+            "path": "04_models/roberta/T04_BCE_S42/best_epoch_03_20261126_042444_809753/model.safetensors",
+            "size_bytes": 498625128,
+            "sha256": "15889d01c0997aa552606c9f84fb84839de019caa06528b9f237046fd03ac4b6"
+        },
+        {
+            "path": "04_models/roberta/T04_BCE_S42/best_epoch_03_20261126_042444_809753/tokenizer.json",
+            "size_bytes": 3558740,
+            "sha256": "9f49930af8b12d2fcad4e8cf500516c4251d46b2917f78bd9b49dbcc586261af"
+        },
+        {
+            "path": "04_models/roberta/T04_BCE_S42/best_epoch_03_20261126_042444_809753/tokenizer_config.json",
+            "size_bytes": 388,
+            "sha256": "aa6a8a3f069d2d98c09444ee3f9671d64c29ce647473dccd78169b10c490d359"
+        },
+        {
+            "path": "04_models/roberta/T05_WBCE_S42/best_epoch_03_20261126_053431_518892/checkpoint_manifest.json",
+            "size_bytes": 825,
+            "sha256": "8400310cee0d58649bfadf22393f397414c7f6c4bab2845be3040e190f072e03"
+        },
+        {
+            "path": "04_models/roberta/T05_WBCE_S42/best_epoch_03_20261126_053431_518892/config.json",
+            "size_bytes": 1020,
+            "sha256": "7d10ca99dccee62b170a1bc067ba940ad412ba175ba2e8891e2fa9a11887c51c"
+        },
+        {
+            "path": "04_models/roberta/T05_WBCE_S42/best_epoch_03_20261126_053431_518892/model.safetensors",
+            "size_bytes": 498625128,
+            "sha256": "64914589d83eec273b4411350f5bab54c41684cbdddae683500cc008c19eaadc"
+        },
+        {
+            "path": "04_models/roberta/T05_WBCE_S42/best_epoch_03_20261126_053431_518892/tokenizer.json",
+            "size_bytes": 3558740,
+            "sha256": "9f49930af8b12d2fcad4e8cf500516c4251d46b2917f78bd9b49dbcc586261af"
+        },
+        {
+            "path": "04_models/roberta/T05_WBCE_S42/best_epoch_03_20261126_053431_518892/tokenizer_config.json",
+            "size_bytes": 388,
+            "sha256": "aa6a8a3f069d2d98c09444ee3f9671d64c29ce647473dccd78169b10c490d359"
+        },
+        {
+            "path": "04_models/roberta/T06_FOCAL_S42/best_epoch_03_20261126_065929_344606/checkpoint_manifest.json",
+            "size_bytes": 825,
+            "sha256": "6982350e80ce57c7d597e46f4d00106638039901fd2db0e8d79c8419e7a9c10f"
+        },
+        {
+            "path": "04_models/roberta/T06_FOCAL_S42/best_epoch_03_20261126_065929_344606/config.json",
+            "size_bytes": 1020,
+            "sha256": "7d10ca99dccee62b170a1bc067ba940ad412ba175ba2e8891e2fa9a11887c51c"
+        },
+        {
+            "path": "04_models/roberta/T06_FOCAL_S42/best_epoch_03_20261126_065929_344606/model.safetensors",
+            "size_bytes": 498625128,
+            "sha256": "50e4eae53d73d91e82b64ecf3b180be2148e39ac91828113529178818d62a66e"
+        },
+        {
+            "path": "04_models/roberta/T06_FOCAL_S42/best_epoch_03_20261126_065929_344606/tokenizer.json",
+            "size_bytes": 3558740,
+            "sha256": "9f49930af8b12d2fcad4e8cf500516c4251d46b2917f78bd9b49dbcc586261af"
+        },
+        {
+            "path": "04_models/roberta/T06_FOCAL_S42/best_epoch_03_20261126_065929_344606/tokenizer_config.json",
+            "size_bytes": 388,
+            "sha256": "aa6a8a3f069d2d98c09444ee3f9671d64c29ce647473dccd78169b10c490d359"
+        },
+        {
+            "path": "04_models/roberta/shared_initialization_s42/config.json",
+            "size_bytes": 1020,
+            "sha256": "7d10ca99dccee62b170a1bc067ba940ad412ba175ba2e8891e2fa9a11887c51c"
+        },
+        {
+            "path": "04_models/roberta/shared_initialization_s42/initialization_manifest.json",
+            "size_bytes": 1197,
+            "sha256": "d3950228ef9e9fdb5cc6787cee42be5b3f80ee1803c0102c844acc7be1a05736"
+        },
+        {
+            "path": "04_models/roberta/shared_initialization_s42/model.safetensors",
+            "size_bytes": 498625128,
+            "sha256": "367a6004e416a354aeea16ed1249754ed64fd1f69b7531a420cdf1c56bae351a"
+        },
+        {
+            "path": "04_models/roberta/shared_initialization_s42/tokenizer.json",
+            "size_bytes": 3558740,
+            "sha256": "9f49930af8b12d2fcad4e8cf500516c4251d46b2917f78bd9b49dbcc586261af"
+        },
+        {
+            "path": "04_models/roberta/shared_initialization_s42/tokenizer_config.json",
+            "size_bytes": 388,
+            "sha256": "aa6a8a3f069d2d98c09444ee3f9671d64c29ce647473dccd78169b10c490d359"
+        }
+    ]
+}

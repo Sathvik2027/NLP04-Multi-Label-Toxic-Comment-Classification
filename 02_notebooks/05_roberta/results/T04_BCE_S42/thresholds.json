@@ -1,0 +1,27 @@
+{
+    "run_id": "T04_BCE_S42",
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "score_type": "sigmoid_probability",
+    "default_threshold": 0.5,
+    "optimized_thresholds": {
+        "toxic": 0.651576578617096,
+        "severe_toxic": 0.37068089842796326,
+        "obscene": 0.5991333723068237,
+        "threat": 0.2963487207889557,
+        "insult": 0.4544418752193451,
+        "identity_hate": 0.409633994102478
+    },
+    "selection_partition": "validation",
+    "optimization_metric": "per_label_f1",
+    "comparison_operator": ">=",
+    "tie_breaking": "highest_threshold",
+    "probability_calibration_established": false,
+    "official_test_used": false
+}

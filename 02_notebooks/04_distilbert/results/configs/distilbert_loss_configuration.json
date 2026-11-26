@@ -1,0 +1,69 @@
+{
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "training_samples": 59997,
+    "training_dataset_sha256": "0a8112225abf0bbd17ad3b0956604e88b5d7abbb117abd6b83738f89a9ff3e89",
+    "training_positives": [
+        5753,
+        599,
+        3177,
+        179,
+        2963,
+        527
+    ],
+    "training_negatives": [
+        54244,
+        59398,
+        56820,
+        59818,
+        57034,
+        59470
+    ],
+    "positive_weight_formula": "sqrt(Nneg/Npos)",
+    "positive_weights": {
+        "toxic": 3.070638418197632,
+        "severe_toxic": 9.958008766174316,
+        "obscene": 4.229042053222656,
+        "threat": 18.28055763244629,
+        "insult": 4.387338161468506,
+        "identity_hate": 10.62291431427002
+    },
+    "focal_gamma": 2.0,
+    "focal_alpha_factor": 1.0,
+    "loss_configurations": {
+        "T01_BCE_S42": {
+            "loss_name": "BCE",
+            "positive_weighting": false,
+            "focal_gamma": null,
+            "focal_alpha_factor": null
+        },
+        "T02_WBCE_S42": {
+            "loss_name": "WBCE",
+            "positive_weighting": true,
+            "focal_gamma": null,
+            "focal_alpha_factor": null
+        },
+        "T03_FOCAL_S42": {
+            "loss_name": "FOCAL",
+            "positive_weighting": false,
+            "focal_gamma": 2.0,
+            "focal_alpha_factor": 1.0
+        }
+    },
+    "loss_input": "raw_logits",
+    "target_type": "multilabel_binary_float",
+    "loss_computation_dtype": "float32",
+    "loss_reduction": "mean_over_samples_and_labels",
+    "sigmoid_before_loss": false,
+    "softmax_used": false,
+    "weights_computed_from_training_only": true,
+    "mathematical_verification_passed": true,
+    "gradient_verification_passed": true,
+    "official_test_used": false
+}

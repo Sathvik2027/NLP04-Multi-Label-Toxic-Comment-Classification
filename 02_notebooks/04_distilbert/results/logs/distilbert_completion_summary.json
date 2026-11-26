@@ -1,0 +1,136 @@
+{
+    "notebook": "04_distilbert",
+    "status": "Completed",
+    "completed_at": "2026-11-25T14:23:16.902339+00:00",
+    "classical_experiments": 11,
+    "distilbert_experiments": 3,
+    "total_registered_experiments": 14,
+    "methodological_decisions": 60,
+    "selected_distilbert_run": "T03_FOCAL_S42",
+    "secondary_distilbert_candidate": "T02_WBCE_S42",
+    "selected_validation_macro_ap": 0.726281932053619,
+    "selected_optimized_macro_f1": 0.7018115905383522,
+    "macro_ap_gap_to_runner_up": 0.0009956266740409614,
+    "controlled_experiment_settings_verified": true,
+    "metrics_reconstructed_from_predictions": true,
+    "retained_artifacts_verified": true,
+    "completed_optimizer_checkpoints_pruned": true,
+    "statistical_significance_established": false,
+    "additional_model_training_performed": false,
+    "additional_figures_generated": 0,
+    "official_test_used": false,
+    "final_project_model_frozen": false,
+    "next_notebook": "05_roberta",
+    "artifact_inventory": [
+        {
+            "path": "02_notebooks/04_distilbert/results/T01_BCE_S42/logs/artifact_manifest_before_pruning.csv",
+            "size_bytes": 3618,
+            "sha256": "761f3bbc2dafa0ed7c38163b8190f2990aca6da04e604ea823adcdcbf9140b62"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/T01_BCE_S42/logs/checkpoint_retention.json",
+            "size_bytes": 1027,
+            "sha256": "78833be18c408b7abd99ee9241c6ef3737d5d63ae152e516cca8a4d86bc7ed56"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/T01_BCE_S42/tables/artifact_manifest.csv",
+            "size_bytes": 3470,
+            "sha256": "8689e0c08b98cc7f458f7d2fac20403e30ae9ee2dbec9740872c89ecaf9a1819"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/T02_WBCE_S42/logs/artifact_manifest_before_pruning.csv",
+            "size_bytes": 3660,
+            "sha256": "4cd06d27788718d26028f01317799b7c88a86191045ff5a43f53fa01771283b7"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/T02_WBCE_S42/logs/checkpoint_retention.json",
+            "size_bytes": 1031,
+            "sha256": "89b68ca55d94e73cd087d4f6f7fdfe90cb0d208ed24604ab8afee657f74d7424"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/T02_WBCE_S42/tables/artifact_manifest.csv",
+            "size_bytes": 3510,
+            "sha256": "547e88cfa30f749906695c738a8a61fdbfd6895f74dfeefdaeb7ac016e3aadca"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/T03_FOCAL_S42/logs/artifact_manifest_before_pruning.csv",
+            "size_bytes": 3702,
+            "sha256": "15e801c9cd012eea6946ed22bcd64aa101926f2b67d53e4643fdef228488a9fd"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/T03_FOCAL_S42/logs/checkpoint_retention.json",
+            "size_bytes": 531,
+            "sha256": "a74618c4fea217ee0fbf6610ead3b51aa71483842e8eabef05efdfff4e33f57a"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/T03_FOCAL_S42/tables/artifact_manifest.csv",
+            "size_bytes": 3550,
+            "sha256": "6fa7290bf06c2ec1dcc001075f83a01036784c5a9026c594d48f276dc3bb1b8b"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/configs/distilbert_final_selection.json",
+            "size_bytes": 5416,
+            "sha256": "9eaf2f5d4ec23ad9ae070ad954dd0f68a2547538c53d625623af70c6c88f37e9"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/configs/distilbert_loss_configuration.json",
+            "size_bytes": 1871,
+            "sha256": "2b0b264e12183a173e2c3b385521ea80cb047a80e7f0c570d1f368f01d7c56fe"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/configs/distilbert_training_pipeline.json",
+            "size_bytes": 9875,
+            "sha256": "d2f83f2fd992f45d6b5f980d3bfa2591fb4ccc4a41d64191a5f24e18f898b3b6"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/figures/distilbert_consolidated_comparison.png",
+            "size_bytes": 390162,
+            "sha256": "359e30b75ee1fdd2341c23500283223c49a36730d9d4ea6a90ac7fa94427be50"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/logs/distilbert_dataset_preparation.json",
+            "size_bytes": 1466,
+            "sha256": "61f7615a5c6e54035ffd64a659143746a771415329c8995d049a3485a6ea9479"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/logs/distilbert_smoke_test_summary.json",
+            "size_bytes": 3782,
+            "sha256": "c2f9d2cd493890cb58ed2cd7ad7efc35d3229812f0cfa1bbc5c5cd0aa262b47a"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/logs/distilbert_tokenization_summary.json",
+            "size_bytes": 1336,
+            "sha256": "37c61ace3194875829de88d95d2ea13f2aced317ebe4cf244535834490480704"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/summary.md",
+            "size_bytes": 2812,
+            "sha256": "3f803771baf8732c8cefe388ef35acb17afd5687eb55c30135af474f176c5d5c"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/tables/distilbert_classical_comparison.csv",
+            "size_bytes": 605,
+            "sha256": "3909d3dc74cf73e13e5cc05f593200d2a5c2db95ccecd662218814ac3822b96a"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/tables/distilbert_loss_ablation.csv",
+            "size_bytes": 492,
+            "sha256": "4363d1d25ff6507652da76a92a1fb0dc22efff42e37ea31ad58e4b75cd15e6c2"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/tables/distilbert_per_label_comparison.csv",
+            "size_bytes": 3266,
+            "sha256": "2a463645ae02bb605cd30e3e560d4a1cc7900246129183a559ecac3d5310eeb3"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/tables/distilbert_rare_label_comparison.csv",
+            "size_bytes": 1704,
+            "sha256": "e3f1a03f2a4a03d91b138c04555bda860216631cccdabe3817e96f44ff263fbd"
+        },
+        {
+            "path": "02_notebooks/04_distilbert/results/tables/distilbert_validation_comparison.csv",
+            "size_bytes": 955,
+            "sha256": "920aeee12d89d969a062dd9474ac21ccb5e886ecf83c7abf8357b050da4399f3"
+        }
+    ]
+}

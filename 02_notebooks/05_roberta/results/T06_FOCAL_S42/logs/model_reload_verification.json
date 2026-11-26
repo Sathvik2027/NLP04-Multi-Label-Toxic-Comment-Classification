@@ -1,0 +1,8 @@
+{
+    "model_state_fingerprint_exact": true,
+    "maximum_logit_difference": 0.0,
+    "maximum_probability_difference": 0.0,
+    "macro_ap_difference": 0.0,
+    "logit_tolerance": 0.002,
+    "probability_tolerance": 0.0005
+}

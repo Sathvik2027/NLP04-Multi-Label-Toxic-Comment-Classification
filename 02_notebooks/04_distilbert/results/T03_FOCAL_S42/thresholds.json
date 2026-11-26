@@ -1,0 +1,27 @@
+{
+    "run_id": "T03_FOCAL_S42",
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "score_type": "sigmoid_probability",
+    "default_threshold": 0.5,
+    "optimized_thresholds": {
+        "toxic": 0.5134397745132446,
+        "severe_toxic": 0.4532618522644043,
+        "obscene": 0.4918220341205597,
+        "threat": 0.450298935174942,
+        "insult": 0.4392361640930176,
+        "identity_hate": 0.41099265217781067
+    },
+    "selection_partition": "validation",
+    "optimization_metric": "per_label_f1",
+    "comparison_operator": ">=",
+    "tie_breaking": "highest_threshold",
+    "probability_calibration_established": false,
+    "official_test_used": false
+}

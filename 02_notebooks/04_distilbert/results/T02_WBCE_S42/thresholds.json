@@ -1,0 +1,27 @@
+{
+    "run_id": "T02_WBCE_S42",
+    "labels": [
+        "toxic",
+        "severe_toxic",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_hate"
+    ],
+    "score_type": "sigmoid_probability",
+    "default_threshold": 0.5,
+    "optimized_thresholds": {
+        "toxic": 0.851212203502655,
+        "severe_toxic": 0.7988152503967285,
+        "obscene": 0.8125700354576111,
+        "threat": 0.8077641129493713,
+        "insult": 0.6646491289138794,
+        "identity_hate": 0.7377254366874695
+    },
+    "selection_partition": "validation",
+    "optimization_metric": "per_label_f1",
+    "comparison_operator": ">=",
+    "tie_breaking": "highest_threshold",
+    "probability_calibration_established": false,
+    "official_test_used": false
+}

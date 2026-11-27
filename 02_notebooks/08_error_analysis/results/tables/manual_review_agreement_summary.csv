@@ -1,0 +1,9 @@
+Target Label,Error Type,Agrees with Dataset,Agrees with Model,Uncertain,Total Cases,Agrees with Dataset (%),Agrees with Model (%),Uncertain (%)
+identity_hate,FN,9,7,4,20,45.0,35.0,20.0
+identity_hate,FP,5,13,2,20,25.0,65.0,10.0
+severe_toxic,FN,7,1,2,10,70.0,10.0,20.0
+severe_toxic,FP,0,5,5,10,0.0,50.0,50.0
+threat,FN,4,7,9,20,20.0,35.0,45.0
+threat,FP,8,7,5,20,40.0,35.0,25.0
+toxic,FN,18,19,3,40,45.0,47.5,7.5
+toxic,FP,15,23,2,40,37.5,57.5,5.0

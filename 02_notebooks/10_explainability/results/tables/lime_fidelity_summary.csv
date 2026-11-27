@@ -1,0 +1,2 @@
+Explained Cases,Mean R2,Median R2,Minimum R2,Maximum R2,Mean Surrogate Absolute Error,Maximum Original Score Error,Total Perturbation Samples,Total Feature Attributions,Outside Window Features,Total Explanation Seconds
+20,0.8398044542825623,0.8636506953579033,0.5770102920989809,0.9909806444945425,0.02347721092987164,0.0003215968608856201,20000,196,0,27.700022983999872

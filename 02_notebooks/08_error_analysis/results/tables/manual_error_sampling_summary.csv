@@ -1,0 +1,9 @@
+Label,Error Type,Available Cases,Requested Cases,Sampled Cases
+toxic,FP,4139,40,40
+toxic,FN,640,40,40
+severe_toxic,FP,639,10,10
+severe_toxic,FN,121,10,10
+threat,FP,168,20,20
+threat,FN,55,20,20
+identity_hate,FP,409,20,20
+identity_hate,FN,196,20,20

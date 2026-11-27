@@ -1,0 +1,31 @@
+Category,Canonical Term,Matching Variants
+Gender,woman,woman | women
+Gender,man,man | men
+Gender,transgender,transgender | trans person | trans people
+Gender,nonbinary,nonbinary | non-binary | non binary
+Sexual orientation,gay,gay | gays
+Sexual orientation,lesbian,lesbian | lesbians
+Sexual orientation,bisexual,bisexual | bisexuals
+Sexual orientation,heterosexual,heterosexual | heterosexuals
+Religion,muslim,muslim | muslims
+Religion,christian,christian | christians
+Religion,jewish,jewish | jew | jews
+Religion,hindu,hindu | hindus
+Religion,buddhist,buddhist | buddhists
+Religion,sikh,sikh | sikhs
+Religion,atheist,atheist | atheists
+Race and ethnicity,black,black | blacks
+Race and ethnicity,white,white | whites
+Race and ethnicity,asian,asian | asians
+Race and ethnicity,latino,latino | latinos
+Race and ethnicity,latina,latina | latinas
+Race and ethnicity,hispanic,hispanic | hispanics
+Race and ethnicity,arab,arab | arabs
+Race and ethnicity,african american,african american | african americans | african-american | african-americans
+Race and ethnicity,native american,native american | native americans | native-american | native-americans
+Disability,disabled,disabled | disability | disabilities
+Disability,autistic,autistic | autism
+Disability,blind,blind | blindness
+Disability,deaf,deaf | deafness
+Disability,wheelchair user,wheelchair user | wheelchair users
+Disability,intellectual disability,intellectual disability | intellectual disabilities

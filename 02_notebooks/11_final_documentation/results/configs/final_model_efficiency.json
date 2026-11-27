@@ -1,0 +1,22 @@
+{
+    "run_id": "S02_ROBERTA_FOCAL_FULL_S42",
+    "benchmark_comments": 63978,
+    "training_seconds": 4810.379336573985,
+    "offline_test_inference_seconds": 206.39704804099995,
+    "offline_inference_comments_per_second": 309.9753635395552,
+    "amortized_inference_ms_per_comment": 3.226062834740066,
+    "inference_device": "cuda",
+    "batch_size": 32,
+    "model_size_mib": 475.5259780883789,
+    "peak_gpu_allocated_gib": 0.6747393608093262,
+    "peak_gpu_reserved_gib": 0.759765625,
+    "single_request_latency_measured": false,
+    "end_to_end_production_latency_measured": false,
+    "production_deployment_tested": false,
+    "limitations": [
+        "Offline batched inference is not production latency.",
+        "Reported transformer inference used cached tokenized inputs.",
+        "GPU allocator measurements exclude some system overhead.",
+        "Model size is not total application memory usage."
+    ]
+}

@@ -1,0 +1,8 @@
+Stratum,Target Outcome,Cases
+Challenging multilabel,FN,1
+Challenging multilabel,FP,1
+Clean identity mention,FP,2
+Clean identity mention,TN,2
+False negative,FN,4
+False positive,FP,4
+True positive,TP,6

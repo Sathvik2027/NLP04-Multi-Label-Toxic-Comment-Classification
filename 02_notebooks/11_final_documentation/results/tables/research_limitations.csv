@@ -1,0 +1,19 @@
+Limitation ID,Area,Limitation,Recommended Future Action
+L01,Dataset domain,English Wikipedia comments do not represent every online platform.,Validate on platform-specific data before deployment.
+L02,Annotation quality,Subjective toxicity labels and conflicting annotations introduce noise.,Retain disagreement and use contextual human review.
+L03,Class imbalance,Rare categories have limited positive examples.,"Report per-label AP, F1 and support alongside aggregate metrics."
+L04,Training randomness,Completed configurations use a single fixed training seed.,Repeat training with additional seeds in future research.
+L05,Scaling comparison,Full-data training also changes the optimizer-update budget.,Do not attribute all improvements solely to training-data size.
+L06,Generalization,Validation performance exceeds official test performance.,Report both partitions and investigate distribution differences.
+L07,Truncation,The transformer input window is limited to 256 tokens.,Review long comments and investigate longer-context models.
+L08,Fairness,Residual identity-term false-positive disparities remain.,Use human review for identity-related and ambiguous predictions.
+L09,Identity measurement,Lexical mentions do not establish actual demographic membership.,Avoid claims of demographic parity or absence of discrimination.
+L10,Synthetic fairness,Fixed templates have limited linguistic diversity.,Obtain independent human annotations and broader templates.
+L11,Explainability,LIME provides local approximations rather than causal explanations.,"Report fidelity, deletion and retention evidence together."
+L12,Human review,Qualitative error and explanation interpretations are AI-assisted.,Complete independent review before claiming human validation.
+L13,Calibration,Sigmoid scores have not been established as calibrated probabilities.,Evaluate calibration using separate development evidence.
+L14,Deployment efficiency,Offline GPU throughput is not single-request service latency.,Benchmark end-to-end latency and memory in the target environment.
+L15,Threshold trade-off,Reducing moderation workload may increase missed positive comments.,Preserve frozen thresholds and disclose both error costs.
+L16,Benchmark familiarity,The official benchmark was historically familiar to the team.,"Treat it as held out for this pipeline, not an unfamiliar dataset."
+L17,Statistical uncertainty,Bootstrap intervals do not capture training-seed variability.,Treat intervals as conditional and unadjusted for multiplicity.
+L18,Deferred experiments,Some optional experiments were skipped due to compute constraints.,Document skipped runs and never report them as completed.

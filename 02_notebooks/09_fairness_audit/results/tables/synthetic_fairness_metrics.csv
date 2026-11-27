@@ -1,0 +1,1297 @@
+Run ID,Model,Frame Type,Outcome,Level,Identity Group,Matched Pairs,Template Families,Identity Flag Rate (%),Control Flag Rate (%),Flag Rate Gap (pp),Gap CI Lower (pp),Gap CI Upper (pp),Mean Score Change,Score Change CI Lower,Score Change CI Upper,Upward Prediction Flips,Downward Prediction Flips,Prediction Flip Rate (%),Gap CI Degenerate,CI Computed
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Overall,Any identity term,240,8,4.166666666666666,0.0,4.166666666666666,3.3333333333333335,5.833333333333333,0.11391972671542708,0.09849798270814165,0.12928629367433886,10,0,4.166666666666667,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Overall,Any identity term,240,8,3.3333333333333335,0.0,3.3333333333333335,3.3333333333333335,3.333333333333334,0.11726023157879942,0.09936093863929125,0.14185207998910915,8,0,3.3333333333333335,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Overall,Any identity term,240,8,4.166666666666666,0.0,4.166666666666666,3.3333333333333335,5.833333333333333,,,,10,0,4.166666666666667,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,0.05360163944214432,0.040496976231899205,0.07012384495754186,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,0.020091927356345077,0.012504156783831297,0.03210291160093763,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Category,Sexual orientation,32,8,31.25,0.0,31.25,25.0,43.75,0.4223535712739948,0.3865910575661467,0.4542428362187381,10,0,31.25,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Category,Sexual orientation,32,8,25.0,0.0,25.0,25.0,25.0,0.41504389670547015,0.37520641897469736,0.4683631170861521,8,0,25.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Category,Sexual orientation,32,8,31.25,0.0,31.25,25.0,43.75,,,,10,0,31.25,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,0.07933981512943232,0.06465619156149811,0.09437156873219141,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,0.128651045091922,0.10615028708206477,0.1583635343977125,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,0.07985375538579548,0.06627370482395004,0.09386041000817372,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,0.09798298450787898,0.07524437075069419,0.1287225481938638,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,0.03995140903667842,0.032388576994403104,0.049017272084613324,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,-0.000856754182940469,-0.0032714817759890817,0.0007986868485990173,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,woman,8,8,0.0,0.0,0.0,,,0.07141025557517224,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,woman,8,8,0.0,0.0,0.0,,,0.05886027098770083,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,woman,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,man,8,8,0.0,0.0,0.0,,,0.01739683387433187,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,man,8,8,0.0,0.0,0.0,,,0.010677497516621653,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,man,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,transgender,8,8,0.0,0.0,0.0,,,0.0617877301589469,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,transgender,8,8,0.0,0.0,0.0,,,0.012194190650494208,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,transgender,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,nonbinary,8,8,0.0,0.0,0.0,,,0.06381173816012628,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,nonbinary,8,8,0.0,0.0,0.0,,,-0.0013642497294363892,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,nonbinary,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,gay,8,8,100.0,0.0,100.0,,,0.7414295622744042,,,8,0,100.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,gay,8,8,100.0,0.0,100.0,,,0.9148430587399813,,,8,0,100.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,gay,8,8,100.0,0.0,100.0,,,,,,8,0,100.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,lesbian,8,8,0.0,0.0,0.0,,,0.07727222753673249,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,lesbian,8,8,0.0,0.0,0.0,,,0.30088009939386334,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,lesbian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,bisexual,8,8,12.5,0.0,12.5,,,0.47173851415119156,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,bisexual,8,8,0.0,0.0,0.0,,,0.22477072073504364,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,bisexual,8,8,12.5,0.0,12.5,,,,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,heterosexual,8,8,12.5,0.0,12.5,,,0.3989739811336508,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,heterosexual,8,8,0.0,0.0,0.0,,,0.21968170795299216,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,heterosexual,8,8,12.5,0.0,12.5,,,,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,muslim,8,8,0.0,0.0,0.0,,,0.18411828744637235,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,muslim,8,8,0.0,0.0,0.0,,,0.2575643111269999,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,muslim,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,christian,8,8,0.0,0.0,0.0,,,-0.032605710351544324,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,christian,8,8,0.0,0.0,0.0,,,0.09513763135679071,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,christian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,jewish,8,8,0.0,0.0,0.0,,,0.12702681036435154,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,jewish,8,8,0.0,0.0,0.0,,,0.5015987129310732,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,jewish,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,hindu,8,8,0.0,0.0,0.0,,,0.06690026126481938,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,hindu,8,8,0.0,0.0,0.0,,,0.006328770885155174,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,hindu,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,buddhist,8,8,0.0,0.0,0.0,,,0.08013439355320319,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,buddhist,8,8,0.0,0.0,0.0,,,0.013980574443659043,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,buddhist,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,sikh,8,8,0.0,0.0,0.0,,,0.08614414823344117,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,sikh,8,8,0.0,0.0,0.0,,,0.004437735221052364,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,sikh,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,atheist,8,8,0.0,0.0,0.0,,,0.043660515395382966,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,atheist,8,8,0.0,0.0,0.0,,,0.021509579678723613,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,atheist,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,black,8,8,0.0,0.0,0.0,,,0.2432934284892211,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,black,8,8,0.0,0.0,0.0,,,0.3578755423097617,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,black,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,white,8,8,0.0,0.0,0.0,,,0.1719973006204069,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,white,8,8,0.0,0.0,0.0,,,0.10806769696898996,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,white,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,asian,8,8,0.0,0.0,0.0,,,-0.01771260270143142,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,asian,8,8,0.0,0.0,0.0,,,0.15076502878980574,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,asian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,latino,8,8,0.0,0.0,0.0,,,0.053389234406748934,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,latino,8,8,0.0,0.0,0.0,,,0.003987232520611638,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,latino,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,latina,8,8,0.0,0.0,0.0,,,0.06780384180335516,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,latina,8,8,0.0,0.0,0.0,,,0.008246469369201703,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,latina,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,hispanic,8,8,0.0,0.0,0.0,,,0.022005517660035993,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,hispanic,8,8,0.0,0.0,0.0,,,0.008864363475598117,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,hispanic,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,arab,8,8,0.0,0.0,0.0,,,0.10480247933297092,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,arab,8,8,0.0,0.0,0.0,,,0.06887750318866519,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,arab,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,african american,8,8,0.0,0.0,0.0,,,0.013670868766775977,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,african american,8,8,0.0,0.0,0.0,,,0.07422876186267424,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,african american,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,native american,8,8,0.0,0.0,0.0,,,0.05943373009407579,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,native american,8,8,0.0,0.0,0.0,,,0.10093426208560244,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,native american,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,disabled,8,8,0.0,0.0,0.0,,,0.05790455393463492,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,disabled,8,8,0.0,0.0,0.0,,,-0.005708493892710782,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,disabled,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,autistic,8,8,0.0,0.0,0.0,,,0.03420233259245305,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,autistic,8,8,0.0,0.0,0.0,,,0.0014540662061122216,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,autistic,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,blind,8,8,0.0,0.0,0.0,,,0.07120394652402093,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,blind,8,8,0.0,0.0,0.0,,,0.000780912951498346,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,blind,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,deaf,8,8,0.0,0.0,0.0,,,0.04315028448089203,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,deaf,8,8,0.0,0.0,0.0,,,0.0003802073517358718,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,deaf,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,wheelchair user,8,8,0.0,0.0,0.0,,,-0.017376042478479282,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,wheelchair user,8,8,0.0,0.0,0.0,,,-0.00413924939470304,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,wheelchair user,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,toxic,Term,intellectual disability,8,8,0.0,0.0,0.0,,,0.050623379166548854,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,identity_hate,Term,intellectual disability,8,8,0.0,0.0,0.0,,,0.002092031680424568,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Neutral,any_label,Term,intellectual disability,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Overall,Any identity term,240,8,4.583333333333333,0.0,4.583333333333333,2.5,6.666666666666667,0.12135351779567574,0.10603297779244876,0.1353411770776805,11,0,4.583333333333333,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Overall,Any identity term,240,8,2.9166666666666665,0.0,2.9166666666666665,2.083333333333333,3.333333333333334,0.12876743675019175,0.1031157022844822,0.1499676226400281,7,0,2.9166666666666665,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Overall,Any identity term,240,8,5.0,0.0,5.0,3.3333333333333335,6.687499999999981,,,,12,0,5.0,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,0.07069902158655851,0.05129936042815252,0.09344004707274386,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,0.024175298097650837,0.016623100421156778,0.03053602240315766,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Category,Sexual orientation,32,8,34.375,0.0,34.375,18.75,50.0,0.42640297566977,0.3905500161442867,0.46422839713900294,11,0,34.375,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Category,Sexual orientation,32,8,21.875,0.0,21.875,15.625,25.0,0.44531676610879345,0.37801229401032266,0.5068700365617392,7,0,21.875,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Category,Sexual orientation,32,8,37.5,0.0,37.5,25.0,50.15624999999986,,,,12,0,37.5,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,0.08646584726113894,0.07187719526099198,0.10150144966944823,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,0.13914705487601983,0.10771395041209149,0.16292923350314323,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,0.08580763778260099,0.0735116305915493,0.09706932187144254,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,0.1114234731600149,0.08360400277257445,0.13431933388312464,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,0.04577797899559612,0.03693777237215878,0.054378745778103095,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,0.0013690338512837043,0.0007554290590297253,0.002083455006176996,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,woman,8,8,0.0,0.0,0.0,,,0.10122662941767141,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,woman,8,8,0.0,0.0,0.0,,,0.06569667689192285,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,woman,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,man,8,8,0.0,0.0,0.0,,,0.04450377407069965,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,man,8,8,0.0,0.0,0.0,,,0.012355546764356032,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,man,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,transgender,8,8,0.0,0.0,0.0,,,0.06627869634635,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,transgender,8,8,0.0,0.0,0.0,,,0.018027267461143873,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,transgender,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,nonbinary,8,8,0.0,0.0,0.0,,,0.070786986511513,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,nonbinary,8,8,0.0,0.0,0.0,,,0.0006217012731805799,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,nonbinary,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,gay,8,8,87.5,0.0,87.5,,,0.7283495355207916,,,7,0,87.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,gay,8,8,87.5,0.0,87.5,,,0.9057850380345597,,,7,0,87.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,gay,8,8,100.0,0.0,100.0,,,,,,8,0,100.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,lesbian,8,8,0.0,0.0,0.0,,,0.09013648408461375,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,lesbian,8,8,0.0,0.0,0.0,,,0.34719483855104405,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,lesbian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,bisexual,8,8,25.0,0.0,25.0,,,0.4793425836515159,,,2,0,25.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,bisexual,8,8,0.0,0.0,0.0,,,0.2672670407284611,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,bisexual,8,8,25.0,0.0,25.0,,,,,,2,0,25.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,heterosexual,8,8,25.0,0.0,25.0,,,0.40778329942215874,,,2,0,25.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,heterosexual,8,8,0.0,0.0,0.0,,,0.26102014712110894,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,heterosexual,8,8,25.0,0.0,25.0,,,,,,2,0,25.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,muslim,8,8,0.0,0.0,0.0,,,0.20040256680174592,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,muslim,8,8,0.0,0.0,0.0,,,0.2845717059245367,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,muslim,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,christian,8,8,0.0,0.0,0.0,,,-0.04681012550792372,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,christian,8,8,0.0,0.0,0.0,,,0.1087524860274229,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,christian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,jewish,8,8,0.0,0.0,0.0,,,0.13473783055487484,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,jewish,8,8,0.0,0.0,0.0,,,0.5303061091856722,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,jewish,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,hindu,8,8,0.0,0.0,0.0,,,0.07605346667449533,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,hindu,8,8,0.0,0.0,0.0,,,0.007393170121888399,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,hindu,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,buddhist,8,8,0.0,0.0,0.0,,,0.08916089511011907,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,buddhist,8,8,0.0,0.0,0.0,,,0.016283023190143003,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,buddhist,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,sikh,8,8,0.0,0.0,0.0,,,0.10068366510485353,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,sikh,8,8,0.0,0.0,0.0,,,0.0045670094678228156,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,sikh,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,atheist,8,8,0.0,0.0,0.0,,,0.051032632089807614,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,atheist,8,8,0.0,0.0,0.0,,,0.022155880214652878,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,atheist,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,black,8,8,0.0,0.0,0.0,,,0.2601471328377667,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,black,8,8,0.0,0.0,0.0,,,0.3970540543577686,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,black,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,white,8,8,0.0,0.0,0.0,,,0.18924107901228232,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,white,8,8,0.0,0.0,0.0,,,0.12363661778173853,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,white,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,asian,8,8,0.0,0.0,0.0,,,-0.024688815576021872,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,asian,8,8,0.0,0.0,0.0,,,0.17767612539378624,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,asian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,latino,8,8,0.0,0.0,0.0,,,0.06128112121975527,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,latino,8,8,0.0,0.0,0.0,,,0.007153784690235348,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,latino,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,latina,8,8,0.0,0.0,0.0,,,0.07728359163929806,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,latina,8,8,0.0,0.0,0.0,,,0.01233288621648284,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,latina,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,hispanic,8,8,0.0,0.0,0.0,,,0.02302475275386652,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,hispanic,8,8,0.0,0.0,0.0,,,0.010431005758935637,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,hispanic,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,arab,8,8,0.0,0.0,0.0,,,0.1195452226441385,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,arab,8,8,0.0,0.0,0.0,,,0.08095429194329837,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,arab,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,african american,8,8,0.0,0.0,0.0,,,0.006336099819109932,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,african american,8,8,0.0,0.0,0.0,,,0.08458387199350284,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,african american,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,native american,8,8,0.0,0.0,0.0,,,0.060098555693213734,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,native american,8,8,0.0,0.0,0.0,,,0.10898862030438575,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,native american,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,disabled,8,8,0.0,0.0,0.0,,,0.06455942825937108,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,disabled,8,8,0.0,0.0,0.0,,,-0.0062419697254670675,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,disabled,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,autistic,8,8,0.0,0.0,0.0,,,0.037768129973862787,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,autistic,8,8,0.0,0.0,0.0,,,0.003889310811837897,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,autistic,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,blind,8,8,0.0,0.0,0.0,,,0.08491335699150343,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,blind,8,8,0.0,0.0,0.0,,,0.0012190224813716775,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,blind,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,deaf,8,8,0.0,0.0,0.0,,,0.0513816294154663,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,deaf,8,8,0.0,0.0,0.0,,,0.00217223889209008,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,deaf,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,wheelchair user,8,8,0.0,0.0,0.0,,,-0.009720029296837043,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,wheelchair user,8,8,0.0,0.0,0.0,,,0.0021831704191037126,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,wheelchair user,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,toxic,Term,intellectual disability,8,8,0.0,0.0,0.0,,,0.04576535863021017,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,identity_hate,Term,intellectual disability,8,8,0.0,0.0,0.0,,,0.004992430228765925,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Positive,any_label,Term,intellectual disability,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Overall,Any identity term,480,16,4.375,0.0,4.375,3.125,5.833333333333333,0.11763662225555141,0.10595521192388895,0.12848334121161134,21,0,4.375,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Overall,Any identity term,480,16,3.125,0.0,3.125,2.7083333333333335,3.333333333333334,0.12301383416449557,0.10766115301533603,0.13922067931402085,15,0,3.125,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Overall,Any identity term,480,16,4.583333333333333,0.0,4.583333333333333,3.3333333333333335,5.833333333333333,,,,22,0,4.583333333333333,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Category,Gender,64,16,0.0,0.0,0.0,0.0,0.0,0.06215033051435142,0.049416231767078406,0.07543806783722647,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Category,Gender,64,16,0.0,0.0,0.0,0.0,0.0,0.022133612726997955,0.016750504253559322,0.02884146764467989,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Category,Gender,64,16,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Category,Sexual orientation,64,16,32.8125,0.0,32.8125,23.4375,43.75,0.4243782734718824,0.39638922779264557,0.45002386295593344,21,0,32.8125,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Category,Sexual orientation,64,16,23.4375,0.0,23.4375,20.3125,25.0,0.4301803314071318,0.3921782235900022,0.46990795170281396,15,0,23.4375,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Category,Sexual orientation,64,16,34.375,0.0,34.375,25.0,43.75,,,,22,0,34.375,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Category,Religion,112,16,0.0,0.0,0.0,0.0,0.0,0.08290283119528565,0.071827685761373,0.0930909598714979,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Category,Religion,112,16,0.0,0.0,0.0,0.0,0.0,0.13389904998397092,0.1155569046409866,0.15283036956587223,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Category,Religion,112,16,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Category,Race and ethnicity,144,16,0.0,0.0,0.0,0.0,0.0,0.08283069658419823,0.07303496087568111,0.09196273691690947,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Category,Race and ethnicity,144,16,0.0,0.0,0.0,0.0,0.0,0.10470322883394695,0.08676085832558703,0.12416960467596004,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Category,Race and ethnicity,144,16,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Category,Disability,96,16,0.0,0.0,0.0,0.0,0.0,0.042864694016137274,0.03690798674121809,0.0486871558423623,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Category,Disability,96,16,0.0,0.0,0.0,0.0,0.0,0.0002561398341716177,-0.0009721632955736301,0.0011791323965473553,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Category,Disability,96,16,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,woman,16,16,0.0,0.0,0.0,,,0.08631844249642182,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,woman,16,16,0.0,0.0,0.0,,,0.06227847393981184,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,woman,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,man,16,16,0.0,0.0,0.0,,,0.03095030397251576,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,man,16,16,0.0,0.0,0.0,,,0.01151652214048884,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,man,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,transgender,16,16,0.0,0.0,0.0,,,0.06403321325264845,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,transgender,16,16,0.0,0.0,0.0,,,0.01511072905581904,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,transgender,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,nonbinary,16,16,0.0,0.0,0.0,,,0.06729936233581962,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,nonbinary,16,16,0.0,0.0,0.0,,,-0.00037127422812790464,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,nonbinary,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,gay,16,16,93.75,0.0,93.75,,,0.7348895488975979,,,15,0,93.75,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,gay,16,16,93.75,0.0,93.75,,,0.9103140483872705,,,15,0,93.75,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,gay,16,16,100.0,0.0,100.0,,,,,,16,0,100.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,lesbian,16,16,0.0,0.0,0.0,,,0.08370435581067312,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,lesbian,16,16,0.0,0.0,0.0,,,0.32403746897245367,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,lesbian,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,bisexual,16,16,18.75,0.0,18.75,,,0.4755405489013537,,,3,0,18.75,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,bisexual,16,16,0.0,0.0,0.0,,,0.24601888073175235,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,bisexual,16,16,18.75,0.0,18.75,,,,,,3,0,18.75,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,heterosexual,16,16,18.75,0.0,18.75,,,0.40337864027790477,,,3,0,18.75,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,heterosexual,16,16,0.0,0.0,0.0,,,0.24035092753705056,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,heterosexual,16,16,18.75,0.0,18.75,,,,,,3,0,18.75,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,muslim,16,16,0.0,0.0,0.0,,,0.19226042712405914,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,muslim,16,16,0.0,0.0,0.0,,,0.2710680085257683,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,muslim,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,christian,16,16,0.0,0.0,0.0,,,-0.03970791792973402,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,christian,16,16,0.0,0.0,0.0,,,0.10194505869210681,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,christian,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,jewish,16,16,0.0,0.0,0.0,,,0.13088232045961318,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,jewish,16,16,0.0,0.0,0.0,,,0.5159524110583726,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,jewish,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,hindu,16,16,0.0,0.0,0.0,,,0.07147686396965736,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,hindu,16,16,0.0,0.0,0.0,,,0.006860970503521787,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,hindu,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,buddhist,16,16,0.0,0.0,0.0,,,0.08464764433166112,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,buddhist,16,16,0.0,0.0,0.0,,,0.015131798816901024,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,buddhist,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,sikh,16,16,0.0,0.0,0.0,,,0.09341390666914737,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,sikh,16,16,0.0,0.0,0.0,,,0.004502372344437591,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,sikh,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,atheist,16,16,0.0,0.0,0.0,,,0.047346573742595294,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,atheist,16,16,0.0,0.0,0.0,,,0.021832729946688244,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,atheist,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,black,16,16,0.0,0.0,0.0,,,0.2517202806634939,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,black,16,16,0.0,0.0,0.0,,,0.3774647983337651,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,black,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,white,16,16,0.0,0.0,0.0,,,0.18061918981634462,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,white,16,16,0.0,0.0,0.0,,,0.11585215737536425,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,white,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,asian,16,16,0.0,0.0,0.0,,,-0.021200709138726646,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,asian,16,16,0.0,0.0,0.0,,,0.164220577091796,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,asian,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,latino,16,16,0.0,0.0,0.0,,,0.057335177813252106,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,latino,16,16,0.0,0.0,0.0,,,0.005570508605423493,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,latino,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,latina,16,16,0.0,0.0,0.0,,,0.07254371672132662,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,latina,16,16,0.0,0.0,0.0,,,0.010289677792842272,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,latina,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,hispanic,16,16,0.0,0.0,0.0,,,0.022515135206951257,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,hispanic,16,16,0.0,0.0,0.0,,,0.009647684617266877,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,hispanic,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,arab,16,16,0.0,0.0,0.0,,,0.1121738509885547,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,arab,16,16,0.0,0.0,0.0,,,0.07491589756598177,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,arab,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,african american,16,16,0.0,0.0,0.0,,,0.010003484292942955,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,african american,16,16,0.0,0.0,0.0,,,0.07940631692808856,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,african american,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,native american,16,16,0.0,0.0,0.0,,,0.059766142893644764,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,native american,16,16,0.0,0.0,0.0,,,0.10496144119499409,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,native american,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,disabled,16,16,0.0,0.0,0.0,,,0.061231991097003,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,disabled,16,16,0.0,0.0,0.0,,,-0.005975231809088925,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,disabled,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,autistic,16,16,0.0,0.0,0.0,,,0.03598523128315792,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,autistic,16,16,0.0,0.0,0.0,,,0.0026716885089750593,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,autistic,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,blind,16,16,0.0,0.0,0.0,,,0.07805865175776219,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,blind,16,16,0.0,0.0,0.0,,,0.0009999677164350116,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,blind,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,deaf,16,16,0.0,0.0,0.0,,,0.047265956948179165,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,deaf,16,16,0.0,0.0,0.0,,,0.0012762231219129757,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,deaf,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,wheelchair user,16,16,0.0,0.0,0.0,,,-0.013548035887658162,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,wheelchair user,16,16,0.0,0.0,0.0,,,-0.0009780394877996635,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,wheelchair user,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,toxic,Term,intellectual disability,16,16,0.0,0.0,0.0,,,0.04819436889837951,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,identity_hate,Term,intellectual disability,16,16,0.0,0.0,0.0,,,0.0035422309545952465,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Nonharmful,any_label,Term,intellectual disability,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Overall,Any identity term,240,8,90.0,87.5,2.5,-1.25,8.75,0.015610148692715849,-0.0013344937721025997,0.04073404309690972,7,1,3.3333333333333335,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Overall,Any identity term,240,8,12.083333333333334,0.0,12.083333333333334,5.416666666666667,19.583333333333332,0.1513535925486426,0.11414756502788877,0.19263777938421794,29,0,12.083333333333334,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Overall,Any identity term,240,8,90.41666666666667,87.5,2.9166666666666665,0.0,8.75,,,,7,0,2.9166666666666665,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Category,Gender,32,8,90.625,87.5,3.125,0.0,9.375,0.026394018603527657,0.005298970017208546,0.05503555920234887,1,0,3.125,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,0.07987748864699937,0.04944537259069969,0.10855620390595383,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Category,Gender,32,8,90.625,87.5,3.125,0.0,9.375,,,,1,0,3.125,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Category,Sexual orientation,32,8,96.875,87.5,9.375,0.0,28.125,0.06583978946283055,0.018054057509350265,0.13499636191224262,3,0,9.375,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Category,Sexual orientation,32,8,53.125,0.0,53.125,28.125,81.25,0.44136331252459915,0.3582848713553063,0.5244651641559189,17,0,53.125,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Category,Sexual orientation,32,8,96.875,87.5,9.375,0.0,28.125,,,,3,0,9.375,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Category,Religion,56,8,87.5,87.5,0.0,-5.357142857142857,5.357142857142857,0.005867905054896433,-0.006905580064602672,0.02523521827621498,1,1,3.5714285714285716,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Category,Religion,56,8,12.5,0.0,12.5,3.571428571428571,21.428571428571427,0.16328323368296285,0.11902533277253585,0.21060024347207296,7,0,12.5,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Category,Religion,56,8,89.28571428571429,87.5,1.7857142857142856,0.0,5.357142857142857,,,,1,0,1.7857142857142858,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Category,Race and ethnicity,72,8,90.27777777777779,87.5,2.7777777777777777,0.0,8.333333333333332,0.004616664483684082,-0.00876649893123777,0.023465881867470038,2,0,2.7777777777777777,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Category,Race and ethnicity,72,8,6.944444444444445,0.0,6.944444444444445,1.3888888888888888,12.5,0.16797139296734143,0.11772517535317627,0.2186993794871322,5,0,6.944444444444445,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Category,Race and ethnicity,72,8,90.27777777777779,87.5,2.7777777777777777,0.0,8.333333333333332,,,,2,0,2.7777777777777777,False,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Category,Disability,48,8,87.5,87.5,0.0,0.0,0.0,0.0027906521297684783,-0.007553979971133387,0.018344379377321498,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,-0.033180100118987865,-0.0682429309649297,-0.005809388426459936,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Category,Disability,48,8,87.5,87.5,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,woman,8,8,100.0,87.5,12.5,,,0.03314372854675737,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,woman,8,8,0.0,0.0,0.0,,,0.20210874224740089,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,woman,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,man,8,8,87.5,87.5,0.0,,,0.023728561019508154,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,man,8,8,0.0,0.0,0.0,,,0.08188161886654964,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,man,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,transgender,8,8,87.5,87.5,0.0,,,0.02278504519726919,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,transgender,8,8,0.0,0.0,0.0,,,0.0482619587477172,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,transgender,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,nonbinary,8,8,87.5,87.5,0.0,,,0.02591873965057591,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,nonbinary,8,8,0.0,0.0,0.0,,,-0.012742365273670224,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,nonbinary,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,gay,8,8,100.0,87.5,12.5,,,0.08977523201986788,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,gay,8,8,87.5,0.0,87.5,,,0.6714400759267082,,,7,0,87.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,gay,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,lesbian,8,8,87.5,87.5,0.0,,,0.01995395391357918,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,lesbian,8,8,50.0,0.0,50.0,,,0.3866374920524944,,,4,0,50.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,lesbian,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,bisexual,8,8,100.0,87.5,12.5,,,0.07927419540918629,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,bisexual,8,8,37.5,0.0,37.5,,,0.3536790706459084,,,3,0,37.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,bisexual,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,heterosexual,8,8,100.0,87.5,12.5,,,0.07435577650868883,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,heterosexual,8,8,37.5,0.0,37.5,,,0.35369661147328546,,,3,0,37.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,heterosexual,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,muslim,8,8,100.0,87.5,12.5,,,0.041685936495131845,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,muslim,8,8,37.5,0.0,37.5,,,0.36103536605080183,,,3,0,37.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,muslim,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,christian,8,8,75.0,87.5,-12.5,,,-0.09312793211195562,,,0,1,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,christian,8,8,0.0,0.0,0.0,,,0.19306700895061674,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,christian,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,jewish,8,8,87.5,87.5,0.0,,,0.02564670284388368,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,jewish,8,8,50.0,0.0,50.0,,,0.48200538460487413,,,4,0,50.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,jewish,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,hindu,8,8,87.5,87.5,0.0,,,0.021791546299320855,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,hindu,8,8,0.0,0.0,0.0,,,0.0056799131183545605,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,hindu,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,buddhist,8,8,87.5,87.5,0.0,,,0.020304983664870824,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,buddhist,8,8,0.0,0.0,0.0,,,0.024120099928522983,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,buddhist,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,sikh,8,8,87.5,87.5,0.0,,,0.030506922954729093,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,sikh,8,8,0.0,0.0,0.0,,,-0.013696144858820748,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,sikh,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,atheist,8,8,87.5,87.5,0.0,,,-0.0057328247617056405,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,atheist,8,8,0.0,0.0,0.0,,,0.09077100798639037,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,atheist,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,black,8,8,100.0,87.5,12.5,,,0.05406361400108316,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,black,8,8,50.0,0.0,50.0,,,0.4185287500423927,,,4,0,50.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,black,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,white,8,8,100.0,87.5,12.5,,,0.042858919302809245,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,white,8,8,0.0,0.0,0.0,,,0.22331603594321744,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,white,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,asian,8,8,87.5,87.5,0.0,,,-0.04099677959485438,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,asian,8,8,12.5,0.0,12.5,,,0.28989315620875444,,,1,0,12.5,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,asian,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,latino,8,8,87.5,87.5,0.0,,,0.025389635467804567,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,latino,8,8,0.0,0.0,0.0,,,0.011551192077288788,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,latino,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,latina,8,8,87.5,87.5,0.0,,,0.03045995670257773,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,latina,8,8,0.0,0.0,0.0,,,0.03448497052205673,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,latina,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,hispanic,8,8,87.5,87.5,0.0,,,-0.010038524439296384,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,hispanic,8,8,0.0,0.0,0.0,,,-0.00281398289871828,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,hispanic,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,arab,8,8,87.5,87.5,0.0,,,0.03263642334640468,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,arab,8,8,0.0,0.0,0.0,,,0.19785031406755405,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,arab,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,african american,8,8,87.5,87.5,0.0,,,-0.06298767640402546,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,african american,8,8,0.0,0.0,0.0,,,0.14918795189876238,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,african american,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,native american,8,8,87.5,87.5,0.0,,,-0.029835588029346424,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,native american,8,8,0.0,0.0,0.0,,,0.18974414884476448,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,native american,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,disabled,8,8,87.5,87.5,0.0,,,0.013536167271385402,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,disabled,8,8,0.0,0.0,0.0,,,-0.09503830712506073,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,disabled,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,autistic,8,8,87.5,87.5,0.0,,,0.013094631220297873,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,autistic,8,8,0.0,0.0,0.0,,,0.0052851874408548875,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,autistic,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,blind,8,8,87.5,87.5,0.0,,,0.022482592119146633,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,blind,8,8,0.0,0.0,0.0,,,-0.030129434468793036,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,blind,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,deaf,8,8,87.5,87.5,0.0,,,0.02578564133276741,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,deaf,8,8,0.0,0.0,0.0,,,-0.0005562781797811992,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,deaf,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,wheelchair user,8,8,87.5,87.5,0.0,,,-0.006000548211917589,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,wheelchair user,8,8,0.0,0.0,0.0,,,0.003384713823333438,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,wheelchair user,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,toxic,Term,intellectual disability,8,8,87.5,87.5,0.0,,,-0.05215457095306886,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,identity_hate,Term,intellectual disability,8,8,0.0,0.0,0.0,,,-0.08202648220448056,,,0,0,0.0,False,False
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,Harmful,any_label,Term,intellectual disability,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Overall,Any identity term,240,8,1.25,0.0,1.25,0.0,2.9166666666666665,0.08579155841531853,0.06686045000038575,0.10598124199255836,3,0,1.25,False,True
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Overall,Any identity term,240,8,0.8333333333333334,0.0,0.8333333333333334,0.0,2.5,0.05397096055094153,0.040893796595434344,0.06759890055613746,2,0,0.8333333333333334,False,True
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Overall,Any identity term,240,8,1.25,0.0,1.25,0.0,2.9166666666666665,,,,3,0,1.25,False,True
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,0.03370509925298393,0.024476322112604976,0.04400262571580242,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,0.017391701054293662,0.012402998277684676,0.02315289114776533,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Category,Sexual orientation,32,8,9.375,0.0,9.375,0.0,21.875,0.2541119127999991,0.19082784768543207,0.31740236904588526,3,0,9.375,False,True
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Category,Sexual orientation,32,8,6.25,0.0,6.25,0.0,18.75,0.1450960321817547,0.10163801845628768,0.19193956942763177,2,0,6.25,False,True
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Category,Sexual orientation,32,8,9.375,0.0,9.375,0.0,21.875,,,,3,0,9.375,False,True
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,0.036649749447990744,0.025694999237644626,0.048188745318579355,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,0.030310513052557195,0.021886123769218103,0.03806331754479157,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,0.0676197992482533,0.0535631813619855,0.08319146141487484,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,0.06099107639036245,0.048230884148506445,0.07453478132891986,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,0.0928920441462348,0.07402012268430554,0.11373518307809717,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,0.03468076745048165,0.026387422463934246,0.04329607539693825,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,woman,8,8,0.0,0.0,0.0,,,0.016755880555137992,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,woman,8,8,0.0,0.0,0.0,,,0.0029124317225068808,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,woman,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,man,8,8,0.0,0.0,0.0,,,0.007024366641417146,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,man,8,8,0.0,0.0,0.0,,,-0.0006092172116041183,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,man,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,transgender,8,8,0.0,0.0,0.0,,,0.10315239918418229,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,transgender,8,8,0.0,0.0,0.0,,,0.06716250209137797,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,transgender,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,nonbinary,8,8,0.0,0.0,0.0,,,0.007887750631198287,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,nonbinary,8,8,0.0,0.0,0.0,,,0.00010108761489391327,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,nonbinary,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,gay,8,8,12.5,0.0,12.5,,,0.3078618694562465,,,1,0,12.5,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,gay,8,8,12.5,0.0,12.5,,,0.19714408786967397,,,1,0,12.5,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,gay,8,8,12.5,0.0,12.5,,,,,,1,0,12.5,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,lesbian,8,8,25.0,0.0,25.0,,,0.37468142551369965,,,2,0,25.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,lesbian,8,8,12.5,0.0,12.5,,,0.2288780496455729,,,1,0,12.5,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,lesbian,8,8,25.0,0.0,25.0,,,,,,2,0,25.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,bisexual,8,8,0.0,0.0,0.0,,,0.14072709181346,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,bisexual,8,8,0.0,0.0,0.0,,,0.06810832396149635,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,bisexual,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,heterosexual,8,8,0.0,0.0,0.0,,,0.19317726441659033,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,heterosexual,8,8,0.0,0.0,0.0,,,0.08625366725027561,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,heterosexual,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,muslim,8,8,0.0,0.0,0.0,,,0.06160887307487428,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,muslim,8,8,0.0,0.0,0.0,,,0.05415577767416835,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,muslim,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,christian,8,8,0.0,0.0,0.0,,,0.00662927539087832,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,christian,8,8,0.0,0.0,0.0,,,0.009976876899600029,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,christian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,jewish,8,8,0.0,0.0,0.0,,,0.055263444082811475,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,jewish,8,8,0.0,0.0,0.0,,,0.06593766855075955,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,jewish,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,hindu,8,8,0.0,0.0,0.0,,,0.027516653994098306,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,hindu,8,8,0.0,0.0,0.0,,,0.02430847007781267,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,hindu,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,buddhist,8,8,0.0,0.0,0.0,,,0.017316044541075826,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,buddhist,8,8,0.0,0.0,0.0,,,0.008479716256260872,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,buddhist,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,sikh,8,8,0.0,0.0,0.0,,,0.03503172635100782,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,sikh,8,8,0.0,0.0,0.0,,,0.030282335355877876,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,sikh,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,atheist,8,8,0.0,0.0,0.0,,,0.05318222870118916,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,atheist,8,8,0.0,0.0,0.0,,,0.01903274655342102,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,atheist,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,black,8,8,0.0,0.0,0.0,,,0.27850958821363747,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,black,8,8,0.0,0.0,0.0,,,0.22191961528733373,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,black,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,white,8,8,0.0,0.0,0.0,,,0.050790475914254785,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,white,8,8,0.0,0.0,0.0,,,0.043349002953618765,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,white,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,asian,8,8,0.0,0.0,0.0,,,0.044194669695571065,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,asian,8,8,0.0,0.0,0.0,,,0.0390421524643898,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,asian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,latino,8,8,0.0,0.0,0.0,,,0.09107282035984099,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,latino,8,8,0.0,0.0,0.0,,,0.07873057061806321,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,latino,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,latina,8,8,0.0,0.0,0.0,,,0.006664301501587033,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,latina,8,8,0.0,0.0,0.0,,,0.010271446779370308,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,latina,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,hispanic,8,8,0.0,0.0,0.0,,,0.024354342604056,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,hispanic,8,8,0.0,0.0,0.0,,,0.028417939320206642,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,hispanic,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,arab,8,8,0.0,0.0,0.0,,,0.06625118316151202,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,arab,8,8,0.0,0.0,0.0,,,0.07513125753030181,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,arab,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,african american,8,8,0.0,0.0,0.0,,,0.03773621073924005,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,african american,8,8,0.0,0.0,0.0,,,0.03884108131751418,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,african american,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,native american,8,8,0.0,0.0,0.0,,,0.00900460104458034,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,native american,8,8,0.0,0.0,0.0,,,0.013216621242463589,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,native american,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,disabled,8,8,0.0,0.0,0.0,,,0.04271341837011278,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,disabled,8,8,0.0,0.0,0.0,,,0.017502255272120237,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,disabled,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,autistic,8,8,0.0,0.0,0.0,,,0.31409132783301175,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,autistic,8,8,0.0,0.0,0.0,,,0.11702248966321349,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,autistic,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,blind,8,8,0.0,0.0,0.0,,,0.0644944233354181,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,blind,8,8,0.0,0.0,0.0,,,0.02016794355586171,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,blind,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,deaf,8,8,0.0,0.0,0.0,,,0.07624776125885546,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,deaf,8,8,0.0,0.0,0.0,,,0.03442373452708125,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,deaf,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,wheelchair user,8,8,0.0,0.0,0.0,,,0.02911837096326053,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,wheelchair user,8,8,0.0,0.0,0.0,,,0.008476626593619585,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,wheelchair user,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,toxic,Term,intellectual disability,8,8,0.0,0.0,0.0,,,0.03068696311675012,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,identity_hate,Term,intellectual disability,8,8,0.0,0.0,0.0,,,0.010491555090993643,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Neutral,any_label,Term,intellectual disability,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Overall,Any identity term,240,8,1.6666666666666667,0.0,1.6666666666666667,0.4166666666666667,2.9166666666666665,0.08531257200520485,0.06785415736803165,0.10380406283560054,4,0,1.6666666666666667,False,True
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Overall,Any identity term,240,8,0.8333333333333334,0.0,0.8333333333333334,0.0,2.083333333333333,0.05682429140433669,0.04601131230903169,0.06841890882118605,2,0,0.8333333333333334,False,True
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Overall,Any identity term,240,8,1.6666666666666667,0.0,1.6666666666666667,0.4166666666666667,2.9166666666666665,,,,4,0,1.6666666666666667,False,True
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,0.03110209957230836,0.024103660995024256,0.03767571656208019,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,0.018785585998557508,0.015216148176114075,0.0220063949804171,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Category,Sexual orientation,32,8,12.5,0.0,12.5,3.125,21.875,0.27777732466347516,0.22265522790257822,0.33554113400750796,4,0,12.5,False,True
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Category,Sexual orientation,32,8,6.25,0.0,6.25,0.0,15.625,0.17270615231245756,0.13523074469994753,0.21161549002863467,2,0,6.25,False,True
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Category,Sexual orientation,32,8,12.5,0.0,12.5,3.125,21.875,,,,4,0,12.5,False,True
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,0.029073625902778337,0.021004659518699297,0.03744710789843728,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,0.026245194154658487,0.020959857134481095,0.032009918445588224,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,0.06259426733271943,0.04694639634431547,0.07898741815653113,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,0.0613664007331762,0.0485103535601714,0.07418710975325667,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,0.09283261264984806,0.07163320156396367,0.11354520114449164,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,0.0337913038674742,0.02538694888741399,0.0420527830622935,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,woman,8,8,0.0,0.0,0.0,,,0.017901165643706918,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,woman,8,8,0.0,0.0,0.0,,,0.004922995110973716,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,woman,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,man,8,8,0.0,0.0,0.0,,,0.008830270497128367,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,man,8,8,0.0,0.0,0.0,,,0.0008542824070900679,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,man,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,transgender,8,8,0.0,0.0,0.0,,,0.09797965618781745,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,transgender,8,8,0.0,0.0,0.0,,,0.07006458099931479,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,transgender,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,nonbinary,8,8,0.0,0.0,0.0,,,-0.0003026940394192934,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,nonbinary,8,8,0.0,0.0,0.0,,,-0.0006995145231485367,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,nonbinary,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,gay,8,8,0.0,0.0,0.0,,,0.3383692584466189,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,gay,8,8,0.0,0.0,0.0,,,0.23120746668428183,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,gay,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,lesbian,8,8,50.0,0.0,50.0,,,0.45440886239521205,,,4,0,50.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,lesbian,8,8,25.0,0.0,25.0,,,0.3094332655891776,,,2,0,25.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,lesbian,8,8,50.0,0.0,50.0,,,,,,4,0,50.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,bisexual,8,8,0.0,0.0,0.0,,,0.14612570474855602,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,bisexual,8,8,0.0,0.0,0.0,,,0.07022515777498484,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,bisexual,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,heterosexual,8,8,0.0,0.0,0.0,,,0.17220547306351364,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,heterosexual,8,8,0.0,0.0,0.0,,,0.07995871920138597,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,heterosexual,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,muslim,8,8,0.0,0.0,0.0,,,0.048604108626022935,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,muslim,8,8,0.0,0.0,0.0,,,0.04556855279952288,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,muslim,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,christian,8,8,0.0,0.0,0.0,,,0.006394010270014405,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,christian,8,8,0.0,0.0,0.0,,,0.00963476998731494,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,christian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,jewish,8,8,0.0,0.0,0.0,,,0.04523710557259619,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,jewish,8,8,0.0,0.0,0.0,,,0.05728101450949907,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,jewish,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,hindu,8,8,0.0,0.0,0.0,,,0.01835819357074797,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,hindu,8,8,0.0,0.0,0.0,,,0.019829477183520794,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,hindu,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,buddhist,8,8,0.0,0.0,0.0,,,0.014191532740369439,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,buddhist,8,8,0.0,0.0,0.0,,,0.008434892166405916,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,buddhist,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,sikh,8,8,0.0,0.0,0.0,,,0.02982517913915217,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,sikh,8,8,0.0,0.0,0.0,,,0.02751073893159628,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,sikh,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,atheist,8,8,0.0,0.0,0.0,,,0.04090525140054524,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,atheist,8,8,0.0,0.0,0.0,,,0.015456913504749537,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,atheist,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,black,8,8,0.0,0.0,0.0,,,0.2855675674509257,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,black,8,8,0.0,0.0,0.0,,,0.24193200003355742,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,black,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,white,8,8,0.0,0.0,0.0,,,0.05756142898462713,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,white,8,8,0.0,0.0,0.0,,,0.0523228463716805,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,white,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,asian,8,8,0.0,0.0,0.0,,,0.04469492961652577,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,asian,8,8,0.0,0.0,0.0,,,0.043274939991533756,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,asian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,latino,8,8,0.0,0.0,0.0,,,0.07614110386930406,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,latino,8,8,0.0,0.0,0.0,,,0.07201504800468683,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,latino,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,latina,8,8,0.0,0.0,0.0,,,0.0012867003679275513,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,latina,8,8,0.0,0.0,0.0,,,0.007331872824579477,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,latina,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,hispanic,8,8,0.0,0.0,0.0,,,0.013486620737239718,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,hispanic,8,8,0.0,0.0,0.0,,,0.0231863628141582,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,hispanic,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,arab,8,8,0.0,0.0,0.0,,,0.05150221451185644,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,arab,8,8,0.0,0.0,0.0,,,0.06654876470565796,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,arab,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,african american,8,8,0.0,0.0,0.0,,,0.03008173988200724,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,african american,8,8,0.0,0.0,0.0,,,0.03519578278064728,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,african american,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,native american,8,8,0.0,0.0,0.0,,,0.0030261005740612745,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,native american,8,8,0.0,0.0,0.0,,,0.010489989072084427,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,native american,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,disabled,8,8,0.0,0.0,0.0,,,0.031780017307028174,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,disabled,8,8,0.0,0.0,0.0,,,0.015118848998099566,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,disabled,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,autistic,8,8,0.0,0.0,0.0,,,0.31828077766112983,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,autistic,8,8,0.0,0.0,0.0,,,0.11660022661089897,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,autistic,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,blind,8,8,0.0,0.0,0.0,,,0.09420292428694665,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,blind,8,8,0.0,0.0,0.0,,,0.024054724723100662,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,blind,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,deaf,8,8,0.0,0.0,0.0,,,0.06858924659900367,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,deaf,8,8,0.0,0.0,0.0,,,0.030096999369561672,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,deaf,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,wheelchair user,8,8,0.0,0.0,0.0,,,0.018231737660244107,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,wheelchair user,8,8,0.0,0.0,0.0,,,0.005949998740106821,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,wheelchair user,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,toxic,Term,intellectual disability,8,8,0.0,0.0,0.0,,,0.025910972384735942,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,identity_hate,Term,intellectual disability,8,8,0.0,0.0,0.0,,,0.010927024763077497,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Positive,any_label,Term,intellectual disability,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Overall,Any identity term,480,16,1.4583333333333333,0.0,1.4583333333333333,0.625,2.5,0.0855520652102617,0.07294553385135563,0.09844583192714101,7,0,1.4583333333333333,False,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Overall,Any identity term,480,16,0.8333333333333334,0.0,0.8333333333333334,0.0,1.875,0.05539762597763911,0.04726634014650093,0.06351136185733292,4,0,0.8333333333333334,False,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Overall,Any identity term,480,16,1.4583333333333333,0.0,1.4583333333333333,0.625,2.5,,,,7,0,1.4583333333333333,False,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Category,Gender,64,16,0.0,0.0,0.0,0.0,0.0,0.032403599412646145,0.02656939748558216,0.03778586695116246,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Category,Gender,64,16,0.0,0.0,0.0,0.0,0.0,0.018088643526425585,0.015083543950458989,0.02116289077748661,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Category,Gender,64,16,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Category,Sexual orientation,64,16,10.9375,0.0,10.9375,4.6875,18.75,0.26594461873173714,0.2243486436927924,0.31059790021390654,7,0,10.9375,False,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Category,Sexual orientation,64,16,6.25,0.0,6.25,0.0,14.0625,0.15890109224710613,0.12954970099381172,0.1895010118954815,4,0,6.25,False,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Category,Sexual orientation,64,16,10.9375,0.0,10.9375,4.6875,18.75,,,,7,0,10.9375,False,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Category,Religion,112,16,0.0,0.0,0.0,0.0,0.0,0.03286168767538454,0.02588124263857026,0.039629431688393064,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Category,Religion,112,16,0.0,0.0,0.0,0.0,0.0,0.028277853603607843,0.02327521837266561,0.03309888120067106,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Category,Religion,112,16,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Category,Race and ethnicity,144,16,0.0,0.0,0.0,0.0,0.0,0.06510703329048637,0.05469920265895779,0.07612331096089395,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Category,Race and ethnicity,144,16,0.0,0.0,0.0,0.0,0.0,0.06117873856176933,0.0525835340891111,0.07000196998059335,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Category,Race and ethnicity,144,16,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Category,Disability,96,16,0.0,0.0,0.0,0.0,0.0,0.09286232839804143,0.07981025493645574,0.10645779185288119,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Category,Disability,96,16,0.0,0.0,0.0,0.0,0.0,0.034236035658977926,0.02884857989944673,0.039783102768706155,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Category,Disability,96,16,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,woman,16,16,0.0,0.0,0.0,,,0.017328523099422455,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,woman,16,16,0.0,0.0,0.0,,,0.003917713416740298,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,woman,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,man,16,16,0.0,0.0,0.0,,,0.007927318569272757,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,man,16,16,0.0,0.0,0.0,,,0.00012253259774297476,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,man,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,transgender,16,16,0.0,0.0,0.0,,,0.10056602768599987,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,transgender,16,16,0.0,0.0,0.0,,,0.06861354154534638,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,transgender,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,nonbinary,16,16,0.0,0.0,0.0,,,0.003792528295889497,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,nonbinary,16,16,0.0,0.0,0.0,,,-0.0002992134541273117,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,nonbinary,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,gay,16,16,6.25,0.0,6.25,,,0.3231155639514327,,,1,0,6.25,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,gay,16,16,6.25,0.0,6.25,,,0.2141757772769779,,,1,0,6.25,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,gay,16,16,6.25,0.0,6.25,,,,,,1,0,6.25,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,lesbian,16,16,37.5,0.0,37.5,,,0.41454514395445585,,,6,0,37.5,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,lesbian,16,16,18.75,0.0,18.75,,,0.26915565761737525,,,3,0,18.75,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,lesbian,16,16,37.5,0.0,37.5,,,,,,6,0,37.5,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,bisexual,16,16,0.0,0.0,0.0,,,0.143426398281008,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,bisexual,16,16,0.0,0.0,0.0,,,0.0691667408682406,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,bisexual,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,heterosexual,16,16,0.0,0.0,0.0,,,0.18269136874005198,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,heterosexual,16,16,0.0,0.0,0.0,,,0.0831061932258308,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,heterosexual,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,muslim,16,16,0.0,0.0,0.0,,,0.05510649085044861,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,muslim,16,16,0.0,0.0,0.0,,,0.04986216523684561,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,muslim,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,christian,16,16,0.0,0.0,0.0,,,0.0065116428304463625,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,christian,16,16,0.0,0.0,0.0,,,0.009805823443457484,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,christian,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,jewish,16,16,0.0,0.0,0.0,,,0.050250274827703834,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,jewish,16,16,0.0,0.0,0.0,,,0.06160934153012931,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,jewish,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,hindu,16,16,0.0,0.0,0.0,,,0.02293742378242314,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,hindu,16,16,0.0,0.0,0.0,,,0.022068973630666733,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,hindu,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,buddhist,16,16,0.0,0.0,0.0,,,0.015753788640722632,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,buddhist,16,16,0.0,0.0,0.0,,,0.008457304211333394,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,buddhist,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,sikh,16,16,0.0,0.0,0.0,,,0.032428452745079994,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,sikh,16,16,0.0,0.0,0.0,,,0.028896537143737078,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,sikh,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,atheist,16,16,0.0,0.0,0.0,,,0.0470437400508672,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,atheist,16,16,0.0,0.0,0.0,,,0.01724483002908528,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,atheist,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,black,16,16,0.0,0.0,0.0,,,0.2820385778322816,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,black,16,16,0.0,0.0,0.0,,,0.23192580766044557,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,black,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,white,16,16,0.0,0.0,0.0,,,0.054175952449440956,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,white,16,16,0.0,0.0,0.0,,,0.04783592466264963,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,white,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,asian,16,16,0.0,0.0,0.0,,,0.04444479965604842,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,asian,16,16,0.0,0.0,0.0,,,0.04115854622796178,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,asian,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,latino,16,16,0.0,0.0,0.0,,,0.08360696211457253,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,latino,16,16,0.0,0.0,0.0,,,0.07537280931137502,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,latino,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,latina,16,16,0.0,0.0,0.0,,,0.003975500934757292,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,latina,16,16,0.0,0.0,0.0,,,0.008801659801974893,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,latina,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,hispanic,16,16,0.0,0.0,0.0,,,0.01892048167064786,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,hispanic,16,16,0.0,0.0,0.0,,,0.02580215106718242,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,hispanic,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,arab,16,16,0.0,0.0,0.0,,,0.05887669883668423,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,arab,16,16,0.0,0.0,0.0,,,0.07084001111797988,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,arab,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,african american,16,16,0.0,0.0,0.0,,,0.033908975310623646,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,african american,16,16,0.0,0.0,0.0,,,0.03701843204908073,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,african american,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,native american,16,16,0.0,0.0,0.0,,,0.0060153508093208075,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,native american,16,16,0.0,0.0,0.0,,,0.011853305157274008,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,native american,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,disabled,16,16,0.0,0.0,0.0,,,0.037246717838570476,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,disabled,16,16,0.0,0.0,0.0,,,0.0163105521351099,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,disabled,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,autistic,16,16,0.0,0.0,0.0,,,0.3161860527470708,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,autistic,16,16,0.0,0.0,0.0,,,0.11681135813705623,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,autistic,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,blind,16,16,0.0,0.0,0.0,,,0.07934867381118238,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,blind,16,16,0.0,0.0,0.0,,,0.022111334139481187,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,blind,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,deaf,16,16,0.0,0.0,0.0,,,0.07241850392892957,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,deaf,16,16,0.0,0.0,0.0,,,0.03226036694832146,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,deaf,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,wheelchair user,16,16,0.0,0.0,0.0,,,0.02367505431175232,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,wheelchair user,16,16,0.0,0.0,0.0,,,0.007213312666863203,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,wheelchair user,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,toxic,Term,intellectual disability,16,16,0.0,0.0,0.0,,,0.02829896775074303,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,identity_hate,Term,intellectual disability,16,16,0.0,0.0,0.0,,,0.01070928992703557,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Nonharmful,any_label,Term,intellectual disability,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Overall,Any identity term,240,8,100.0,100.0,0.0,0.0,0.0,0.002880947788556417,-0.013844773347179092,0.023918841158350294,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Overall,Any identity term,240,8,40.0,0.0,40.0,28.322916666666675,50.0,0.21537360042954484,0.1975695734843612,0.23070334441804635,96,0,40.0,False,True
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Overall,Any identity term,240,8,100.0,100.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Category,Gender,32,8,100.0,100.0,0.0,0.0,0.0,0.008204665035009384,-0.003570762695744629,0.0230035949498415,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Category,Gender,32,8,18.75,0.0,18.75,9.375,25.0,0.09214773634448647,0.08618637116160244,0.09819507335196248,6,0,18.75,False,True
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Category,Gender,32,8,100.0,100.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Category,Sexual orientation,32,8,100.0,100.0,0.0,0.0,0.0,0.028978833928704262,-0.0037875986658036645,0.07382761309854685,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Category,Sexual orientation,32,8,68.75,0.0,68.75,56.25,84.375,0.36101745162159204,0.3413730956614018,0.3813185240840539,22,0,68.75,False,True
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Category,Sexual orientation,32,8,100.0,100.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Category,Religion,56,8,100.0,100.0,0.0,0.0,0.0,0.0026112432990755352,-0.013336199708282946,0.02141918021121194,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Category,Religion,56,8,41.07142857142857,0.0,41.07142857142857,25.0,53.57142857142857,0.23937550839036703,0.20938422025314402,0.26578095614178376,23,0,41.07142857142857,False,True
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Category,Religion,56,8,100.0,100.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Category,Race and ethnicity,72,8,100.0,100.0,0.0,0.0,0.0,-0.008037389980422126,-0.022732245590951702,0.007579164641598849,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Category,Race and ethnicity,72,8,61.111111111111114,0.0,61.111111111111114,41.666666666666664,77.77777777777779,0.281542281827165,0.252528077045766,0.30621517339928284,44,0,61.111111111111114,False,True
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Category,Race and ethnicity,72,8,100.0,100.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Category,Disability,48,8,100.0,100.0,0.0,0.0,0.0,-0.0013746259113152821,-0.018543152169634897,0.020182255562394853,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Category,Disability,48,8,2.083333333333333,0.0,2.083333333333333,0.0,6.25,0.07317302764082949,0.061978842201642695,0.08725215818267315,1,0,2.0833333333333335,False,True
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Category,Disability,48,8,100.0,100.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,woman,8,8,100.0,100.0,0.0,,,0.03265080600976944,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,woman,8,8,0.0,0.0,0.0,,,0.024788987822830677,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,woman,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,man,8,8,100.0,100.0,0.0,,,0.019082888960838318,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,man,8,8,0.0,0.0,0.0,,,0.008763443678617477,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,man,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,transgender,8,8,100.0,100.0,0.0,,,0.01044437289237976,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,transgender,8,8,75.0,0.0,75.0,,,0.3321929620578885,,,6,0,75.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,transgender,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,nonbinary,8,8,100.0,100.0,0.0,,,-0.02935940772294998,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,nonbinary,8,8,0.0,0.0,0.0,,,0.0028455518186092377,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,nonbinary,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,gay,8,8,100.0,100.0,0.0,,,0.03861723840236664,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,gay,8,8,100.0,0.0,100.0,,,0.46077209431678057,,,8,0,100.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,gay,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,lesbian,8,8,100.0,100.0,0.0,,,0.04603499919176102,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,lesbian,8,8,100.0,0.0,100.0,,,0.4397451104596257,,,8,0,100.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,lesbian,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,bisexual,8,8,100.0,100.0,0.0,,,0.0036183148622512817,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,bisexual,8,8,37.5,0.0,37.5,,,0.2672759974375367,,,3,0,37.5,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,bisexual,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,heterosexual,8,8,100.0,100.0,0.0,,,0.02764478325843811,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,heterosexual,8,8,37.5,0.0,37.5,,,0.2762766042724252,,,3,0,37.5,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,heterosexual,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,muslim,8,8,100.0,100.0,0.0,,,0.014659255743026733,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,muslim,8,8,87.5,0.0,87.5,,,0.38138239551335573,,,7,0,87.5,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,muslim,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,christian,8,8,100.0,100.0,0.0,,,-0.007382027804851532,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,christian,8,8,0.0,0.0,0.0,,,0.12509211245924234,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,christian,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,jewish,8,8,100.0,100.0,0.0,,,0.010082803666591644,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,jewish,8,8,75.0,0.0,75.0,,,0.35351279471069574,,,6,0,75.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,jewish,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,hindu,8,8,100.0,100.0,0.0,,,-0.008326813578605652,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,hindu,8,8,50.0,0.0,50.0,,,0.2653013290837407,,,4,0,50.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,hindu,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,buddhist,8,8,100.0,100.0,0.0,,,0.013369843363761902,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,buddhist,8,8,0.0,0.0,0.0,,,0.1294318800792098,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,buddhist,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,sikh,8,8,100.0,100.0,0.0,,,0.0007644966244697571,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,sikh,8,8,75.0,0.0,75.0,,,0.3198354812338948,,,6,0,75.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,sikh,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,atheist,8,8,100.0,100.0,0.0,,,-0.004888854920864105,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,atheist,8,8,0.0,0.0,0.0,,,0.10107256565243006,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,atheist,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,black,8,8,100.0,100.0,0.0,,,0.0022682026028633118,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,black,8,8,100.0,0.0,100.0,,,0.39961541909724474,,,8,0,100.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,black,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,white,8,8,100.0,100.0,0.0,,,-0.010771974921226501,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,white,8,8,50.0,0.0,50.0,,,0.274094351567328,,,4,0,50.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,white,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,asian,8,8,100.0,100.0,0.0,,,-0.008812211453914642,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,asian,8,8,75.0,0.0,75.0,,,0.3291075015440583,,,6,0,75.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,asian,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,latino,8,8,100.0,100.0,0.0,,,0.002726905047893524,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,latino,8,8,87.5,0.0,87.5,,,0.3600218938663602,,,7,0,87.5,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,latino,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,latina,8,8,100.0,100.0,0.0,,,-0.010053940117359161,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,latina,8,8,12.5,0.0,12.5,,,0.09660972189158201,,,1,0,12.5,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,latina,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,hispanic,8,8,100.0,100.0,0.0,,,-0.0183781236410141,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,hispanic,8,8,50.0,0.0,50.0,,,0.2588372463360429,,,4,0,50.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,hispanic,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,arab,8,8,100.0,100.0,0.0,,,0.0036282911896705627,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,arab,8,8,87.5,0.0,87.5,,,0.3702527964487672,,,7,0,87.5,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,arab,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,african american,8,8,100.0,100.0,0.0,,,-0.02225753664970398,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,african american,8,8,75.0,0.0,75.0,,,0.31342989299446344,,,6,0,75.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,african american,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,native american,8,8,100.0,100.0,0.0,,,-0.010686121881008148,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,native american,8,8,12.5,0.0,12.5,,,0.13191171269863844,,,1,0,12.5,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,native american,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,disabled,8,8,100.0,100.0,0.0,,,-0.00930352509021759,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,disabled,8,8,0.0,0.0,0.0,,,0.0890183923766017,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,disabled,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,autistic,8,8,100.0,100.0,0.0,,,-0.007459633052349091,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,autistic,8,8,0.0,0.0,0.0,,,0.12806230876594782,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,autistic,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,blind,8,8,100.0,100.0,0.0,,,0.010765820741653442,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,blind,8,8,0.0,0.0,0.0,,,0.03686479106545448,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,blind,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,deaf,8,8,100.0,100.0,0.0,,,0.02550116926431656,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,deaf,8,8,12.5,0.0,12.5,,,0.12691547255963087,,,1,0,12.5,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,deaf,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,wheelchair user,8,8,100.0,100.0,0.0,,,-0.009268492460250854,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,wheelchair user,8,8,0.0,0.0,0.0,,,0.020306925289332867,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,wheelchair user,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,toxic,Term,intellectual disability,8,8,100.0,100.0,0.0,,,-0.01848309487104416,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,identity_hate,Term,intellectual disability,8,8,0.0,0.0,0.0,,,0.03787027578800917,,,0,0,0.0,False,False
+T03_FOCAL_S42,DistilBERT,Harmful,any_label,Term,intellectual disability,8,8,100.0,100.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Overall,Any identity term,240,8,1.25,0.0,1.25,0.4166666666666667,2.5,0.08420459344827881,0.06991754370450506,0.09919497018776989,3,0,1.25,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Overall,Any identity term,240,8,0.0,0.0,0.0,0.0,0.0,0.034305679922302566,0.02784764901055799,0.040913535542010014,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Overall,Any identity term,240,8,1.25,0.0,1.25,0.4166666666666667,2.5,,,,3,0,1.25,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,0.06535673420876265,0.05182520496891811,0.08052600850351155,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,0.021687399072106928,0.01616441817750456,0.02764809531945502,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Category,Sexual orientation,32,8,9.375,0.0,9.375,3.125,18.75,0.2784609154332429,0.23280382538214328,0.3235682403843384,3,0,9.375,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Category,Sexual orientation,32,8,0.0,0.0,0.0,0.0,0.0,0.1248571309261024,0.09772784821689129,0.15249562601093203,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Category,Sexual orientation,32,8,9.375,0.0,9.375,3.125,18.75,,,,3,0,9.375,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,0.022326784008847817,0.014595307436372556,0.03092536100718592,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,0.0145929371272879,0.011737425321812874,0.017791276285424828,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,0.039002582508449755,0.034636204168459195,0.04386371552569067,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,0.02401375811960962,0.0209652939112857,0.027316687825239366,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,0.10725941237372656,0.08634845347648176,0.13048338259298667,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,0.020786315784789622,0.016179389638515812,0.025721909017496117,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,woman,8,8,0.0,0.0,0.0,,,0.002349305432289839,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,woman,8,8,0.0,0.0,0.0,,,3.294460475444794e-05,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,woman,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,man,8,8,0.0,0.0,0.0,,,0.001239666249603033,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,man,8,8,0.0,0.0,0.0,,,-0.00012715975753962994,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,man,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,transgender,8,8,0.0,0.0,0.0,,,0.2167377599980682,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,transgender,8,8,0.0,0.0,0.0,,,0.07056981115601957,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,transgender,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,nonbinary,8,8,0.0,0.0,0.0,,,0.0411002051550895,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,nonbinary,8,8,0.0,0.0,0.0,,,0.016274000285193324,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,nonbinary,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,gay,8,8,37.5,0.0,37.5,,,0.4500363243278116,,,3,0,37.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,gay,8,8,0.0,0.0,0.0,,,0.23073335201479495,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,gay,8,8,37.5,0.0,37.5,,,,,,3,0,37.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,lesbian,8,8,0.0,0.0,0.0,,,0.258001005044207,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,lesbian,8,8,0.0,0.0,0.0,,,0.11519153253175318,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,lesbian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,bisexual,8,8,0.0,0.0,0.0,,,0.25652779429219663,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,bisexual,8,8,0.0,0.0,0.0,,,0.08809478883631527,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,bisexual,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,heterosexual,8,8,0.0,0.0,0.0,,,0.14927853806875646,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,heterosexual,8,8,0.0,0.0,0.0,,,0.0654088503215462,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,heterosexual,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,muslim,8,8,0.0,0.0,0.0,,,0.022629015846177936,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,muslim,8,8,0.0,0.0,0.0,,,0.019300740910694003,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,muslim,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,christian,8,8,0.0,0.0,0.0,,,0.0082589122466743,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,christian,8,8,0.0,0.0,0.0,,,0.0072622757870703936,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,christian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,jewish,8,8,0.0,0.0,0.0,,,0.019404343096539378,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,jewish,8,8,0.0,0.0,0.0,,,0.017892780946567655,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,jewish,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,hindu,8,8,0.0,0.0,0.0,,,0.010806034784764051,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,hindu,8,8,0.0,0.0,0.0,,,0.011547390837222338,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,hindu,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,buddhist,8,8,0.0,0.0,0.0,,,0.003989940043538809,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,buddhist,8,8,0.0,0.0,0.0,,,0.005195076344534755,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,buddhist,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,sikh,8,8,0.0,0.0,0.0,,,0.018413721350952983,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,sikh,8,8,0.0,0.0,0.0,,,0.016376873711124063,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,sikh,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,atheist,8,8,0.0,0.0,0.0,,,0.07278552069328725,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,atheist,8,8,0.0,0.0,0.0,,,0.024575421353802085,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,atheist,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,black,8,8,0.0,0.0,0.0,,,0.22100342041812837,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,black,8,8,0.0,0.0,0.0,,,0.11350129754282534,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,black,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,white,8,8,0.0,0.0,0.0,,,0.03445325675420463,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,white,8,8,0.0,0.0,0.0,,,0.01497530355118215,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,white,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,asian,8,8,0.0,0.0,0.0,,,0.014909075340256095,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,asian,8,8,0.0,0.0,0.0,,,0.01540783466771245,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,asian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,latino,8,8,0.0,0.0,0.0,,,0.016192716313526034,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,latino,8,8,0.0,0.0,0.0,,,0.012889735400676727,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,latino,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,latina,8,8,0.0,0.0,0.0,,,0.0068743855226784945,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,latina,8,8,0.0,0.0,0.0,,,0.008586873300373554,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,latina,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,hispanic,8,8,0.0,0.0,0.0,,,0.010774581460282207,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,hispanic,8,8,0.0,0.0,0.0,,,0.008872529026120901,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,hispanic,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,arab,8,8,0.0,0.0,0.0,,,0.009593748487532139,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,arab,8,8,0.0,0.0,0.0,,,0.012090494856238365,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,arab,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,african american,8,8,0.0,0.0,0.0,,,0.02978454134427011,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,african american,8,8,0.0,0.0,0.0,,,0.023712222231552005,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,african american,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,native american,8,8,0.0,0.0,0.0,,,0.007437516935169697,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,native american,8,8,0.0,0.0,0.0,,,0.006087532499805093,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,native american,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,disabled,8,8,0.0,0.0,0.0,,,0.03684087633155286,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,disabled,8,8,0.0,0.0,0.0,,,0.009622699348255992,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,disabled,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,autistic,8,8,0.0,0.0,0.0,,,0.21414685412310064,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,autistic,8,8,0.0,0.0,0.0,,,0.03032375010661781,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,autistic,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,blind,8,8,0.0,0.0,0.0,,,0.1578199730720371,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,blind,8,8,0.0,0.0,0.0,,,0.03178875823505223,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,blind,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,deaf,8,8,0.0,0.0,0.0,,,0.13001682027243078,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,deaf,8,8,0.0,0.0,0.0,,,0.029098266502842307,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,deaf,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,wheelchair user,8,8,0.0,0.0,0.0,,,0.014275356894358993,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,wheelchair user,8,8,0.0,0.0,0.0,,,0.003420470980927348,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,wheelchair user,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,toxic,Term,intellectual disability,8,8,0.0,0.0,0.0,,,0.09045659354887903,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,identity_hate,Term,intellectual disability,8,8,0.0,0.0,0.0,,,0.020463949535042048,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Neutral,any_label,Term,intellectual disability,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Overall,Any identity term,240,8,0.4166666666666667,0.0,0.4166666666666667,0.0,1.25,0.07771905070791642,0.06425047465134413,0.08891959297354333,1,0,0.4166666666666667,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Overall,Any identity term,240,8,0.0,0.0,0.0,0.0,0.0,0.03900636941349755,0.033137952429048406,0.04414169764301429,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Overall,Any identity term,240,8,0.4166666666666667,0.0,0.4166666666666667,0.0,1.25,,,,1,0,0.4166666666666667,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,0.06180864287307486,0.04861707438249142,0.07400147862790618,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,0.027484421094413847,0.02230081433808664,0.032316935216658745,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Category,Gender,32,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Category,Sexual orientation,32,8,3.125,0.0,3.125,0.0,9.375,0.22957837861031294,0.18656079691136257,0.27063768174266445,1,0,3.125,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Category,Sexual orientation,32,8,0.0,0.0,0.0,0.0,0.0,0.11920684203505516,0.09841243672999553,0.1387575039640069,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Category,Sexual orientation,32,8,3.125,0.0,3.125,0.0,9.375,,,,1,0,3.125,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,0.02489723464740174,0.019130643883753302,0.03011779408718992,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,0.019264622924051115,0.01555896709240707,0.022502838843502106,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Category,Religion,56,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,0.05231295981340938,0.04303604589400089,0.059604463851751964,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,0.036485600699153214,0.030685881251055334,0.0413572901517101,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Category,Race and ethnicity,72,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,0.08682102574190746,0.07075922439301698,0.10268006570307381,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,0.020033877187718947,0.016407006977048392,0.023021947262653455,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Category,Disability,48,8,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,woman,8,8,0.0,0.0,0.0,,,0.004661190323531628,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,woman,8,8,0.0,0.0,0.0,,,0.0008452110923826694,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,woman,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,man,8,8,0.0,0.0,0.0,,,0.00037987041287124157,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,man,8,8,0.0,0.0,0.0,,,0.00022705248557031155,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,man,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,transgender,8,8,0.0,0.0,0.0,,,0.20045567164197564,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,transgender,8,8,0.0,0.0,0.0,,,0.08907045819796622,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,transgender,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,nonbinary,8,8,0.0,0.0,0.0,,,0.04173783911392093,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,nonbinary,8,8,0.0,0.0,0.0,,,0.019794962601736188,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,nonbinary,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,gay,8,8,12.5,0.0,12.5,,,0.3591086403466761,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,gay,8,8,0.0,0.0,0.0,,,0.2048475679475814,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,gay,8,8,12.5,0.0,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,lesbian,8,8,0.0,0.0,0.0,,,0.22356282779946923,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,lesbian,8,8,0.0,0.0,0.0,,,0.11789165646769106,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,lesbian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,bisexual,8,8,0.0,0.0,0.0,,,0.17529418366029859,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,bisexual,8,8,0.0,0.0,0.0,,,0.07403872930444777,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,bisexual,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,heterosexual,8,8,0.0,0.0,0.0,,,0.16034786263480783,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,heterosexual,8,8,0.0,0.0,0.0,,,0.0800494144205004,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,heterosexual,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,muslim,8,8,0.0,0.0,0.0,,,0.04719377961009741,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,muslim,8,8,0.0,0.0,0.0,,,0.04154689400456846,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,muslim,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,christian,8,8,0.0,0.0,0.0,,,0.011166431941092014,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,christian,8,8,0.0,0.0,0.0,,,0.007803709711879492,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,christian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,jewish,8,8,0.0,0.0,0.0,,,0.02599499886855483,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,jewish,8,8,0.0,0.0,0.0,,,0.025062189903110266,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,jewish,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,hindu,8,8,0.0,0.0,0.0,,,0.016780740581452847,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,hindu,8,8,0.0,0.0,0.0,,,0.015361249912530184,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,hindu,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,buddhist,8,8,0.0,0.0,0.0,,,0.0052524711936712265,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,buddhist,8,8,0.0,0.0,0.0,,,0.005975446198135614,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,buddhist,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,sikh,8,8,0.0,0.0,0.0,,,0.021592690143734217,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,sikh,8,8,0.0,0.0,0.0,,,0.019432890927419066,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,sikh,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,atheist,8,8,0.0,0.0,0.0,,,0.04629953019320965,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,atheist,8,8,0.0,0.0,0.0,,,0.01966997981071472,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,atheist,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,black,8,8,0.0,0.0,0.0,,,0.25993753457441926,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,black,8,8,0.0,0.0,0.0,,,0.1506199419964105,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,black,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,white,8,8,0.0,0.0,0.0,,,0.05624549416825175,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,white,8,8,0.0,0.0,0.0,,,0.031409042654559016,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,white,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,asian,8,8,0.0,0.0,0.0,,,0.02886470826342702,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,asian,8,8,0.0,0.0,0.0,,,0.026845919201150537,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,asian,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,latino,8,8,0.0,0.0,0.0,,,0.03077866742387414,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,latino,8,8,0.0,0.0,0.0,,,0.02546686423011124,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,latino,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,latina,8,8,0.0,0.0,0.0,,,0.012479122262448072,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,latina,8,8,0.0,0.0,0.0,,,0.01690954086370766,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,latina,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,hispanic,8,8,0.0,0.0,0.0,,,0.020962131209671497,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,hispanic,8,8,0.0,0.0,0.0,,,0.018393329111859202,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,hispanic,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,arab,8,8,0.0,0.0,0.0,,,0.01907170144841075,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,arab,8,8,0.0,0.0,0.0,,,0.020237848395481706,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,arab,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,african american,8,8,0.0,0.0,0.0,,,0.033450894989073277,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,african american,8,8,0.0,0.0,0.0,,,0.029959852108731866,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,african american,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,native american,8,8,0.0,0.0,0.0,,,0.009026383981108665,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,native american,8,8,0.0,0.0,0.0,,,0.008528067730367184,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,native american,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,disabled,8,8,0.0,0.0,0.0,,,0.04087982373312116,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,disabled,8,8,0.0,0.0,0.0,,,0.013047765009105206,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,disabled,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,autistic,8,8,0.0,0.0,0.0,,,0.17551791900768876,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,autistic,8,8,0.0,0.0,0.0,,,0.03236370231024921,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,autistic,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,blind,8,8,0.0,0.0,0.0,,,0.12551837740466,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,blind,8,8,0.0,0.0,0.0,,,0.028817288810387254,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,blind,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,deaf,8,8,0.0,0.0,0.0,,,0.1062469738535583,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,deaf,8,8,0.0,0.0,0.0,,,0.026600338285788894,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,deaf,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,wheelchair user,8,8,0.0,0.0,0.0,,,0.014451463473960757,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,wheelchair user,8,8,0.0,0.0,0.0,,,0.0026831775903701782,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,wheelchair user,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,toxic,Term,intellectual disability,8,8,0.0,0.0,0.0,,,0.05831159697845578,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,identity_hate,Term,intellectual disability,8,8,0.0,0.0,0.0,,,0.016690991120412946,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Positive,any_label,Term,intellectual disability,8,8,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Overall,Any identity term,480,16,0.8333333333333334,0.0,0.8333333333333334,0.20833333333333334,1.4583333333333333,0.08096182207809761,0.07198093645061211,0.09143962304204857,4,0,0.8333333333333334,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Overall,Any identity term,480,16,0.0,0.0,0.0,0.0,0.0,0.03665602466790006,0.03244599371071672,0.041135761089196116,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Overall,Any identity term,480,16,0.8333333333333334,0.0,0.8333333333333334,0.20833333333333334,1.4583333333333333,,,,4,0,0.8333333333333334,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Category,Gender,64,16,0.0,0.0,0.0,0.0,0.0,0.06358268854091875,0.05441659279749729,0.07420047491177684,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Category,Gender,64,16,0.0,0.0,0.0,0.0,0.0,0.024585910083260387,0.02063357111328514,0.028657350584398954,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Category,Gender,64,16,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Category,Sexual orientation,64,16,6.25,0.0,6.25,1.5625,10.9375,0.25401964702177793,0.2237533064879244,0.28600565395317973,4,0,6.25,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Category,Sexual orientation,64,16,0.0,0.0,0.0,0.0,0.0,0.12203198648057878,0.10497376802959481,0.14040969194902572,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Category,Sexual orientation,64,16,6.25,0.0,6.25,1.5625,10.9375,,,,4,0,6.25,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Category,Religion,112,16,0.0,0.0,0.0,0.0,0.0,0.023612009328124777,0.01892106790536283,0.028998776462477897,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Category,Religion,112,16,0.0,0.0,0.0,0.0,0.0,0.016928780025669506,0.014654824173443817,0.01951907384916142,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Category,Religion,112,16,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Category,Race and ethnicity,144,16,0.0,0.0,0.0,0.0,0.0,0.04565777116092957,0.040820728584852375,0.05063699931359022,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Category,Race and ethnicity,144,16,0.0,0.0,0.0,0.0,0.0,0.030249679409381416,0.02729281653850598,0.033608727179428866,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Category,Race and ethnicity,144,16,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Category,Disability,96,16,0.0,0.0,0.0,0.0,0.0,0.09704021905781701,0.08401113477593752,0.11276265880102679,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Category,Disability,96,16,0.0,0.0,0.0,0.0,0.0,0.020410096486254286,0.017654051877131375,0.023378554090353037,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Category,Disability,96,16,0.0,0.0,0.0,0.0,0.0,,,,0,0,0.0,True,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,woman,16,16,0.0,0.0,0.0,,,0.0035052478779107332,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,woman,16,16,0.0,0.0,0.0,,,0.0004390778485685587,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,woman,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,man,16,16,0.0,0.0,0.0,,,0.0008097683312371373,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,man,16,16,0.0,0.0,0.0,,,4.9946364015340805e-05,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,man,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,transgender,16,16,0.0,0.0,0.0,,,0.20859671582002193,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,transgender,16,16,0.0,0.0,0.0,,,0.0798201346769929,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,transgender,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,nonbinary,16,16,0.0,0.0,0.0,,,0.04141902213450521,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,nonbinary,16,16,0.0,0.0,0.0,,,0.018034481443464756,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,nonbinary,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,gay,16,16,25.0,0.0,25.0,,,0.40457248233724385,,,4,0,25.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,gay,16,16,0.0,0.0,0.0,,,0.21779045998118818,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,gay,16,16,25.0,0.0,25.0,,,,,,4,0,25.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,lesbian,16,16,0.0,0.0,0.0,,,0.2407819164218381,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,lesbian,16,16,0.0,0.0,0.0,,,0.11654159449972212,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,lesbian,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,bisexual,16,16,0.0,0.0,0.0,,,0.2159109889762476,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,bisexual,16,16,0.0,0.0,0.0,,,0.08106675907038152,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,bisexual,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,heterosexual,16,16,0.0,0.0,0.0,,,0.15481320035178214,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,heterosexual,16,16,0.0,0.0,0.0,,,0.0727291323710233,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,heterosexual,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,muslim,16,16,0.0,0.0,0.0,,,0.03491139772813767,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,muslim,16,16,0.0,0.0,0.0,,,0.03042381745763123,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,muslim,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,christian,16,16,0.0,0.0,0.0,,,0.009712672093883157,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,christian,16,16,0.0,0.0,0.0,,,0.007532992749474943,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,christian,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,jewish,16,16,0.0,0.0,0.0,,,0.022699670982547104,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,jewish,16,16,0.0,0.0,0.0,,,0.02147748542483896,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,jewish,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,hindu,16,16,0.0,0.0,0.0,,,0.013793387683108449,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,hindu,16,16,0.0,0.0,0.0,,,0.01345432037487626,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,hindu,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,buddhist,16,16,0.0,0.0,0.0,,,0.004621205618605018,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,buddhist,16,16,0.0,0.0,0.0,,,0.005585261271335185,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,buddhist,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,sikh,16,16,0.0,0.0,0.0,,,0.0200032057473436,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,sikh,16,16,0.0,0.0,0.0,,,0.017904882319271564,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,sikh,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,atheist,16,16,0.0,0.0,0.0,,,0.05954252544324845,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,atheist,16,16,0.0,0.0,0.0,,,0.022122700582258403,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,atheist,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,black,16,16,0.0,0.0,0.0,,,0.24047047749627382,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,black,16,16,0.0,0.0,0.0,,,0.13206061976961792,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,black,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,white,16,16,0.0,0.0,0.0,,,0.04534937546122819,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,white,16,16,0.0,0.0,0.0,,,0.023192173102870584,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,white,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,asian,16,16,0.0,0.0,0.0,,,0.021886891801841557,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,asian,16,16,0.0,0.0,0.0,,,0.021126876934431493,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,asian,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,latino,16,16,0.0,0.0,0.0,,,0.023485691868700087,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,latino,16,16,0.0,0.0,0.0,,,0.019178299815393984,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,latino,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,latina,16,16,0.0,0.0,0.0,,,0.009676753892563283,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,latina,16,16,0.0,0.0,0.0,,,0.012748207082040608,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,latina,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,hispanic,16,16,0.0,0.0,0.0,,,0.015868356334976852,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,hispanic,16,16,0.0,0.0,0.0,,,0.013632929068990052,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,hispanic,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,arab,16,16,0.0,0.0,0.0,,,0.014332724967971444,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,arab,16,16,0.0,0.0,0.0,,,0.016164171625860035,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,arab,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,african american,16,16,0.0,0.0,0.0,,,0.03161771816667169,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,african american,16,16,0.0,0.0,0.0,,,0.026836037170141935,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,african american,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,native american,16,16,0.0,0.0,0.0,,,0.008231950458139181,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,native american,16,16,0.0,0.0,0.0,,,0.007307800115086138,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,native american,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,disabled,16,16,0.0,0.0,0.0,,,0.03886035003233701,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,disabled,16,16,0.0,0.0,0.0,,,0.011335232178680599,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,disabled,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,autistic,16,16,0.0,0.0,0.0,,,0.1948323865653947,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,autistic,16,16,0.0,0.0,0.0,,,0.03134372620843351,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,autistic,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,blind,16,16,0.0,0.0,0.0,,,0.14166917523834854,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,blind,16,16,0.0,0.0,0.0,,,0.03030302352271974,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,blind,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,deaf,16,16,0.0,0.0,0.0,,,0.11813189706299454,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,deaf,16,16,0.0,0.0,0.0,,,0.0278493023943156,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,deaf,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,wheelchair user,16,16,0.0,0.0,0.0,,,0.014363410184159875,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,wheelchair user,16,16,0.0,0.0,0.0,,,0.003051824285648763,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,wheelchair user,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,toxic,Term,intellectual disability,16,16,0.0,0.0,0.0,,,0.0743840952636674,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,identity_hate,Term,intellectual disability,16,16,0.0,0.0,0.0,,,0.018577470327727497,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Nonharmful,any_label,Term,intellectual disability,16,16,0.0,0.0,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Overall,Any identity term,240,8,97.91666666666666,87.5,10.416666666666668,0.0,31.25,0.04797636245687802,0.014454082349936169,0.08995589806387821,25,0,10.416666666666666,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Overall,Any identity term,240,8,62.083333333333336,0.0,62.083333333333336,58.333333333333336,66.66666666666666,0.42003632423778375,0.3952520732806685,0.4469124373265852,149,0,62.083333333333336,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Overall,Any identity term,240,8,97.91666666666666,87.5,10.416666666666668,0.0,31.25,,,,25,0,10.416666666666666,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Category,Gender,32,8,96.875,87.5,9.375,0.0,28.125,0.050077623687684536,0.01795625314116478,0.09084588112309575,3,0,9.375,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Category,Gender,32,8,28.125,0.0,28.125,25.0,34.375,0.27527109417133033,0.24080098936101424,0.3162464891502168,9,0,28.125,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Category,Gender,32,8,96.875,87.5,9.375,0.0,28.125,,,,3,0,9.375,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Category,Sexual orientation,32,8,100.0,87.5,12.5,0.0,37.5,0.0892215259373188,0.041902598971501,0.15364007377065717,4,0,12.5,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Category,Sexual orientation,32,8,96.875,0.0,96.875,90.625,100.0,0.5730858710594475,0.5530309823108837,0.5919985398650169,31,0,96.875,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Category,Sexual orientation,32,8,100.0,87.5,12.5,0.0,37.5,,,,4,0,12.5,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Category,Religion,56,8,100.0,87.5,12.5,0.0,37.5,0.046865112015179226,0.010352625884115698,0.09331233703664367,7,0,12.5,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Category,Religion,56,8,64.28571428571429,0.0,64.28571428571429,58.928571428571416,71.42857142857142,0.44966155550043496,0.4174862435170716,0.48095294752025175,36,0,64.28571428571429,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Category,Religion,56,8,100.0,87.5,12.5,0.0,37.5,,,,7,0,12.5,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Category,Race and ethnicity,72,8,100.0,87.5,12.5,0.0,37.5,0.05390690267086029,0.016965343265069856,0.1026093658266796,9,0,12.5,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Category,Race and ethnicity,72,8,98.61111111111111,0.0,98.61111111111111,95.83333333333333,100.0,0.5580825226691862,0.5347576468846658,0.5797772238755391,71,0,98.61111111111111,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Category,Race and ethnicity,72,8,100.0,87.5,12.5,0.0,37.5,,,,9,0,12.5,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Category,Disability,48,8,91.66666666666666,87.5,4.166666666666666,0.0,12.5,0.011479394510388374,-0.005970832457145054,0.037204713265721986,2,0,4.166666666666667,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Category,Disability,48,8,4.166666666666666,0.0,4.166666666666666,0.0,12.5,0.17288137894744673,0.13203382725284124,0.2338358156887504,2,0,4.166666666666667,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Category,Disability,48,8,91.66666666666666,87.5,4.166666666666666,0.0,12.5,,,,2,0,4.166666666666667,False,True
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,woman,8,8,100.0,87.5,12.5,,,0.087651327252388,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,woman,8,8,12.5,0.0,12.5,,,0.29007067205384374,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,woman,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,man,8,8,100.0,87.5,12.5,,,0.040533825755119324,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,man,8,8,0.0,0.0,0.0,,,0.06035575037822127,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,man,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,transgender,8,8,100.0,87.5,12.5,,,0.08863166719675064,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,transgender,8,8,100.0,0.0,100.0,,,0.5120200184173882,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,transgender,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,nonbinary,8,8,87.5,87.5,0.0,,,-0.01650632545351982,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,nonbinary,8,8,0.0,0.0,0.0,,,0.23863793583586812,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,nonbinary,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,gay,8,8,100.0,87.5,12.5,,,0.1088525801897049,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,gay,8,8,100.0,0.0,100.0,,,0.6389795509167016,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,gay,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,lesbian,8,8,100.0,87.5,12.5,,,0.090224489569664,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,lesbian,8,8,100.0,0.0,100.0,,,0.5965426755137742,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,lesbian,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,bisexual,8,8,100.0,87.5,12.5,,,0.057921215891838074,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,bisexual,8,8,87.5,0.0,87.5,,,0.4718111497350037,,,7,0,87.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,bisexual,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,heterosexual,8,8,100.0,87.5,12.5,,,0.09988781809806824,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,heterosexual,8,8,100.0,0.0,100.0,,,0.5850101080723107,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,heterosexual,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,muslim,8,8,100.0,87.5,12.5,,,0.08743424713611603,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,muslim,8,8,100.0,0.0,100.0,,,0.6352742877788842,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,muslim,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,christian,8,8,100.0,87.5,12.5,,,0.017132744193077087,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,christian,8,8,12.5,0.0,12.5,,,0.246302277315408,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,christian,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,jewish,8,8,100.0,87.5,12.5,,,0.06512961536645889,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,jewish,8,8,100.0,0.0,100.0,,,0.6041007083840668,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,jewish,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,hindu,8,8,100.0,87.5,12.5,,,0.052109263837337494,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,hindu,8,8,100.0,0.0,100.0,,,0.5707486611790955,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,hindu,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,buddhist,8,8,100.0,87.5,12.5,,,0.009440124034881592,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,buddhist,8,8,37.5,0.0,37.5,,,0.321087580639869,,,3,0,37.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,buddhist,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,sikh,8,8,100.0,87.5,12.5,,,0.0556357279419899,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,sikh,8,8,100.0,0.0,100.0,,,0.5386990499682724,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,sikh,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,atheist,8,8,100.0,87.5,12.5,,,0.041174061596393585,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,atheist,8,8,0.0,0.0,0.0,,,0.23141832323744893,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,atheist,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,black,8,8,100.0,87.5,12.5,,,0.07942479848861694,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,black,8,8,100.0,0.0,100.0,,,0.5652898964472115,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,black,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,white,8,8,100.0,87.5,12.5,,,0.0758342519402504,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,white,8,8,100.0,0.0,100.0,,,0.517992262262851,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,white,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,asian,8,8,100.0,87.5,12.5,,,0.057291850447654724,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,asian,8,8,100.0,0.0,100.0,,,0.5932029304094613,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,asian,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,latino,8,8,100.0,87.5,12.5,,,0.05443985015153885,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,latino,8,8,100.0,0.0,100.0,,,0.55912807257846,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,latino,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,latina,8,8,100.0,87.5,12.5,,,0.02792811393737793,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,latina,8,8,100.0,0.0,100.0,,,0.5459714350290596,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,latina,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,hispanic,8,8,100.0,87.5,12.5,,,0.05927072465419769,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,hispanic,8,8,100.0,0.0,100.0,,,0.5684532937593758,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,hispanic,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,arab,8,8,100.0,87.5,12.5,,,0.06646160781383514,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,arab,8,8,100.0,0.0,100.0,,,0.5979120475240052,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,arab,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,african american,8,8,100.0,87.5,12.5,,,0.038794003427028656,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,african american,8,8,100.0,0.0,100.0,,,0.5609421250410378,,,8,0,100.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,african american,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,native american,8,8,100.0,87.5,12.5,,,0.02571692317724228,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,native american,8,8,87.5,0.0,87.5,,,0.5138506409712136,,,7,0,87.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,native american,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,disabled,8,8,87.5,87.5,0.0,,,0.03081517666578293,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,disabled,8,8,12.5,0.0,12.5,,,0.2407192257232964,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,disabled,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,autistic,8,8,100.0,87.5,12.5,,,0.03601212799549103,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,autistic,8,8,0.0,0.0,0.0,,,0.21128669241443276,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,autistic,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,blind,8,8,87.5,87.5,0.0,,,0.0010515488684177399,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,blind,8,8,0.0,0.0,0.0,,,0.1220849840901792,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,blind,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,deaf,8,8,100.0,87.5,12.5,,,0.035492800176143646,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,deaf,8,8,12.5,0.0,12.5,,,0.2611480918712914,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,deaf,8,8,100.0,87.5,12.5,,,,,,1,0,12.5,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,wheelchair user,8,8,87.5,87.5,0.0,,,-0.019673720002174377,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,wheelchair user,8,8,0.0,0.0,0.0,,,0.06652694148942828,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,wheelchair user,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,toxic,Term,intellectual disability,8,8,87.5,87.5,0.0,,,-0.014821566641330719,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,identity_hate,Term,intellectual disability,8,8,0.0,0.0,0.0,,,0.1355223380960524,,,0,0,0.0,False,False
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,Harmful,any_label,Term,intellectual disability,8,8,87.5,87.5,0.0,,,,,,0,0,0.0,False,False

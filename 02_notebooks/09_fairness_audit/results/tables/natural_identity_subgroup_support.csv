@@ -1,0 +1,37 @@
+Level,Identity Group,Total Comments,Toxic Negatives,Identity Hate Negatives,All-label Clean Comments
+Overall,Any identity term,4763,3972,4418,3950
+Category,Gender,1714,1463,1672,1458
+Category,Sexual orientation,633,319,428,314
+Category,Religion,1304,1164,1236,1160
+Category,Race and ethnicity,1512,1342,1432,1334
+Category,Disability,202,187,201,185
+Term,woman,585,499,573,499
+Term,man,1282,1097,1249,1092
+Term,transgender,7,7,7,7
+Term,nonbinary,1,1,1,1
+Term,gay,556,265,358,260
+Term,lesbian,63,44,57,44
+Term,bisexual,29,22,28,22
+Term,heterosexual,20,16,19,16
+Term,muslim,261,226,244,225
+Term,christian,349,318,339,318
+Term,jewish,680,606,639,603
+Term,hindu,79,71,75,71
+Term,buddhist,40,39,39,39
+Term,sikh,11,11,11,11
+Term,atheist,60,54,59,54
+Term,black,718,639,676,633
+Term,white,630,555,589,551
+Term,asian,113,96,107,96
+Term,latino,19,19,19,18
+Term,latina,7,6,7,6
+Term,hispanic,22,21,22,21
+Term,arab,190,168,181,168
+Term,african american,76,71,74,70
+Term,native american,39,36,39,36
+Term,disabled,52,49,52,49
+Term,autistic,31,28,30,27
+Term,blind,110,101,110,100
+Term,deaf,14,14,14,14
+Term,wheelchair user,1,1,1,1
+Term,intellectual disability,0,0,0,0

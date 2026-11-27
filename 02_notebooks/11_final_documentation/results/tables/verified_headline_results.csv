@@ -1,0 +1,8 @@
+Metric,Value
+Official test Macro Average Precision,0.6856695753277614
+Official test Macro ROC-AUC,0.9854664604658824
+Official test optimized Macro F1,0.6176106064324819
+Official test optimized Micro F1,0.6829859838122903
+Explained predictions,20.0
+Mean LIME surrogate R2,0.8398044542825623
+Mean absolute sufficiency error,0.15070310160517691

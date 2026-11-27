@@ -1,0 +1,13 @@
+Label,Error Type,Eligible Comments,Shared Errors,Corrected by RoBERTa,Introduced by RoBERTa,Neither Model Wrong,Net Error Reduction
+toxic,FP,57888,2650,1650,1489,52099,161
+toxic,FN,6090,420,629,220,4821,409
+severe_toxic,FP,63611,499,340,140,62632,200
+severe_toxic,FN,367,77,25,44,221,-19
+obscene,FP,60287,1020,662,768,57837,-106
+obscene,FN,3691,516,276,201,2698,75
+threat,FP,63767,92,100,76,63499,24
+threat,FN,211,38,41,17,115,24
+insult,FP,60551,895,684,814,58158,-130
+insult,FN,3427,487,448,173,2319,275
+identity_hate,FP,63266,158,287,251,62570,36
+identity_hate,FN,712,134,109,62,407,47

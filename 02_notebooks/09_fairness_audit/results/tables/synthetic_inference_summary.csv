@@ -1,0 +1,4 @@
+Run ID,Model,Synthetic Comments,Validation Replay Samples,Maximum Replay Score Error,Maximum Replay Logit Error,Replay Prediction Disagreements,Strict Replay Passed,Inference Precision,Inference Seconds
+S01_LR_COMBINED_BALANCED_FULL_S42,Logistic Regression,744,240,0.0,,0,True,Classical predict_proba,0.23292948499999966
+T03_FOCAL_S42,DistilBERT,744,384,0.0,0.0,0,True,FP16 CUDA,0.28819532600005004
+S02_ROBERTA_FOCAL_FULL_S42,RoBERTa,744,384,0.0,0.0,0,True,FP16 CUDA,0.37489591700000346

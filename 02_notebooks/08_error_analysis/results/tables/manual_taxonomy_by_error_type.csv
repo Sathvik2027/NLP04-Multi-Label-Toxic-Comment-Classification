@@ -1,0 +1,9 @@
+Target Label,Error Type,AMBIGUOUS,CONTEXT,EXPLICIT,IDENTITY_NEUTRAL,IMPLICIT,OTHER,PROFANITY,QUOTATION,SARCASM
+identity_hate,FN,1,1,9,2,1,2,0,3,1
+identity_hate,FP,1,1,11,2,2,2,0,1,0
+severe_toxic,FN,2,0,7,0,0,0,1,0,0
+severe_toxic,FP,4,0,5,0,0,0,0,1,0
+threat,FN,8,3,4,0,1,0,0,3,1
+threat,FP,10,2,7,0,0,0,0,0,1
+toxic,FN,2,2,16,2,2,9,3,3,1
+toxic,FP,0,1,19,0,4,7,4,2,3

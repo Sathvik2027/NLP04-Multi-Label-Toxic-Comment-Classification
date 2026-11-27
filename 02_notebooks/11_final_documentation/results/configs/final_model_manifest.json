@@ -1,0 +1,132 @@
+{
+    "project": "NLP-04 Multi-Label Toxic Comment Classification with Explainability",
+    "run_id": "S02_ROBERTA_FOCAL_FULL_S42",
+    "architecture": "RoBERTa",
+    "base_checkpoint": "FacebookAI/roberta-base",
+    "base_checkpoint_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "model_path": "04_models/optimization/S02_ROBERTA_FOCAL_FULL_S42/best_epoch_03_20261126_120001_402121",
+    "model_state_sha256": "0389cdf2a0a476b6e826a935008bc5e2a7054a7b0d66c74f1d31fc14dd9ed08e",
+    "model_files": [
+        {
+            "path": "04_models/optimization/S02_ROBERTA_FOCAL_FULL_S42/best_epoch_03_20261126_120001_402121/config.json",
+            "sha256": "7d10ca99dccee62b170a1bc067ba940ad412ba175ba2e8891e2fa9a11887c51c",
+            "size_bytes": 1020
+        },
+        {
+            "path": "04_models/optimization/S02_ROBERTA_FOCAL_FULL_S42/best_epoch_03_20261126_120001_402121/model.safetensors",
+            "sha256": "841aa7cae62790a86433aeeab5eb1a416be6e3fada77377d88e5be687b4e77df",
+            "size_bytes": 498625128
+        },
+        {
+            "path": "04_models/optimization/S02_ROBERTA_FOCAL_FULL_S42/best_epoch_03_20261126_120001_402121/tokenizer.json",
+            "sha256": "9f49930af8b12d2fcad4e8cf500516c4251d46b2917f78bd9b49dbcc586261af",
+            "size_bytes": 3558740
+        },
+        {
+            "path": "04_models/optimization/S02_ROBERTA_FOCAL_FULL_S42/best_epoch_03_20261126_120001_402121/tokenizer_config.json",
+            "sha256": "65f50d57a4c244552a7104dfec27113311d18f102be33e6148fc36bddab1ce60",
+            "size_bytes": 494
+        }
+    ],
+    "training_config": {
+        "path": "02_notebooks/06_model_optimization/results/S02_ROBERTA_FOCAL_FULL_S42/config.json",
+        "sha256": "2799975d511c185c08f480afcac865fa5362cb601ac82b3582b9f77681cfbba2",
+        "size_bytes": 3482
+    },
+    "checkpoint_manifest": {
+        "path": "04_models/optimization/S02_ROBERTA_FOCAL_FULL_S42/best_epoch_03_20261126_120001_402121/checkpoint_manifest.json",
+        "sha256": "34f6f943f451ce7e7691b8fdfeba3e72e120be66021cd78242290cf1ce1f0bac",
+        "size_bytes": 825
+    },
+    "threshold_file": {
+        "path": "02_notebooks/06_model_optimization/results/S02_ROBERTA_FOCAL_FULL_S42/thresholds.json",
+        "sha256": "eb28dc3d3bc29e44395a660763dc00fe3fb9d3744707829e357fe782be665a0c",
+        "size_bytes": 781
+    },
+    "training": {
+        "loss_function": "FOCAL",
+        "seed": 42,
+        "training_samples": 127628,
+        "training_dataset_sha256": "a0a6bbe3e2a140cfb41276161187ea1420bd04ea74dfbf9c031613e074ea445f",
+        "validation_dataset_sha256": "7354d5b9cdd2b07cd81e4154bf926cc29edcfbc8a71c3f940f0a57a4be707504"
+    },
+    "preprocessing": {
+        "input_type": "Raw English comment text",
+        "tokenizer_source": "Tokenizer stored with the frozen checkpoint",
+        "lowercase_input": false,
+        "remove_stopwords": false,
+        "remove_punctuation": false,
+        "truncation": true,
+        "truncation_side": "right",
+        "maximum_length": 256,
+        "padding": "Dynamic batch padding",
+        "padding_side": "right",
+        "padding_multiple": 8
+    },
+    "inference": {
+        "output_labels": [
+            "toxic",
+            "severe_toxic",
+            "obscene",
+            "threat",
+            "insult",
+            "identity_hate"
+        ],
+        "output_activation": "Independent sigmoid",
+        "number_of_outputs": 6,
+        "evaluation_mode": true,
+        "gradient_computation": false,
+        "benchmark_precision": "fp16_cuda",
+        "comparison_operator": ">=",
+        "thresholds": {
+            "toxic": 0.5350680351257324,
+            "severe_toxic": 0.4665113687515259,
+            "obscene": 0.5424997210502625,
+            "threat": 0.48011302947998047,
+            "insult": 0.48708629608154297,
+            "identity_hate": 0.48673561215400696
+        },
+        "threshold_selection_partition": "Validation",
+        "moderation_flag_rule": "At least one label meets its frozen threshold",
+        "scores_calibrated": false
+    },
+    "official_test_evidence": {
+        "dataset_sha256": "cddc70d876b48b9fe3d5db8109a740430a7f4d9f50f9fcd77f4c7d566035f328",
+        "samples": 63978,
+        "macro_ap": 0.6856695753277614,
+        "macro_roc_auc": 0.9854664604658824,
+        "macro_f1": 0.6176106064324819,
+        "micro_f1": 0.6829859838122903
+    },
+    "efficiency": {
+        "run_id": "S02_ROBERTA_FOCAL_FULL_S42",
+        "benchmark_comments": 63978,
+        "training_seconds": 4810.379336573985,
+        "offline_test_inference_seconds": 206.39704804099995,
+        "offline_inference_comments_per_second": 309.9753635395552,
+        "amortized_inference_ms_per_comment": 3.226062834740066,
+        "inference_device": "cuda",
+        "batch_size": 32,
+        "model_size_mib": 475.5259780883789,
+        "peak_gpu_allocated_gib": 0.6747393608093262,
+        "peak_gpu_reserved_gib": 0.759765625,
+        "single_request_latency_measured": false,
+        "end_to_end_production_latency_measured": false,
+        "production_deployment_tested": false,
+        "limitations": [
+            "Offline batched inference is not production latency.",
+            "Reported transformer inference used cached tokenized inputs.",
+            "GPU allocator measurements exclude some system overhead.",
+            "Model size is not total application memory usage."
+        ]
+    },
+    "deployment_scope": "Human-assisted content moderation decision support",
+    "production_ready": false,
+    "production_deployment_tested": false,
+    "automatic_comment_removal_recommended": false,
+    "frozen_manifest_sha256": "229adb5d6166a626f6b7f7fddecf38b4de58d21e56ec4367465ad29174ef2fd1",
+    "model_parameters_frozen": true,
+    "thresholds_frozen": true,
+    "model_training_performed": false,
+    "additional_inference_performed": false
+}

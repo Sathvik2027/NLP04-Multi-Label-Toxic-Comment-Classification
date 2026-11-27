@@ -1,0 +1,3 @@
+Partition,Comments,Mean Tokens,Median Tokens,P95 Tokens,Maximum Tokens,Exactly 256 Tokens,Truncated Comments,Truncated Comments (%),Tokens Removed,Mean Tokens Removed If Truncated
+Validation,31911,96.83820626116386,52.0,314.0,2957,14,2228,6.981918460718875,564300,253.27648114901257
+Official test,63978,103.38677357841757,51.0,324.0,13190,25,4628,7.233736596955204,1618540,349.72774416594643

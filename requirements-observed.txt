@@ -16,3 +16,5 @@ iterative-stratification
 tokenizers
 datasets
 accelerate
+# Notebook 10 explainability dependency (see original runtime setup)
+lime==0.2.0.1
